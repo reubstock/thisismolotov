@@ -98,11 +98,21 @@ body{
 }
 .expert-src a{color:var(--ink-3)}
 
+/* ---------- thesis band ---------- */
+.thesis{border-bottom:1px solid var(--rule);padding:46px 0 44px}
+.thesis p{
+  margin:0;max-width:19ch;
+  font-size:clamp(30px,4.6vw,62px);line-height:1.1;
+  font-style:italic;font-weight:400;letter-spacing:-.015em;
+}
+@media (max-width:760px){ .thesis{padding:32px 0 30px} .thesis p{max-width:none} }
+
 /* ---------- facade band (top) ---------- */
 .facade{position:relative;border-bottom:1px solid var(--ink);background:#0b0a09}
 .facade img{
-  display:block;width:100%;height:clamp(240px,42vh,440px);
-  object-fit:cover;object-position:center 42%;
+  display:block;width:100%;
+  height:clamp(260px,34vw,620px);
+  object-fit:cover;object-position:center 10%;
 }
 .facade .cap{
   position:absolute;left:0;right:0;bottom:0;
@@ -397,7 +407,6 @@ footer a{color:var(--ink-3)}
   <div class="wrap">
     <a class="brand" href="#top">
       <b>This Is Molotov</b>
-      <span>thisismolotov.com</span>
     </a>
 
     <nav class="masthead-nav">
@@ -419,6 +428,13 @@ footer a{color:var(--ink-3)}
 </header>
 
 <main id="top">
+
+<!-- ============ THESIS ============ -->
+<section class="thesis">
+  <div class="wrap">
+    <p>“Extraction is the result of always taking more than you leave behind.”</p>
+  </div>
+</section>
 
 <!-- ============ FACADE ============ -->
 <section class="facade">
