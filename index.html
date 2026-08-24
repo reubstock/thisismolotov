@@ -98,6 +98,52 @@ body{
 }
 .expert-src a{color:var(--ink-3)}
 
+/* ---------- facade band (top) ---------- */
+.facade{position:relative;border-bottom:1px solid var(--ink);background:#0b0a09}
+.facade img{
+  display:block;width:100%;height:clamp(240px,42vh,440px);
+  object-fit:cover;object-position:center 42%;
+}
+.facade .cap{
+  position:absolute;left:0;right:0;bottom:0;
+  display:flex;gap:14px;flex-wrap:wrap;align-items:baseline;
+  padding:14px 28px;background:linear-gradient(transparent,rgba(11,10,9,.85));
+  font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;
+  text-transform:uppercase;color:#b3a894;
+}
+.facade .cap b{color:#e9e3d6;font-weight:500}
+
+/* ---------- exit band (bottom) ---------- */
+.exit{
+  display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);
+  gap:0;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);
+  margin-top:64px;text-decoration:none;color:inherit;background:var(--paper-2);
+}
+.exit-img{background:#0b0a09;overflow:hidden}
+.exit-img img{display:block;width:100%;height:100%;object-fit:cover;min-height:280px}
+.exit-txt{padding:42px 40px;display:flex;flex-direction:column;justify-content:center;gap:12px}
+.exit-txt .acc{
+  font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink-3);
+}
+.exit-txt h2{margin:0;font-size:clamp(30px,3.4vw,46px);line-height:1.08;font-weight:600;letter-spacing:-.015em}
+.exit-txt p{margin:0;font-size:18px;color:var(--ink-2);line-height:1.45;max-width:44ch}
+.exit-txt .go{
+  margin-top:6px;font-family:var(--mono);font-size:10px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--stamp);
+  border-bottom:1px solid var(--stamp);padding-bottom:2px;align-self:flex-start;
+}
+.exit:hover h2{color:var(--stamp)}
+
+/* plate row inside readers */
+.plates{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:0 0 30px}
+.plates figure{margin:0}
+.plates img{width:100%;height:auto;display:block;border:1px solid var(--rule);padding:6px;background:var(--paper-2)}
+.plates figcaption{
+  font-family:var(--mono);font-size:9px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--ink-3);margin-top:6px;
+}
+
 /* ---------- hero grid ---------- */
 .hero{padding:36px 0 8px}
 .hero-grid{
@@ -328,6 +374,10 @@ footer a{color:var(--ink-3)}
   .center-col{grid-column:1/-1;order:-1}
   .exhibits{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
+@media (max-width:900px){
+  .exit{grid-template-columns:minmax(0,1fr)}
+  .exit-txt{padding:30px 28px}
+}
 @media (max-width:760px){
   body{font-size:18px}
   .masthead .wrap{flex-wrap:wrap;gap:14px}
@@ -369,6 +419,16 @@ footer a{color:var(--ink-3)}
 </header>
 
 <main id="top">
+
+<!-- ============ FACADE ============ -->
+<section class="facade">
+  <img src="images/museum-exterior.jpg" alt="The Museum of Extraction at night, in the rain">
+  <div class="cap">
+    <b>The Museum of Extraction</b>
+    <span>Flagship real-world activation experience</span>
+    <span>Est. —— · Location ——</span>
+  </div>
+</section>
 
 <!-- ============ HERO ============ -->
 <section class="hero">
@@ -453,7 +513,7 @@ footer a{color:var(--ink-3)}
 
     <a class="exhibit" href="#" data-open="book">
       <span class="acc">Object I</span>
-      <div class="exhibit-thumb"><div class="ph">Molotov Alva<br>and the Museum<br>of Extraction</div></div>
+      <div class="exhibit-thumb"><img src="images/book-turf.jpg" alt="Book artwork: a hand peeling back the turf"></div>
       <h3>The Book</h3>
       <div class="meta">Master Plan · 12 Aug 2026</div>
       <p>The foundational text, the museum it builds, and the passages where extraction defines itself.</p>
@@ -471,7 +531,7 @@ footer a{color:var(--ink-3)}
 
     <a class="exhibit" href="#" data-open="giftshop">
       <span class="acc">Object III</span>
-      <div class="exhibit-thumb"><div class="ph">Exit through<br>the Gift Shop</div></div>
+      <div class="exhibit-thumb"><img src="images/museum-gift-shop.jpg" alt="The Museum of Extraction gift shop"></div>
       <h3>The Goodbye</h3>
       <div class="meta">Letter of resignation · 2026</div>
       <p>Why the co-director left, what replaced the groups, and the word above a museum that doesn’t exist.</p>
@@ -480,6 +540,21 @@ footer a{color:var(--ink-3)}
 
   </div>
 
+</section>
+
+<a class="exit" href="#" data-open="giftshop">
+  <div class="exit-img">
+    <img src="images/museum-gift-shop.jpg" alt="The Museum of Extraction gift shop window">
+  </div>
+  <div class="exit-txt">
+    <span class="acc">Object III · Letter, 2026</span>
+    <h2>Exit through the Gift Shop</h2>
+    <p>Seven months. Thirty calls. Fifty documents. One word, hanging over the whole thing the entire time.</p>
+    <span class="go">Read the goodbye →</span>
+  </div>
+</a>
+
+<section class="wrap">
   <footer>
     <span>This Is Molotov</span>
     <span>Reuben Steiger</span>
@@ -749,6 +824,13 @@ book: {
   <h1>Molotov Alva and the Museum of Extraction</h1>
   <div class="byline">Master Business Plan · Douglas Gayeton &amp; Reuben Steiger, Founding Co-Directors · 12 August 2026</div>
 
+  <div class="plates">
+    <figure><img src="images/book-turf.jpg" alt="A hand peeling back the turf"><figcaption>Plate — what is under the field</figcaption></figure>
+    <figure><img src="images/book-genesis.jpg" alt="Volcanic and cosmic artwork"><figcaption>Plate — before the first bill</figcaption></figure>
+    <figure><img src="images/book-cameras.jpg" alt="Artwork of camera operators"><figcaption>Plate — Mem-More-EE</figcaption></figure>
+    <figure><img src="images/book-mushrooms.jpg" alt="Two hands holding mushrooms"><figcaption>Plate — nature thinks in wholes</figcaption></figure>
+  </div>
+
   <h2>What the book is</h2>
   <blockquote>Molotov Alva and the Museum of Extraction is the foundational text of the YES Movement. The book is narrated by Molotov Alva, an avatar created by Douglas Gayeton for his 2007 HBO documentary. Nearly twenty years later, Alva returns to trace a path through 12,000 years of human extraction and the decisions and inventions that have produced today’s environmental chaos.</blockquote>
   <div class="src">Master Plan · §6 Foundational Text</div>
@@ -806,6 +888,11 @@ film: {
     <img id="filmImg" src="images/molotov-and-orhalla.jpg" alt="Molotov Alva and Orhalla Zander"
          onerror="this.onerror=null;this.src='images/molotov-alva.jpg';this.alt='Molotov Alva'">
     <figcaption>Molotov Alva &amp; Orhalla Zander</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/film-contact-sheet.jpg" alt="Contact sheet of twenty-five stills from the film">
+    <figcaption>Contact sheet · My Second Life, 2007</figcaption>
   </figure>
 
   <p><a href="https://www.youtube.com/watch?v=q76pwG4V-Ao&t=86s" target="_blank" rel="noopener">Watch the film ↗</a> &nbsp;·&nbsp; <a href="https://boingboing.net/2007/03/05/second-life-mysteryd.html" target="_blank" rel="noopener">Boing Boing, 5 March 2007 ↗</a></p>
