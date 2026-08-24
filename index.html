@@ -131,7 +131,6 @@ body{
   grid-template-columns:minmax(0,1.9fr) minmax(0,1fr);
   gap:34px 40px;align-items:start;
 }
-.hero-grid .hero-text{grid-column:1/-1;margin-top:8px}
 
 /* object cards */
 .plate{display:block;text-decoration:none;color:inherit}
@@ -175,21 +174,6 @@ body{
 .plate:hover h3{color:var(--stamp)}
 
 /* center column */
-.hero-text{border-top:1px solid var(--ink);padding-top:18px}
-.hero-text .acc{
-  font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;
-  color:var(--ink-3);display:block;margin-bottom:14px;
-}
-.hero-text blockquote{
-  margin:0;font-size:clamp(23px,2.5vw,34px);line-height:1.28;font-weight:500;
-  letter-spacing:-.005em;
-}
-.hero-text cite{
-  display:block;margin-top:14px;font-style:normal;
-  font-family:var(--mono);font-size:10px;letter-spacing:.14em;
-  text-transform:uppercase;color:var(--ink-3);
-}
-
 /* ---------- pull quote band ---------- */
 .band{
   margin:56px 0 0;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);
@@ -406,12 +390,6 @@ footer a{color:var(--ink-3)}
           <span class="go">Read the goodbye →</span>
         </div>
       </a>
-
-      <div class="hero-text">
-        <span class="acc">Hero text · Molotov Alva and the Museum of Extraction</span>
-        <blockquote>“machines seized not only your means of production, but also the story itself. And how, in the end, you didn’t just lose your job. You lost the plot, becoming a peasant once more, scythe in hand, harvesting information for the Wheat King.”</blockquote>
-        <cite>Museum of Extraction</cite>
-      </div>
 
     </div>
   </div>
