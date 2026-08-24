@@ -34,6 +34,35 @@ body{
 }
 .wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
 
+/* ---------- the door ---------- */
+.gate{
+  position:fixed;inset:0;z-index:200;
+  background:var(--paper);
+  display:flex;align-items:center;justify-content:center;padding:28px;
+}
+.gate-inner{display:flex;flex-direction:column;align-items:center;gap:22px;width:100%;max-width:340px}
+.gate-mark{
+  font-family:var(--mono);font-weight:600;font-size:13px;
+  letter-spacing:.24em;text-transform:uppercase;color:var(--ink);text-indent:.24em;
+}
+.gate input{
+  width:100%;border:0;border-bottom:1px solid var(--ink);background:transparent;
+  font-family:var(--mono);font-size:17px;letter-spacing:.3em;text-align:center;
+  color:var(--ink);padding:9px 0;outline:none;caret-color:var(--stamp);
+}
+.gate-msg{
+  min-height:1em;font-family:var(--mono);font-size:9.5px;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--stamp);
+}
+.gate.wrong .gate-inner{animation:nudge .3s ease}
+@keyframes nudge{
+  0%,100%{transform:translateX(0)}
+  25%{transform:translateX(-6px)}
+  75%{transform:translateX(6px)}
+}
+@media (prefers-reduced-motion:reduce){ .gate.wrong .gate-inner{animation:none} }
+html.gated,body.gated{overflow:hidden}
+
 /* ---------- masthead ---------- */
 .masthead{
   border-bottom:1px solid var(--rule);
@@ -370,7 +399,7 @@ footer a{color:var(--ink-3)}
 }
 </style>
 </head>
-<body>
+<body class="gated">
 
 <!-- ============ MASTHEAD ============ -->
 <header class="masthead">
@@ -386,6 +415,14 @@ footer a{color:var(--ink-3)}
 
   </div>
 </header>
+
+<div class="gate" id="gate">
+  <form class="gate-inner" id="gateForm" autocomplete="off">
+    <span class="gate-mark">This Is Molotov</span>
+    <input id="gateInput" type="password" aria-label="Password" autocomplete="off" spellcheck="false">
+    <span class="gate-msg" id="gateMsg" role="status" aria-live="polite"></span>
+  </form>
+</div>
 
 <main id="top">
 
@@ -504,6 +541,43 @@ footer a{color:var(--ink-3)}
 </div>
 
 <script>
+/* the door — a courtesy, not a lock: the word is readable in this file */
+(function(){
+  const WORD = 'friend';
+  const KEY  = 'molotov.open';
+  const gate = document.getElementById('gate');
+  const form = document.getElementById('gateForm');
+  const input= document.getElementById('gateInput');
+  const msg  = document.getElementById('gateMsg');
+  if (!gate) return;
+
+  function open(){
+    gate.remove();
+    document.body.classList.remove('gated');
+    document.documentElement.classList.remove('gated');
+    try { localStorage.setItem(KEY, '1'); } catch {}
+  }
+
+  let already = false;
+  try { already = localStorage.getItem(KEY) === '1'; } catch {}
+  if (already) { open(); return; }
+
+  document.documentElement.classList.add('gated');
+  setTimeout(function(){ input.focus(); }, 60);
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    if (input.value.trim().toLowerCase() === WORD) { open(); return; }
+    msg.textContent = 'no';
+    gate.classList.add('wrong');
+    input.value = '';
+    input.focus();
+    setTimeout(function(){ gate.classList.remove('wrong'); }, 320);
+  });
+
+  input.addEventListener('input', function(){ if (msg.textContent) msg.textContent = ''; });
+})();
+
 /* =========================================================
    2. READER
    ========================================================= */
