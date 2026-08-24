@@ -104,22 +104,6 @@ body{
   .terminal-screen{min-height:10.5em}
 }
 
-/* ---------- column quotes ---------- */
-.col-quote{
-  margin:0 0 22px;align-self:start;
-  font-size:clamp(18px,2.5vw,32px);line-height:1.18;
-  font-style:italic;font-weight:400;letter-spacing:-.018em;
-}
-.q-cite{
-  font-style:normal;font-family:var(--mono);
-  font-size:.26em;letter-spacing:.18em;text-transform:uppercase;
-  color:var(--ink-3);margin-left:.7em;vertical-align:.42em;white-space:nowrap;
-}
-.socrates .q-cite{font-size:.30em;vertical-align:.36em}
-@media (max-width:640px){
-  .q-cite{display:block;margin:10px 0 0;font-size:10px;vertical-align:baseline}
-}
-
 /* ---------- facade band (top) ---------- */
 .facade{position:relative;border-bottom:1px solid var(--ink);background:#0b0a09}
 .facade img{display:block;width:100%;height:auto}
@@ -174,9 +158,7 @@ body{
   gap:0 40px;align-items:start;
 }
 .hero-grid > *:nth-child(1){grid-column:1;grid-row:1}
-.hero-grid > *:nth-child(2){grid-column:1;grid-row:2}
-.hero-grid > *:nth-child(3){grid-column:2;grid-row:1}
-.hero-grid > *:nth-child(4){grid-column:2;grid-row:2}
+.hero-grid > *:nth-child(2){grid-column:2;grid-row:1}
 
 /* object cards */
 .plate{display:block;text-decoration:none;color:inherit}
@@ -343,7 +325,6 @@ footer a{color:var(--ink-3)}
   .masthead .wrap{flex-wrap:wrap;gap:14px}
   .hero-grid{grid-template-columns:minmax(0,1fr);gap:0}
   .hero-grid > *{grid-column:1 !important;grid-row:auto !important}
-  .col-quote{margin-top:30px}
   .doc p{font-size:18.5px}
 }
 </style>
@@ -378,6 +359,7 @@ footer a{color:var(--ink-3)}
       <ul class="sr-only">
         <li>“The unexamined life is not worth living.”</li>
         <li>“Extraction is the result of taking more than you leave behind”</li>
+        <li>“Walking with a friend in the dark is better than walking alone in the light.”</li>
         <li>“Whatever connection I had to that carbon-based world is now gone”</li>
         <li>“You lost the plot, becoming a peasant once more, scythe in hand, harvesting information for the Wheat King.”</li>
       </ul>
@@ -401,8 +383,6 @@ footer a{color:var(--ink-3)}
   <div class="wrap">
     <div class="hero-grid">
 
-      <p class="col-quote">“Walking with a friend in the dark is better than walking alone in the light.”<span class="q-cite">Helen Keller</span></p>
-
       <!-- LEFT: the merged photograph -> Creator letter, 2026 -->
       <a class="plate" href="#" data-open="creator">
         <div class="label">
@@ -415,8 +395,6 @@ footer a{color:var(--ink-3)}
         </div>
         <span class="go">Read the letter →</span>
       </a>
-
-      <p class="col-quote">“Extraction is the result of always taking more than you leave behind.”</p>
 
       <!-- RIGHT: Exit through the Gift Shop -->
       <a class="plate" href="#" data-open="giftshop">
@@ -608,6 +586,7 @@ document.addEventListener('keydown', function(e){
   const LINES = [
     '“The unexamined life is not worth living.”',
     '“Extraction is the result of taking more than you leave behind”',
+    '“Walking with a friend in the dark is better than walking alone in the light.”',
     '“Whatever connection I had to that carbon-based world is now gone”',
     '“You lost the plot, becoming a peasant once more, scythe in hand, harvesting information for the Wheat King.”'
   ];
