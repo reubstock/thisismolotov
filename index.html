@@ -140,11 +140,9 @@ body{
 }
 
 /* ---------- hero grid ---------- */
-.plate-frame,
-.plate .label{max-width:65%}
+.plate-frame{max-width:65%;margin-left:auto;margin-right:auto}
 @media (max-width:760px){
-  .plate-frame,
-  .plate .label{max-width:none}
+  .plate-frame{max-width:none}
 }
 .hero{padding:36px 0 8px}
 .hero-grid{
@@ -181,7 +179,7 @@ body{
   font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;
   text-transform:uppercase;padding:4px 8px;
 }
-.label{margin-top:12px;border-top:1px solid var(--ink);padding-top:9px}
+.label{margin:0 0 14px;border-bottom:1px solid var(--ink);padding-bottom:10px;text-align:center}
 .label .acc{
   font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;
   text-transform:uppercase;color:var(--ink-3);display:block;margin-bottom:5px;
@@ -189,9 +187,8 @@ body{
 .label h3{
   margin:0 0 5px;font-size:22px;font-weight:600;line-height:1.2;letter-spacing:.005em;
 }
-.label p{margin:0;font-size:15px;color:var(--ink-2);line-height:1.42}
-.label .go{
-  display:inline-block;margin-top:9px;font-family:var(--mono);font-size:9.5px;
+.plate > .go{
+  display:block;text-align:center;margin-top:12px;font-family:var(--mono);font-size:9.5px;
   letter-spacing:.16em;text-transform:uppercase;color:var(--stamp);
   border-bottom:1px solid var(--stamp);padding-bottom:1px;
 }
@@ -353,30 +350,30 @@ footer a{color:var(--ink-3)}
 
       <!-- LEFT: the merged photograph -> Creator letter, 2026 -->
       <a class="plate" href="#" data-open="creator">
+        <div class="label">
+          <span class="acc">Plate 01 · Photograph, 2007 &amp; Second Life, 2007</span>
+          <h3>Searching for the Creator</h3>
+        </div>
         <div class="plate-frame">
           <span class="tag">Creator letter · 2026</span>
           <img src="images/creator-merged.jpg" alt="The 2007 tuxedo photograph with Molotov Alva’s face and Orhalla Zander’s eye grafted on">
         </div>
-        <div class="label">
-          <span class="acc">Plate 01 · Photograph, 2007 &amp; Second Life, 2007</span>
-          <h3>Searching for the Creator</h3>
-          <span class="go">Read the letter →</span>
-        </div>
+        <span class="go">Read the letter →</span>
       </a>
 
       <p class="col-quote">“Extraction is the result of always taking more than you leave behind.”</p>
 
       <!-- RIGHT: Exit through the Gift Shop -->
       <a class="plate" href="#" data-open="giftshop">
+        <div class="label">
+          <span class="acc">Plate 02 · The gift shop</span>
+          <h3>Extract through the Gift Shop</h3>
+        </div>
         <div class="plate-frame">
           <span class="tag">Exit</span>
           <img src="images/museum-gift-shop.jpg" alt="The Museum of Extraction gift shop window, EXIT sign lit above it">
         </div>
-        <div class="label">
-          <span class="acc">Plate 02 · The gift shop</span>
-          <h3>Exit through the Gift Shop</h3>
-          <span class="go">Read the goodbye →</span>
-        </div>
+        <span class="go">Read the goodbye →</span>
       </a>
 
     </div>
