@@ -178,34 +178,6 @@ body{
 .plate:hover .plate-frame{border-color:var(--ink)}
 .plate:hover h3{color:var(--stamp)}
 
-/* lintel: the sign above a museum that doesn't exist */
-.lintel{
-  aspect-ratio:4/3;display:flex;flex-direction:column;
-  align-items:center;justify-content:center;gap:12px;
-  background:#16130f;color:#e9e3d6;padding:20px;
-  position:relative;overflow:hidden;
-}
-.lintel::after{
-  content:"";position:absolute;inset:0;
-  background:linear-gradient(160deg,rgba(255,255,255,.09),transparent 42%);
-  pointer-events:none;
-}
-.lintel .over{
-  font-family:var(--mono);font-size:9.5px;letter-spacing:.42em;
-  text-transform:uppercase;color:#8d8477;text-indent:.42em;
-}
-.lintel .word{
-  font-family:var(--serif);font-weight:600;
-  font-size:clamp(20px,3.1vw,30px);letter-spacing:.16em;
-  text-transform:uppercase;text-indent:.16em;line-height:1;
-  border-top:1px solid #4a423a;border-bottom:1px solid #4a423a;
-  padding:14px 0;width:100%;text-align:center;
-}
-.lintel .under{
-  font-family:var(--mono);font-size:9px;letter-spacing:.2em;
-  text-transform:uppercase;color:#6d6459;text-indent:.2em;text-align:center;
-}
-
 /* center column */
 .hero-text{border-top:1px solid var(--ink);padding-top:18px}
 .hero-text .acc{
@@ -430,14 +402,10 @@ footer a{color:var(--ink-3)}
       <a class="plate" href="#" data-open="giftshop">
         <div class="plate-frame">
           <span class="tag">Exit</span>
-          <div class="lintel" id="giftPlate">
-            <span class="over">Museum of</span>
-            <span class="word">Extraction</span>
-            <span class="under">Est. —— · Location ——</span>
-          </div>
+          <img src="images/museum-gift-shop.jpg" alt="The Museum of Extraction gift shop window, EXIT sign lit above it">
         </div>
         <div class="label">
-          <span class="acc">Plate 02 · Signage, undated</span>
+          <span class="acc">Plate 02 · The gift shop</span>
           <h3>Exit through the Gift Shop</h3>
           <p>Seven months. Thirty calls. Fifty documents. One word, hanging over the whole thing the entire time.</p>
           <span class="go">Read the goodbye →</span>
