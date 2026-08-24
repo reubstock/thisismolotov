@@ -63,41 +63,6 @@ body{
 }
 .masthead-nav a:hover{border-bottom-color:var(--stamp);color:var(--stamp)}
 
-/* ---------- search ---------- */
-.expert{
-  flex:0 1 420px;min-width:0;
-  border:1px solid var(--ink);background:var(--paper-2);
-  padding:10px 12px;
-}
-.expert-label{
-  display:block;font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;
-  text-transform:uppercase;color:var(--ink-2);margin-bottom:7px;line-height:1.3;
-}
-.expert-row{display:flex;gap:0;border:1px solid var(--rule);background:#fff}
-.expert-row input{
-  flex:1 1 auto;min-width:0;border:0;background:transparent;
-  font-family:var(--serif);font-size:15px;color:var(--ink);
-  padding:7px 9px;outline:none;
-}
-.expert-row input::placeholder{color:#a89c88;font-style:italic}
-.expert-row button{
-  flex:0 0 auto;border:0;border-left:1px solid var(--rule);
-  background:var(--ink);color:var(--paper-2);cursor:pointer;
-  font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
-  padding:0 14px;
-}
-.expert-row button:hover{background:var(--stamp)}
-.expert-out{
-  margin-top:9px;font-size:15.5px;line-height:1.45;color:var(--ink);
-  max-height:190px;overflow-y:auto;
-}
-.expert-out em{font-style:italic}
-.expert-src{
-  display:block;margin-top:6px;font-family:var(--mono);font-size:9.5px;
-  letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);
-}
-.expert-src a{color:var(--ink-3)}
-
 /* ---------- thesis band ---------- */
 .thesis{border-bottom:1px solid var(--rule);padding:46px 0 44px}
 .thesis p{
@@ -111,7 +76,7 @@ body{
 .facade{position:relative;border-bottom:1px solid var(--ink);background:#0b0a09}
 .facade img{
   display:block;width:100%;
-  height:clamp(260px,34vw,620px);
+  height:clamp(340px,48vw,900px);
   object-fit:cover;object-position:center 10%;
 }
 .facade .cap{
@@ -391,8 +356,6 @@ footer a{color:var(--ink-3)}
 @media (max-width:760px){
   body{font-size:18px}
   .masthead .wrap{flex-wrap:wrap;gap:14px}
-  .expert{flex:1 1 100%;order:3}
-  .masthead-nav{order:2}
   .hero-grid{grid-template-columns:minmax(0,1fr)}
   .center-col{order:0}
   .exhibits{grid-template-columns:minmax(0,1fr)}
@@ -415,15 +378,6 @@ footer a{color:var(--ink-3)}
       <a href="#" data-open="giftshop">The Goodbye</a>
     </nav>
 
-    <!-- search: upper right -->
-    <form class="expert" id="expertForm" autocomplete="off">
-      <label class="expert-label" for="expertInput">Learn about Extraction from the World Expert</label>
-      <div class="expert-row">
-        <input id="expertInput" type="search" placeholder="extraction, museum, gifts, groups…" aria-label="Search Extraction">
-        <button type="submit">Ask</button>
-      </div>
-      <div class="expert-out" id="expertOut" aria-live="polite"></div>
-    </form>
   </div>
 </header>
 
@@ -592,148 +546,6 @@ footer a{color:var(--ink-3)}
 </div>
 
 <script>
-/* =========================================================
-   1. THE WORLD EXPERT — Extraction search
-   Corpus: verbatim passages from the Master Plan and the two
-   letters. Falls through to Wikipedia for anything else.
-   ========================================================= */
-
-const SEED = {
-  text: "Extraction is the result of always taking more than you leave behind.",
-  src: "The World Expert",
-  keys: ["extraction","extract","definition","define","what is extraction"]
-};
-
-const CORPUS = [
-  { text:"Extraction is an addiction, and the YES Movement offers a prescription for the cure.",
-    src:"Master Plan · Theory of Change", keys:["addiction","cure","prescription","extraction"] },
-
-  { text:"For 12,000 years, we have perfected extraction, charging the cost of human progress to an unseen credit card. The first bills have come due.",
-    src:"Master Plan · Theory of Change", keys:["12000","12,000","years","credit card","bills","history","progress"] },
-
-  { text:"It’s both setting and metaphor: a collection of the ideas, inventions, and choices that transformed nature into a resource to be consumed.",
-    src:"Master Plan · The Museum of Extraction", keys:["museum","metaphor","nature","resource","setting","consumed"] },
-
-  { text:"An interactive gallery of illustrious robber barons and industrialists recounts their exploits, revealing how extractive capitalism transformed shared natural resources into private wealth.",
-    src:"Master Plan · “Weaving Spiders Come Not Here”", keys:["robber barons","capitalism","wealth","private","spiders","gallery","industrialists"] },
-
-  { text:"Tales of Enlightened Extraction. The human cost of industrial progress comes into focus through families whose bodies bear the consequences of polluted air and unchecked development.",
-    src:"Master Plan · Museum exhibit list", keys:["enlightened","human cost","families","air","development","tales"] },
-
-  { text:"Because this is a project about extraction, the YES Movement will not accept funds from extractive industries or from companies that derive material income from extractive activities.",
-    src:"Master Plan · Gift acceptance policy", keys:["funds","money","donors","policy","gift acceptance","industries"] },
-
-  { text:"Because the project is a critique of extraction, extracting value from user data without reciprocity would be a self-inflicted wound.",
-    src:"Master Plan · Data governance", keys:["data","users","reciprocity","privacy","critique","wound"] },
-
-  { text:"A project documenting 12,000 years of extraction must be held to a higher standard than most.",
-    src:"Master Plan · Equity", keys:["standard","equity","higher standard","documenting"] },
-
-  { text:"Can humanity stop being a force of extraction and become an agent of restoration?",
-    src:"Master Plan · Foundational Text", keys:["restoration","humanity","agent","force","question"] },
-
-  { text:"The ultimate change is cultural as well as ecological. The Movement seeks to replace helplessness with agency, isolation with community, fragmented environmental action with shared purpose, and the logic of extraction with a commitment to restoration.",
-    src:"Master Plan · Theory of Change", keys:["culture","cultural","agency","community","logic","commitment"] },
-
-  { text:"I looked for a long time for the word for what you did to me over 7 months, 30 calls, 50 documents. Not disassembly — I think you’re sincere. Not using a collaborator. Maybe it was a mistake. Then I realized it had been hanging over the whole thing the entire time, the sign above a museum that still doesn’t exist. Extraction.",
-    src:"Exit through the Gift Shop · 2026", keys:["word","seven months","7 months","sign","museum","calls","documents","mistake","collaborator"] },
-
-  { text:"When two people work together without a contract, on one person’s IP, the other’s contributions have a name. Gifts.",
-    src:"Exit through the Gift Shop · 2026", keys:["gifts","gift","contract","ip","contributions","unpaid","equity","pay"] },
-
-  { text:"The more natural framing isn’t YES, it’s against Extraction, taught alongside Restoration, two sides of one coin. Until people understand the cause, they’re powerless on the cure.",
-    src:"Exit through the Gift Shop · 2026", keys:["yes","framing","restoration","coin","cause","cure","against"] },
-
-  { text:"Movements live on sustained involvement, social inspiration, and accountability for what people contribute. The biggest ingredient I know of is a format for people to share how extraction has harmed them and how they’ll enact restoration.",
-    src:"Exit through the Gift Shop · 2026", keys:["movement","movements","groups","accountability","involvement","format","harm"] },
-
-  { text:"That’s stagecraft — the Holocaust Museum’s elevator, beautifully done. Stagecraft isn’t what keeps a movement alive.",
-    src:"Exit through the Gift Shop · 2026", keys:["stagecraft","elevator","alive","holocaust"] },
-
-  { text:"You cut 58% of the plan, made me read it and then asked “Who, me?”. I read your 43 pages line by line and asked “what replaced groups?”. Your museum did, 1:1.",
-    src:"Exit through the Gift Shop · 2026", keys:["58","43","pages","cut","replaced","groups","plan","museum"] },
-
-  { text:"For me, Second Life was about friendship, the other side of the fraction that makes us whole. This truth transcends atoms and digits, artificial and physical and all the tensions you’ve played with for the past 20 years.",
-    src:"Searching for the Creator · 2026", keys:["friendship","second life","whole","fraction","atoms","digits","truth"] },
-
-  { text:"I fell for his humble one-eyed sidekick, Orhalla Zander, and felt something. I imagine he’s drunk somewhere right now and alone, hopefully with someone left to call for hope.",
-    src:"Searching for the Creator · 2026", keys:["orhalla","zander","sidekick","hobo","friend","one-eyed","alone"] },
-
-  { text:"In first life or second, what matters above all is one precious thing, made not of gold but affection and loyalty.",
-    src:"Searching for the Creator · 2026", keys:["precious","gold","affection","loyalty","first life","matters"] },
-
-  { text:"After all that, you never met Philip Rosedale, the Second Life Creator.",
-    src:"Searching for the Creator · 2026", keys:["philip","rosedale","creator","met","never"] }
-];
-
-const ALL = [SEED].concat(CORPUS);
-let cursor = -1;
-
-const out   = document.getElementById('expertOut');
-const input = document.getElementById('expertInput');
-
-function render(text, src, link){
-  const cite = link
-    ? '<a href="'+link+'" target="_blank" rel="noopener">'+src+' ↗</a>'
-    : src;
-  out.innerHTML = '<em>“'+text+'”</em><span class="expert-src">— '+cite+'</span>';
-}
-
-function score(entry, q){
-  let s = 0;
-  const hay = (entry.text + ' ' + entry.src).toLowerCase();
-  for (const k of entry.keys) if (q.includes(k)) s += 4;
-  for (const w of q.split(/\s+/)) if (w.length > 3 && hay.includes(w)) s += 1;
-  return s;
-}
-
-async function wikipedia(term){
-  const url = 'https://en.wikipedia.org/api/rest_v1/page/summary/' + encodeURIComponent(term);
-  const r = await fetch(url);
-  if (!r.ok) throw new Error('no entry');
-  const d = await r.json();
-  if (!d.extract) throw new Error('no extract');
-  return { text: d.extract, src: 'Wikipedia · ' + d.title, link: d.content_urls?.desktop?.page };
-}
-
-document.getElementById('expertForm').addEventListener('submit', async function(e){
-  e.preventDefault();
-  const q = input.value.trim().toLowerCase();
-
-  // empty box: walk the collection, seed phrase first
-  if (!q){
-    cursor = (cursor + 1) % ALL.length;
-    const it = ALL[cursor];
-    render(it.text, it.src, it.link);
-    return;
-  }
-
-  // rank the corpus
-  const ranked = ALL.map(it => ({ it, s: score(it, q) }))
-                    .filter(x => x.s > 0)
-                    .sort((a,b) => b.s - a.s);
-
-  if (ranked.length){
-    const it = ranked[0].it;
-    render(it.text, it.src, it.link);
-    return;
-  }
-
-  // nothing in the book: go ask the web
-  out.innerHTML = '<span class="expert-src">Consulting the web…</span>';
-  try {
-    const w = await wikipedia(q);
-    render(w.text, w.src, w.link);
-  } catch (err) {
-    out.innerHTML = '<span class="expert-src">The World Expert has nothing on “'
-      + q.replace(/[<>&]/g,'') + '”. Ask about extraction, gifts, groups, museums, movements, friendship.</span>';
-  }
-});
-
-// open with the seed phrase already in the case
-render(SEED.text, SEED.src);
-
-
 /* =========================================================
    2. READER
    ========================================================= */
