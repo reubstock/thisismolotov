@@ -121,9 +121,10 @@ body{
 .hero{padding:36px 0 8px}
 .hero-grid{
   display:grid;
-  grid-template-columns:minmax(0,300px) minmax(0,1fr) minmax(0,320px);
-  gap:34px;align-items:start;
+  grid-template-columns:minmax(0,1.9fr) minmax(0,1fr);
+  gap:34px 40px;align-items:start;
 }
+.hero-grid .hero-text{grid-column:1/-1;margin-top:8px}
 
 /* object cards */
 .plate{display:block;text-decoration:none;color:inherit}
@@ -195,7 +196,6 @@ body{
 }
 
 /* center column */
-.center-col{display:flex;flex-direction:column;gap:26px}
 .hero-text{border-top:1px solid var(--ink);padding-top:18px}
 .hero-text .acc{
   font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;
@@ -343,8 +343,6 @@ footer a{color:var(--ink-3)}
 }
 
 @media (max-width:1080px){
-  .hero-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
-  .center-col{grid-column:1/-1;order:-1}
   .exhibits{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 @media (max-width:900px){
@@ -355,7 +353,6 @@ footer a{color:var(--ink-3)}
   body{font-size:18px}
   .masthead .wrap{flex-wrap:wrap;gap:14px}
   .hero-grid{grid-template-columns:minmax(0,1fr)}
-  .center-col{order:0}
   .exhibits{grid-template-columns:minmax(0,1fr)}
   .doc p{font-size:18.5px}
 }
@@ -402,42 +399,19 @@ footer a{color:var(--ink-3)}
   <div class="wrap">
     <div class="hero-grid">
 
-      <!-- UPPER LEFT: 2007 tuxedo photo -> Creator letter, 2026 -->
-      <a class="plate" href="#" data-open="creator">
+      <!-- UPPER LEFT: the diptych -> Creator letter, 2026 -->
+      <a class="plate plate-wide" href="#" data-open="creator">
         <div class="plate-frame">
           <span class="tag">Creator letter · 2026</span>
-          <img id="tuxPhoto" src="images/tuxedos-2007.jpg" alt="Reuben Steiger and Douglas Gayeton in tuxedos, 2007" data-vacant="Plate 01 — vacant|drop images/tuxedos-2007.jpg">
+          <img src="images/creator-diptych.jpg" alt="Left: Reuben Steiger and Douglas Gayeton in tuxedos, 2007. Right: Molotov Alva and Orhalla Zander.">
         </div>
         <div class="label">
-          <span class="acc">Plate 01 · Photograph, 2007</span>
+          <span class="acc">Plate 01 · Photograph, 2007 &amp; Second Life, 2007</span>
           <h3>Searching for the Creator</h3>
-          <p>Two men in tuxedos, nineteen years before the letter that answers the film.</p>
+          <p>Two men in tuxedos. Two avatars on a road. The pilgrim with the camera, and the one-eyed sidekick nobody wrote the reviews about.</p>
           <span class="go">Read the letter →</span>
         </div>
       </a>
-
-      <!-- CENTER: Molotov Alva & Orhalla Zander + hero text -->
-      <div class="center-col">
-        <a class="plate" href="#" data-open="film">
-          <div class="plate-frame">
-            <span class="tag">Second Life · 2007</span>
-            <img id="alvaPhoto" src="images/molotov-and-orhalla.jpg" alt="Molotov Alva and Orhalla Zander"
-                 onerror="this.onerror=null;this.src='images/molotov-alva.jpg';this.alt='Molotov Alva'">
-          </div>
-          <div class="label">
-            <span class="acc">Plate 02 · Molotov Alva &amp; Orhalla Zander</span>
-            <h3>The avatar and the hobo</h3>
-            <p>The pilgrim with the camera, and the one-eyed sidekick nobody wrote the reviews about.</p>
-            <span class="go">The original Molotov Alva →</span>
-          </div>
-        </a>
-
-        <div class="hero-text">
-          <span class="acc">Hero text · Molotov Alva and the Museum of Extraction</span>
-          <blockquote>“machines seized not only your means of production, but also the story itself. And how, in the end, you didn’t just lose your job. You lost the plot, becoming a peasant once more, scythe in hand, harvesting information for the Wheat King.”</blockquote>
-          <cite>Museum of Extraction</cite>
-        </div>
-      </div>
 
       <!-- RIGHT: Exit through the Gift Shop -->
       <a class="plate" href="#" data-open="giftshop">
@@ -450,12 +424,18 @@ footer a{color:var(--ink-3)}
           </div>
         </div>
         <div class="label">
-          <span class="acc">Plate 03 · Signage, undated</span>
+          <span class="acc">Plate 02 · Signage, undated</span>
           <h3>Exit through the Gift Shop</h3>
           <p>Seven months. Thirty calls. Fifty documents. One word, hanging over the whole thing the entire time.</p>
           <span class="go">Read the goodbye →</span>
         </div>
       </a>
+
+      <div class="hero-text">
+        <span class="acc">Hero text · Molotov Alva and the Museum of Extraction</span>
+        <blockquote>“machines seized not only your means of production, but also the story itself. And how, in the end, you didn’t just lose your job. You lost the plot, becoming a peasant once more, scythe in hand, harvesting information for the Wheat King.”</blockquote>
+        <cite>Museum of Extraction</cite>
+      </div>
 
     </div>
   </div>
@@ -489,7 +469,7 @@ footer a{color:var(--ink-3)}
 
     <a class="exhibit" href="#" data-open="creator">
       <span class="acc">Object II</span>
-      <div class="exhibit-thumb"><img src="images/molotov-alva.jpg" alt="Molotov Alva"></div>
+      <div class="exhibit-thumb"><img src="images/creator-diptych.jpg" alt="The two pairs"></div>
       <h3>The Letter</h3>
       <div class="meta">Searching for the Creator · 2026</div>
       <p>On the film, the play, Vivian Kendall, and the one precious thing made not of gold.</p>
@@ -559,8 +539,8 @@ creator: {
   <div class="byline">Reuben Steiger to Douglas Gayeton</div>
 
   <figure>
-    <img src="images/molotov-alva.jpg" alt="Molotov Alva">
-    <figcaption>Molotov Alva, Second Life, 2007</figcaption>
+    <img src="images/film-contact-sheet.jpg" alt="Contact sheet of twenty-five stills from the film">
+    <figcaption>My Second Life: Molotov Alva and his Search for the Creator · 2007 · <a href="https://www.youtube.com/watch?v=q76pwG4V-Ao&t=86s" target="_blank" rel="noopener">watch ↗</a></figcaption>
   </figure>
 
   <p>Douglas,</p>
@@ -698,40 +678,6 @@ book: {
   <h2>Hero text</h2>
   <blockquote>machines seized not only your means of production, but also the story itself. And how, in the end, you didn’t just lose your job. You lost the plot, becoming a peasant once more, scythe in hand, harvesting information for the Wheat King.</blockquote>
   <div class="src">Museum of Extraction</div>
-</div>`
-},
-
-film: {
-  acc: 'Plate 02 · Second Life, 2007',
-  html: `
-<div class="doc">
-  <div class="kicker">The original · 2007</div>
-  <h1>Molotov Alva and Orhalla Zander</h1>
-  <div class="byline">My Second Life: Molotov Alva and his Search for the Creator · Douglas Gayeton · HBO, 2007</div>
-
-  <figure>
-    <img id="filmImg" src="images/molotov-and-orhalla.jpg" alt="Molotov Alva and Orhalla Zander"
-         onerror="this.onerror=null;this.src='images/molotov-alva.jpg';this.alt='Molotov Alva'">
-    <figcaption>Molotov Alva &amp; Orhalla Zander</figcaption>
-  </figure>
-
-  <figure>
-    <img src="images/film-contact-sheet.jpg" alt="Contact sheet of twenty-five stills from the film">
-    <figcaption>Contact sheet · My Second Life, 2007</figcaption>
-  </figure>
-
-  <p><a href="https://www.youtube.com/watch?v=q76pwG4V-Ao&t=86s" target="_blank" rel="noopener">Watch the film ↗</a> &nbsp;·&nbsp; <a href="https://boingboing.net/2007/03/05/second-life-mysteryd.html" target="_blank" rel="noopener">Boing Boing, 5 March 2007 ↗</a></p>
-
-  <hr>
-
-  <h2>From the letter</h2>
-  <blockquote>I loved Molotov not because of the narrator, the creator, Goreans, griefers, love interest or Molotov himself. I fell for his humble one-eyed sidekick, Orhalla Zander, and felt something. I imagine he’s drunk somewhere right now and alone, hopefully with someone left to call for hope.</blockquote>
-  <div class="src">Searching for the Creator · 2026</div>
-
-  <blockquote>It was about the hobo. The friend. But of course you know that. You made it.</blockquote>
-  <div class="src">Searching for the Creator · 2026</div>
-
-  <p><a href="#" data-open="creator">Read the letter in full →</a></p>
 </div>`
 }
 
