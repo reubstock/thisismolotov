@@ -66,19 +66,19 @@ body{
 /* ---------- socrates strip (top) ---------- */
 .socrates{border-bottom:1px solid var(--rule);padding:24px 0 26px}
 .socrates .wrap{display:flex;align-items:center;gap:30px}
-.socrates-pics{display:flex;gap:14px;flex:0 0 auto}
-.socrates-pics img{
-  width:clamp(118px,13.5vw,215px);height:auto;display:block;
+.socrates .s-pic{
+  flex:0 0 auto;width:clamp(118px,13.5vw,215px);height:auto;display:block;
   border:1px solid var(--rule);padding:6px;background:var(--paper-2);
 }
 .socrates p{
-  margin:0;font-size:clamp(22px,3.2vw,46px);line-height:1.14;
+  flex:1 1 auto;min-width:0;margin:0;text-align:center;
+  font-size:clamp(22px,3.2vw,46px);line-height:1.14;
   font-style:italic;font-weight:400;letter-spacing:-.012em;
 }
 @media (max-width:700px){
   .socrates .wrap{flex-direction:column;align-items:flex-start;gap:18px}
-  .socrates-pics{width:100%;gap:12px}
-  .socrates-pics img{width:calc(50% - 6px)}
+  .socrates .s-pic{width:min(240px,62vw)}
+  .socrates p{text-align:left}
 }
 
 /* ---------- column quotes ---------- */
@@ -329,11 +329,9 @@ footer a{color:var(--ink-3)}
 <!-- ============ SOCRATES ============ -->
 <section class="socrates">
   <div class="wrap">
-    <div class="socrates-pics">
-      <img src="images/beach.jpg" alt="Douglas Gayeton and Reuben Steiger on the waterfront">
-      <img src="images/molotov-and-orhalla.jpg" alt="Molotov Alva and Orhalla Zander on the road">
-    </div>
+    <img class="s-pic" src="images/beach.jpg" alt="Douglas Gayeton and Reuben Steiger on the waterfront">
     <p>“The unexamined life is not worth living.”<span class="q-cite">Socrates</span></p>
+    <img class="s-pic" src="images/molotov-and-orhalla.jpg" alt="Molotov Alva and Orhalla Zander on the road">
   </div>
 </section>
 
