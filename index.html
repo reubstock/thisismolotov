@@ -64,7 +64,7 @@ body{
 .masthead-nav a:hover{border-bottom-color:var(--stamp);color:var(--stamp)}
 
 /* ---------- socrates strip (top) ---------- */
-.socrates{border-bottom:1px solid var(--rule);padding:24px 0 26px}
+.socrates{border-top:1px solid var(--rule);margin-top:70px;padding:30px 0 26px}
 .socrates .wrap{display:flex;align-items:center;gap:30px}
 .socrates .s-fig{flex:0 0 auto;margin:0}
 .socrates .s-pic{
@@ -104,6 +104,7 @@ body{
 }
 @media (prefers-reduced-motion:reduce){ .cursor{animation:none} }
 @media (max-width:700px){
+  .socrates{margin-top:46px}
   .socrates .wrap{flex-wrap:wrap;gap:16px}
   .terminal{order:3;width:100%;flex:1 1 100%}
   .socrates .s-fig{width:calc(50% - 8px)}
@@ -361,35 +362,6 @@ footer a{color:var(--ink-3)}
 <main id="top">
 
 <!-- ============ SOCRATES ============ -->
-<section class="socrates">
-  <div class="wrap">
-
-    <figure class="s-fig">
-      <img class="s-pic" src="images/beach.jpg" alt="Douglas Gayeton and Reuben Steiger on the waterfront">
-      <figcaption>2007 - Real</figcaption>
-    </figure>
-
-    <div class="terminal">
-      <div class="terminal-bar">Molotov says</div>
-      <div class="terminal-screen" aria-hidden="true"><span id="mtext"></span><span class="cursor"></span></div>
-      <ul class="sr-only">
-        <li>“The unexamined life is not worth living.”</li>
-        <li>“Extraction is the result of taking more than you leave behind”</li>
-        <li>“Walking with a friend in the dark is better than walking alone in the light.”</li>
-        <li>“Whatever connection I had to that carbon-based world is now gone”</li>
-        <li>“You lost the plot, becoming a peasant once more, scythe in hand, harvesting information for the Wheat King.”</li>
-        <li>“Who is Ralph Ganger and what’s his name doing in my underpants?”</li>
-      </ul>
-    </div>
-
-    <figure class="s-fig">
-      <img class="s-pic" src="images/molotov-and-orhalla.jpg" alt="Molotov Alva and Orhalla Zander on the road">
-      <figcaption>2007 - Virtual</figcaption>
-    </figure>
-
-  </div>
-</section>
-
 <!-- ============ FACADE ============ -->
 <section class="facade">
   <img src="images/missing-banner.jpg" alt="A MISSING billboard: Reuben Steiger, last seen in Princeton, New Jersey, August 17 2026">
@@ -443,7 +415,38 @@ footer a{color:var(--ink-3)}
       <span class="plaque plaque-foot">“Mushrooms despise extraction but are delicious”<em>Douglas Gayeton</em></span>
     </div>
   </figure>
+</section>
 
+<section class="socrates">
+  <div class="wrap">
+
+    <figure class="s-fig">
+      <img class="s-pic" src="images/beach.jpg" alt="Douglas Gayeton and Reuben Steiger on the waterfront">
+      <figcaption>2007 - Real</figcaption>
+    </figure>
+
+    <div class="terminal">
+      <div class="terminal-bar">Molotov says</div>
+      <div class="terminal-screen" aria-hidden="true"><span id="mtext"></span><span class="cursor"></span></div>
+      <ul class="sr-only">
+        <li>“The unexamined life is not worth living.”</li>
+        <li>“Extraction is the result of taking more than you leave behind”</li>
+        <li>“Walking with a friend in the dark is better than walking alone in the light.”</li>
+        <li>“Whatever connection I had to that carbon-based world is now gone”</li>
+        <li>“You lost the plot, becoming a peasant once more, scythe in hand, harvesting information for the Wheat King.”</li>
+        <li>“Who is Ralph Ganger and what’s his name doing in my underpants?”</li>
+      </ul>
+    </div>
+
+    <figure class="s-fig">
+      <img class="s-pic" src="images/molotov-and-orhalla.jpg" alt="Molotov Alva and Orhalla Zander on the road">
+      <figcaption>2007 - Virtual</figcaption>
+    </figure>
+
+  </div>
+</section>
+
+<section class="wrap">
   <footer>
     <span>This Is Molotov</span>
     <span>Reuben Steiger</span>
