@@ -66,25 +66,23 @@ body{
 /* ---------- thesis band ---------- */
 .thesis{border-bottom:1px solid var(--rule);padding:46px 0 44px}
 .thesis p{
-  margin:0;max-width:19ch;
-  font-size:clamp(30px,4.6vw,62px);line-height:1.1;
+  margin:0;white-space:nowrap;
+  font-size:min(41px,2.92vw);line-height:1.15;
   font-style:italic;font-weight:400;letter-spacing:-.015em;
 }
-@media (max-width:760px){ .thesis{padding:32px 0 30px} .thesis p{max-width:none} }
+@media (max-width:900px){
+  .thesis{padding:32px 0 30px}
+  .thesis p{white-space:normal;font-size:clamp(23px,5.4vw,34px);line-height:1.16}
+}
 
 /* ---------- facade band (top) ---------- */
 .facade{position:relative;border-bottom:1px solid var(--ink);background:#0b0a09}
-.facade img{
-  display:block;width:100%;
-  height:clamp(340px,48vw,900px);
-  object-fit:cover;object-position:center 10%;
-}
+.facade img{display:block;width:100%;height:auto}
 .facade .cap{
-  position:absolute;left:0;right:0;bottom:0;
-  display:flex;gap:14px;flex-wrap:wrap;align-items:baseline;
-  padding:14px 28px;background:linear-gradient(transparent,rgba(11,10,9,.85));
+  display:flex;gap:8px 20px;flex-wrap:wrap;align-items:baseline;
+  padding:12px 28px 13px;background:#0b0a09;
   font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;
-  text-transform:uppercase;color:#b3a894;
+  text-transform:uppercase;color:#7d7365;
 }
 .facade .cap b{color:#e9e3d6;font-weight:500}
 
@@ -392,9 +390,9 @@ footer a{color:var(--ink-3)}
 
 <!-- ============ FACADE ============ -->
 <section class="facade">
-  <img src="images/museum-exterior.jpg" alt="The Museum of Extraction at night, in the rain">
+  <img src="images/museum-sign.jpg" alt="The Museum of Extraction sign, lit, at night in the rain">
   <div class="cap">
-    <b>Flagship real-world activation experience</b>
+    <b>Douglas’ earnest palace of judgement</b>
     <span>Est. —— · Location ——</span>
   </div>
 </section>
