@@ -221,9 +221,19 @@ body{
 /* center column */
 /* ---------- footnote ---------- */
 .footnote{margin:78px auto 0;max-width:660px;padding:0}
-.footnote img{
-  display:block;width:100%;height:auto;
-  border:1px solid var(--rule);padding:8px;background:var(--paper-2);
+.footnote-frame{
+  position:relative;border:1px solid var(--rule);
+  padding:8px;background:var(--paper-2);
+}
+.footnote-frame img{display:block;width:100%;height:auto}
+.footnote .plaque{
+  position:absolute;top:9px;left:9px;
+  background:rgba(9,8,6,.74);color:#efe9dc;
+  font-family:var(--mono);font-size:10px;letter-spacing:.17em;
+  text-transform:uppercase;padding:8px 12px;
+}
+@media (max-width:520px){
+  .footnote .plaque{font-size:8.5px;letter-spacing:.13em;padding:6px 9px}
 }
 .footnote figcaption{
   margin-top:10px;text-align:center;
@@ -368,10 +378,10 @@ footer a{color:var(--ink-3)}
 
 <!-- ============ FACADE ============ -->
 <section class="facade">
-  <img src="images/mushrooms-banner.jpg" alt="Two hands holding up two mushrooms beneath a bare branch">
+  <img src="images/missing-banner.jpg" alt="A MISSING billboard: Reuben Steiger, last seen in Princeton, New Jersey, August 17 2026">
   <div class="cap">
-    <b>“Mushrooms despise extraction but are delicious”</b>
-    <span>Douglas Gayeton</span>
+    <b>Have you seen this man?</b>
+    <span>Last seen 17 August 2026</span>
   </div>
 </section>
 
@@ -417,9 +427,11 @@ footer a{color:var(--ink-3)}
 <!-- ============ FOOTNOTE ============ -->
 <section class="wrap">
   <figure class="footnote">
-    <img src="images/missing-billboard.jpg" data-optional
-         alt="A MISSING billboard: Reuben Steiger, last seen in Princeton, New Jersey, August 17 2026">
-    <figcaption>Have you seen this man?</figcaption>
+    <div class="footnote-frame">
+      <img src="images/book-mushrooms.jpg" alt="Two hands holding up two mushrooms beneath a bare branch">
+      <span class="plaque">Daily Paradox for the Dim-Witted</span>
+    </div>
+    <figcaption>“Mushrooms despise extraction but are delicious” · Douglas Gayeton</figcaption>
   </figure>
 
   <footer>
