@@ -1,0 +1,5871 @@
+﻿THE YES Movement
+Master Business Plan
+Finding the Cure for Our Addiction to Extraction
+
+
+Prepared by Douglas Gayeton & Reuben Steiger, Founding Co-Directors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12 August 2026
+
+
+The YES Movement is a fiscally sponsored program of The Lexicon, a 501(c)(3) organization
+Table of Contents
+1. Executive Summary                                                                        1        
+2. Theory of Change                                                                                3
+
+
+3. YES                                                                                         4
+
+
+4. RestoreSix                                                                                7
+5. Local                                                                                        9
+6. Foundational Text: Molotov Alva and the Museum of Extraction                                        10
+7. Community Building: The YES Movement Online Platform                                        11
+8. Communications Strategy: Yes: Substack and YouTube Channel                                        14
+
+
+9. Real World Experience: The Museum of Extraction                                                19
+
+
+10. Audience                                                                                22
+
+
+11. Competitive Analysis                                                                        24
+
+
+12. The YES Ecosystem: Roadmap                                                                25
+
+
+13. Adoption and Scale                                                                        29
+
+
+14. Risk Analysis                                                                                32
+
+
+15. Staffing Plan                                                                                33
+
+
+16. Budget and Financial Model                                                                36
+
+
+17. Organization and Governance                                                                39
+
+
+
+
+
+
+________________
+  
+
+1. Executive Summary
+
+
+The YES Movement is a nonprofit platform that channels collective intelligence into environmental action at the local level. It gives environmental organizations, activists, and the general public the tools to measure ecological impact, share what works, and convert abstract concern into specific local action.
+
+
+1.1 The Problem
+
+
+
+
+Popular movements often fail for predictable reasons. Large crowds gather. Handpainted signs are waved. Proclamations are made. But public outcry arrives faster than local organizations can channel it into sustained work on the ground. The next steps never materialize. Momentum fades. Outrage subsides. Meanwhile, climate communication makes another persistent mistake: it traffics in distant catastrophe (climate crisis pornography) rather than local possibility (a pathway to action that starts where you live).
+
+
+The result? People are motivated yet find nowhere to direct their energy. It’s not a finding the solution problem. In most cases, solutions exist. It’s a distribution of the solution problem.
+
+
+Today, thousands of small environmental organizations work in isolation. They lack common tools to express their impacts, share knowledge, or cost-effectively attract new members.
+
+
+1.2 The Solution: Interlocking Components
+
+
+
+
+The YES Movement is a solutions platform for the environmental movement. It offers the antidote for our addiction to extraction by borrowing from the architecture of movements that endure. Civil Rights, Alcoholics Anonymous, and the broader Environmental Movement itself share a common structure: a founding text, distributed and largely leaderless governance, and reliance on members for labor, decision-making, and funding. The YES Movement supplies all three. RestoreSix provides the common language and impact visualization framework that connects the movement. The YES Online Platform provides its core infrastructure, connecting people to local organizations, actions, tools, and documented impacts. The book, Substack and YouTube channels, changemakers, and the Museum of Extraction all serve as acquisition and activation engines, creating encounters that lead people to the platform. Local environmental organizations provide the opportunities to act and turn participation into measurable restoration.
+
+
+Four interlocking components form this ecosystem:
+
+
+* Molotov Alva and the Museum of Extraction (Book): a limited-release, both founding text and fundraising instrument
+* The YES Online Platform: Impact Measurement Tools, an Action Map, a Field Guide, and a resource library built on RestoreSix
+* Substack and YouTube Channel: weekly live programming, podcasts, short films, and social media shareables that build community and generate a vast knowledge library
+* The Museum of Extraction Exhibit: an immersive physical experience, in tentpole and traveling formats, that converts visitors into activated local participants
+
+
+Together, these components form a continuous pathway. Stories and experiences create encounters. The platform localizes those encounters and connects people to organizations. These organizations convert participation into action, then RestoreSix makes the resulting impacts visible, helping solutions scale.
+
+
+
+
+1.3 Audience
+
+
+The YES Movement activates three distinct user types. Each requires a different value proposition, a different acquisition path, and a different ask.
+
+
+
+
+Audience
+	What they want
+	What they offer in return
+	Environmental and Climate Organizations
+	Members, tools, and credible impact data
+	Log actions and onboard routed members
+	Changemakers
+	Substance and legitimacy behind their reach
+	Point their audience at specific local work
+	Restoration Curious
+(The General Public)
+	A way to help that is local and visible
+	A single first action, logged
+	
+
+
+
+1.4 Not a New Idea, Just One That’s Bigger and Better
+The YES Movement is a new initiative. It brings together activist organizations, technology providers, and domain experts to forge an entirely new approach to environmental action. Yet it’s based on core components that have been developed over ten years by The Lexicon, field-tested, and embraced by hundreds of key stakeholders working at multilateral development banks, foundations, international organizations, corporations, and family offices.
+
+
+The Lexicon is highly skilled in mobilization and movement building. It created Reawakened, the first global collective action to safeguard agrobiodiversity, bringing together hundreds of organizations. The work crystallized at the 2nd International Congress on Agrobiodiversity in Kunming, China, where its Ten Principles for Agrobiodiversity were ratified by a delegation of international experts. 
+
+
+This work led to Can You Change the Future?, an initiative funded by Google. It brought together 1,000 companies, UN agencies, and NGOs under NDA to develop innovative solutions across fields ranging from Food is Medicine and regenerative agriculture to single-use plastics and dietary guidelines. That work resulted in new nonprofits, open-source tools for sustainable food sourcing, and the foundation that eventually became RestoreSix.
+
+
+The YES Movement builds on this expertise. The Lexicon already knows how to convene organizations around a shared framework, turn complex issues into consensus-led programs, and move large networks from conversation to collective action. YES applies that model at a far greater scale, connecting organizations, changemakers, and the public in a single system designed to convert attention into participation.
+
+
+1.5 The Ask
+
+
+The YES Movement seeks [$X.X million] over three years to build the platform, produce its founding content, launch the Museum of Extraction, and establish the infrastructure required for scale. Year 4, which focuses on horizontal scaling, satellite exhibit deployment, and expansion of AI Advisory tools, will be financed through a combination of follow-on philanthropy and earned revenue. Each component is modularly fundable, but the YES Online Platform is the ecosystem’s foundational infrastructure.
+________________
+2. Theory of Change
+
+
+People are more likely to act when they can connect a global crisis to a place they know and a community they care about. Or an organization they trust. They also want their contributions to matter. They want to see and understand the impact of their actions. The YES Movement transforms a broad environmental narrative into a pathway for local participation. 
+
+
+Extraction is an addiction, and the YES Movement offers a prescription for the cure. 
+
+
+At its center is RestoreSix, a framework for understanding ecological restoration across six interconnected domains: air, water, soil, biodiversity, equity, and climate. RestoreSix allows actions that may appear unrelated—a river cleanup, a community solar project, a pollinator garden, a food-rescue program, a soil-restoration initiative, or an air-quality campaign—to be understood as contributions to the same larger challenge of planetary restoration. It shows people that their actions matter and that, together, those actions can become a force for restoration.
+
+
+2.1 Intended Outcomes
+
+
+In the near term, the YES Movement gives people a practical way to identify their priorities and discover local organizations, then take part in tangible work. It also helps organizations utilize valuable tools to visualize their impacts. 
+
+
+In the medium term, the movement will increase membership, volunteerism, donations, partnerships, and participation in local restoration efforts. It also helps organizations not only  document their actions but share the formula for success with others, allowing good ideas to scale.
+
+
+In the long term, the YES Movement will support a distributed global culture of restoration. Thousands of locally rooted organizations and millions of people will join local initiatives while seeing themselves as part of one interconnected movement. The movement’s success will be measured by the number of organizations it impacts and the actions that scale. 
+
+
+The ultimate change is cultural as well as ecological. The Movement seeks to replace helplessness with agency, isolation with community, fragmented environmental action with shared purpose, and the logic of extraction with a commitment to restoration. It asks people not simply to oppose what is wrong, but to participate in building what comes next—and to answer that invitation with a single word: Yes.
+________________
+3. The Power of YES 
+
+
+
+
+
+
+There is no elite group in a windowless bunker solving this. 
+The cavalry isn't coming. 
+What if it all started with you?
+
+
+
+
+3.1 We look through the wrong end of the telescope. 
+
+
+Seeing a tree is not the same as seeing a forest. The tools we use to find solutions only show us what we want to see, while blinding us to everything outside the frame. The result is a misdiagnosis that leads to a cure for the wrong ailment. Turn the telescope around, and solutions come into view that were there all along.
+
+
+3.2  We think in fractions. Nature thinks in wholes.
+
+
+For 12,000 years, we have perfected extraction, charging the cost of human progress to an unseen credit card. The first bills have come due. Climate disruption. Biodiversity loss. Water scarcity. Soil erosion. Polluted air. Mass displacement. These are not separate problems but expressions of a breakdown in a single, interconnected system. When we respond with fractional solutions, we should not be surprised when they produce only fractional change. Nature doesn't solve problems in isolation. It operates holistically. We should too.
+
+
+3.3 Doing less bad is bad. We should do more good.
+
+
+The frameworks we use to solve our problems are built around reduction. Reduce emissions. Reduce waste. Reduce harm. For two decades, experts have handed us planetary boundaries and accounting systems for the true cost of extraction. These mitigation models are well-intentioned but fail to account for human nature. Nobody gets out of bed in the morning to do less bad. But ask us to save the planet, and we show up. What if we stopped organizing against things and started building toward what we want, together?
+
+
+3.4 We say No instead of YES. 
+
+
+When we say No, we find perfectly good reasons not to act. We settle for incremental steps when transformative leaps are needed. What if we understood our fear of failure differently? What if failure wasn’t an endpoint? What if it offered an opportunity to pivot and stay on the path? What if we were for things instead of against them? What if saying YES turned our fear of failure into an invitation to act?
+
+
+3.5 We follow our own paths. What if we shared a common destination?
+
+
+Everyone wants their path to be unique, but uniqueness without alignment leads us nowhere. What if our paths led to a shared destination? The knowledge exists. The passion exists. What is missing is the infrastructure to scale success, helping people find solutions and apply them in their own communities. YES is that infrastructure.
+________________
+4. RestoreSix
+
+
+4.1 Thy Enemy Is Apathy
+
+
+Most people have already reached their conclusions about climate chaos and their own responsibility to avert the crisis. Fatigue has set in. Apathy reigns. We either tune out the changes rapidly unfolding around us or brace ourselves for survival.
+
+
+The planet needs a new story, yet awareness alone does not produce action. People understand that these crises connect, but understanding a problem is not the same as participating in its solution. Most people can’t see where to begin. They might still care, but they no longer believe their contribution matters.
+
+
+That is a failure of infrastructure, not information. The YES Movement gives people a new way in: stories, exhibitions, books, films, digital content, public programs, and place-based experiences that lead to solutions they can apply where they live. The audience becomes participants, contributing to ecological restoration at a local level.
+4.2 RestoreSix 
+
+
+Over a five-year period with Google, The Lexicon gathered experts from more than 1,000 organizations, in domain areas ranging from regenerative agriculture to food as medicine. Each participant was asked a simple question: Can you change the future? Their answers converged on six key areas: air, water, soil, biodiversity, equity, and climate. The name for this framework? RestoreSix.
+
+
+Environmental organizations are often asked to report their impacts. Developing accurate impact visualization tools can be costly and complex, putting them out of reach for all except the most well endowed organizations. The result is proprietary tools and systems. Without data interoperability and easy-to-read impact visualization tools, a creek cleanup in Portland and a native seed planting in Sacramento are wholly incommensurable. When neither organization can properly benchmark its activities, funders with catalytic capital have nothing to compare. The part is indiscernible from the whole. 
+
+
+Building better software is only part of the solution. It also requires convening enough organizations to agree on standards and definitions, then aligning them on shared goals. RestoreSix is a system of attestations that makes the positive ecological impacts of an organization’s actions visible. It provides a common framework for visualizing both quantitative and qualitative impacts. It's used by multilateral development banks, international organizations, and agricultural research centers on six continents. It also features a peer-reviewed taxonomy and impact visualization tools built and tested at institutional scale.
+________________
+RestoreSix Explained
+
+
+Climate change has put the spotlight on removing carbon from our atmosphere, but carbon is one measure of a single system. Healthy soils become deserts. Biodiversity is lost. We have air we cannot breathe and water we cannot drink. RestoreSix gives an otherwise disconnected community of environmental organizations a common destination. It supports activities that create positive impacts, unlocking the full spectrum of ecological and social benefits: air, water, soil, biodiversity, equity, and climate. Each plays a central, and interconnected, role in restoring natural systems.
+
+
+  
+
+Air
+
+
+METRICS
+Tons of pollutant avoided
+Change in local PM2.5 
+Days below health threshold
+
+
+
+
+
+
+Clean air protects human health, reduces respiratory disease, and supports ecosystem balance.
+	  
+
+Water
+
+
+METRICS
+Stream miles restored
+Gallons treated or diverted
+Change in turbidity, nitrate, 
+or bacteria counts
+
+
+Clean, accessible water sustains ecosystems, biodiversity, and 
+essential human needs.
+	  
+
+
+
+Soil
+
+
+METRICS
+Acres under restorative practice
+Change in soil organic matter
+Tons of erosion prevented
+
+
+Healthy soils drive plant growth, nutrient cycling, and microbial life, and hold ground against erosion.
+	  
+
+
+
+Biodiversity
+
+
+METRICS
+Acres of habitat restored
+Native plants established
+Species richness observed over time
+
+
+Species diversity keeps ecosystems stable and delivers pollination, pest control, and genetic resilience.
+	  
+
+Equity
+
+
+METRICS
+Residents served
+Participation in priority communities
+Benefits to high-burden areas
+
+
+Environmental burdens fall unevenly. Restoration must reach the communities carrying the most.
+	  
+
+Climate
+
+
+METRICS
+Tons CO₂e sequestered
+Tons CO₂e avoided
+Acres or households 
+
+
+A stable climate underwrites every other domain. Drawdown and adaptation protect what restoration builds.
+	________________
+Five Local Organizations, One Language
+
+
+Five local organizations. Five different actions. Five different places. Like fingerprints, no  two site-specific actions are the same. Nor are they way they describe their impacts. Yet a harbor restoration project, a prescribed-burn program and a vacant-lot greening effort can produce overlapping outcomes. RestoreSix gives these local organizations a shared vocabulary, making their work easier to compare, connect, fund, and replicate.
+
+
+ORGANIZATION AND ACTION
+	Air
+	Water
+	Soil
+	Biodiversity
+	Equity
+	Climate
+	Elizabeth River Project
+Chesapeake, Va.
+
+
+Capped a creosote-contaminated river bottom at Money Point with seven acres of tidal marsh, a three-acre oyster reef and a living cap over the sediment
+Cancer rates in fish back to normal; over 26 fish species and 110 bird species recorded
+	○
+	●
+	●
+	●
+	◐
+	○
+	Billion Oyster Project
+New York Harbor, N.Y.
+
+
+Collected 3.2 million pounds of shell from city restaurants and restored more than 180 million oysters to New York Harbor
+44 taxa documented in reef monitoring across eight sites
+	○
+	●
+	○
+	●
+	◐
+	○
+	Mid Klamath Watershed Council
+Orleans, Calif., with the Karuk Tribe
+
+
+Mechanical, manual and prescribed-fire treatments across a 5,570-acre Somes Bar project area, integrating Karuk cultural burning practices
+Restoring fire-adapted habitat while rebuilding local capacity to use good fire
+	◐
+	◐
+	◐
+	◐
+	◐
+	◐
+	Friends of Trees
+Portland, Or.
+
+
+Volunteers have planted one million trees and native plants since 1989, with species, location and date recorded for every street tree
+A study associated those plantings with about 15 fewer deaths a year in Portland; 30,000 native trees and shrubs a year go into riparian areas
+	●
+	◐
+	◐
+	●
+	●
+	◐
+	Pennsylvania Horticultural Society
+Philadelphia, Pa.
+Maintains more than 12,000 cleared and greened vacant lots through the LandCare program, about 15 million square feet
+29 percent less gun violence in high-poverty neighborhoods; 41.5 percent fewer self-reported feelings of depression
+	○
+	◐
+	●
+	○
+	●
+	○
+	●  Measured        ◐  Expected, not yet measured        ○  Not registered
+________________
+RestoreSix: One Local Action, Many Benefits
+
+
+  
+  
+  
+
+
+
+Green Heart Louisville planted 8,000+ trees and shrubs across four square miles of South Louisville, in neighborhoods with the least canopy in the city. The goal? Improve human health. The result? Residents in newly greened neighborhoods showed 13-20 % less inflammation, a key indicator of cardiovascular risk, than residents in comparison neighborhoods. This local action crosses several benefits at once: Air through pollution interception, Climate through shade and carbon storage, Water through stormwater management, Biodiversity through habitat, and Equity because greening can be directed toward communities historically underserved by urban canopy., providing something rare: a measurable connection to Human Health.
+
+
+  
+
+
+
+   
+   Air
+	●
+	Ultrafine particles and pollutants were mapped before and after planting. More than 8,000 trees and shrubs were sited to intercept traffic pollution along the Watterson Expressway corridor and selected to maximize pollution removal. Broader research links urban trees to filtering up to a third of fine particle pollution within 300 yards.
+	  
+
+
+
+
+
+Water
+	◐
+	Runoff volume reaching storm drains is reduced. Added canopy intercepts rainfall before it hits pavement, keeping pollutants out of waterways and easing street flooding.
+	  
+
+
+
+
+
+  Soil
+	◐
+	
+
+Thousands of living root systems established. Planting sites move from bare or compacted ground to rooted soil.
+
+
+	  
+
+
+
+
+
+Biodiversity
+	◐
+	New canopy provides habitat for migrating birds and pollinators. The plantings were chosen for pollution capture rather than for habitat, so the gain is real but incidental.
+	  
+
+
+
+
+
+
+
+Equity
+	●
+	
+
+Residents of the planted center had 13 to 20 percent lower hsCRP than residents of the unplanted ring. High-sensitivity C-reactive protein is a blood marker of inflammation associated with elevated heart-disease risk. The trial covers six South Louisville neighborhoods: Oakdale, Taylor-Berry, Jacobs, Hazelwood, Wilder Park and Beechmont.
+	  
+
+
+
+
+
+Climate
+	◐
+	Canopy reduces heat exposure and stores carbon. Urban canopy cools city streets by two to four degrees Fahrenheit, reducing heat deaths and cutting the need for heating and air conditioning.
+	
+
+●  Measured        ◐  Expected, not yet measured        ○  Not registered
+________________
+5. Local
+
+
+5.1 Restoration Has an Address
+
+
+Think globally, act locally. It’s a slogan people repeat without hearing. But restoration is not an abstraction. Habitats are restored one acre at a time. The first mile of a stream is cleared, then the next. Preventing a ton of topsoil from eroding starts in one field, then its neighbor. This work requires human intervention and succeeds at human scale. It happens in places with names and ZIP codes. The global crises we face are real, but they're not where the work gets done.
+
+
+5.2 Cause and Effect
+
+
+Global action asks people to trust that their contribution matters somewhere they will never go. The climate movement's figurehead is a bewildered polar bear on an ice floe. Most people will never see a polar bear, let alone one on an ice floe. They will never know what they did that put it there, or what they could do to change its fate. So they absolve themselves. The distance between cause and effect is too great to feel like responsibility.
+
+
+Local action closes that distance. When a creek runs clearer or a hillside holds through a wet winter, the people who did the work can stand there and see it. That evidence compounds, building habits and traditions that carry not just across one season but over time, from one generation to the next. It’s the type of proof that turns one project into a second. 
+
+
+5.3 Proximity Builds Trust
+
+
+The hardest audience to reach is the one that has stopped listening. They will not be moved by another report, but they might be moved by a neighbor showing them something that worked three blocks away. Local work turns participants into the best advocates. They’re not asking anyone to believe, to change their mind, to get involved. They simply point at a result. 
+
+
+Movement building is relationship marketing at scale. That works only because local organizations are answerable in a way distant ones aren’t. Their funders shop at the same grocery store. Their volunteers know whether the next promised planting actually happened. Their failures are visible before they can be reframed in an annual report. Proximity demands rigor and accountability in ways distance cannot reproduce.
+
+
+5.4 Appropriate Scale that Scales Appropriately
+
+
+Successful organizations reach an appropriate scale in one geography, then divide and begin again somewhere else. Their growth is usually imagined as vertical: bigger, taller, more uniform. With YES, scale is horizontal: from one to many. Leadership follows the same decentralized model. Successful local solutions become recipes: document the steps, adapt them to local conditions, substitute ingredients as necessary, then let the solution travel. RestoreSix makes that transfer possible: a creek cleanup in Portland and a seed planting in Sacramento become comparable, then repeatable. Local is not the alternative to scale. It’s the smallest unit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Yes.
+RestoreSix.
+Local.
+
+
+________________
+6. Foundational Text: Molotov Alva and the Museum of Extraction
+
+
+  
+
+Molotov Alva and the Museum of Extraction is the foundational text of the YES Movement. Its narrative is built around these core principles: doing less bad is bad, nature thinks in wholes, the power of YES, taking local action, and the belief that ecological restoration can be defined and visualized using RestoreSix. The book is narrated by Molotov Alva, an avatar created by Douglas Gayeton for his 2007 HBO documentary. Nearly twenty years later, Alva returns to trace a path through 12,000 years of human extraction and the decisions and inventions that have produced today’s environmental chaos.
+
+
+That journey leads to the Museum of Extraction. It’s both setting and metaphor: a collection of the ideas, inventions, and choices that transformed nature into a resource to be consumed. But rather than ending in human indifference and ecological ruin, the book proposes a way forward, one built on restoring the planet across six interconnected domains: air, water, soil, biodiversity, equity, and climate. Molotov calls this RestoreSix.
+
+
+Can humanity stop being a force of extraction and become an agent of restoration? As the book closes, a global movement begins, uniting people and communities facing different challenges around a single word: YES. Scheduled for release in September 2026, the book will be released in a limited edition of 500 signed and numbered copies, available exclusively through the YES Movement website.
+
+
+7. Community Building: The YES Movement’s Online Platform 
+
+
+
+
+Environmental organizations seek funding to do their work and members to grow their movement. They also need storytelling that extends beyond their base and tools that express their impacts. The YES online platform provides all four.
+
+
+How it works: An organization decides to plant natives along a local creek for erosion control. They consult the YES Field Guide for methods others have documented, or build a new approach from their own plans. They announce the project on the YES Action Map, carry out the work, then log the completed action with documentation. It then appears on the map tagged to biodiversity, soil, and water. Six months later, a group two counties over filters the map by the domains they care about, finds the first organization, studies what they did, then decides to replicate it in their own town. They announce their own action, gain members through the map, and do the work. Their version is documented in the YES Field Guide beside the original, where a third group finds it and starts again somewhere else.
+
+
+Every step depends on the same thing: a common language and shared classifications for ecological restoration. Without it, the map is a directory, the Field Guide is a blog, and organization pages are profiles. RestoreSix is what makes them a system.
+
+
+
+
+7.1 Restore Icons: The Restoration Taxonomy
+
+
+[DESIGN NOTE: Two screens. First, show a wall of environmental icons. Second, show a detail of one icon along with its definition.]
+
+
+Are we on the same page? Do we see things eye to eye? People reach agreements and organizations find alignment faster by first sharing a common language. Environmental groups face the same challenge. Habitat restoration means oyster beds to one group and prairie grass to another. One group logs its work as streambank planting. A similar group fifty miles away calls it native revegetation. A third writes it up as erosion control. All three did the same work on the same kind of creek, yet their terminology has conspired against them: none of them will ever find each other.
+
+
+The Lexicon has spent years solving this challenge. Working with Google, Adobe, the Gates Foundation, and UN agencies, it developed Lex Icons, the world's largest peer-reviewed visual taxonomy for food, agriculture, and the environment. RestoreSix is built on this conceptual architecture. Taxonomies are more than a collection of terms or a glossary. They can embody consensus on the key terms and principles that define a group’s actions. That shared vocabulary is also what helps you find the right organization doing the right work, when and where you need it.
+
+
+
+
+
+
+
+
+7.2 RestoreSix 
+
+
+[DESIGN NOTE: Two screens. First, show a directory grid of organizations, the work they do, and the RestoreSix categories they focus on. Second, show a single organization with all six domains displayed, most lit up. The point is that one group's work registers across four domains when it is usually filed under one.]
+
+
+The  restoration taxonomy is expressed through visualization tools. Environmental organizations are usually portrayed along a single dimension. When their work is depicted fractionally as being clean-water work, forest conservation, or endangered-species protection, it discounts the benefits they deliver everywhere else. A group pulling invasive species is filed under biodiversity, but the same work stabilizes soil, improves water retention, and reduces fire risk. RestoreSix helps organizations visualize their positive impacts as wholes rather than fractions, which makes them more attractive to funders and findable by prospective members.
+
+
+7.3 Organizations
+
+
+[DESIGN NOTE: Show a single organization and their RestoreSix ranking. Depict location, number of members, years in operation, numbers of actions on the map, RestoreSix focus areas where they work.]
+
+
+Using the RestoreSix framework, organizations build a profile that shows their location, domains, current projects, logged actions, and impact to date, alongside videos, activist tools, and announcements of upcoming events. For most small organizations, this is the first impact record they’ve been able to produce without building the tool themselves. It is also where the map sends people, which makes it the first page a prospective member reads before deciding to join.
+
+
+7.4 YES Action Map
+
+
+[DESIGN NOTE: The  same organization is now on a map that features other organizations. The map is filterable by type of organization, RestoreSix focus area, number of members, and number of actions.]
+
+
+Organizations post their completed work and announce what they're doing next on the real-time YES Action Map, filterable by region and by RestoreSix domain. Because every action carries the same tags, the map does something a listing can’t: it shows how a solution that starts in one place takes hold in another, so a group can see not just what’s happening near them but where an idea has already traveled.
+
+
+The map is the platform’s most visible asset and its hardest to maintain. Organizations change, and some actions require local eyes to remain accurate. Two mechanisms help protect its integrity: partner organizations can correct and update their own entries, while new actions enter an approval queue where additional documentation can be requested before they appear.
+
+
+
+
+
+
+
+
+7.5 YES Field Guide
+
+
+[Two screens. The first is a searchable directory of actions, filterable by type of organization, region, and RestoreSix focus area. The second shows a single Action: a) the problem they faced; b) the solution they devised; c) the failures and successes encountered in implementation, treated as a recipe with ingredients; d) their success defined by RestoreSix impact areas; e) how they suggest scaling the action in other locations.]
+
+
+In most cases, we don't have a finding the solution problem. We have a distributing the solution problem. Successful actions come from trial and error. From learning what works and what doesn't. And from refining the approach until it holds. Documented properly, this becomes a recipe: the steps are recorded, ingredients are substituted as local conditions require, and the solution travels. The YES Field Guide stores these recipes, and records what failed alongside what worked, because the approach that didn't hold is often the more useful thing to know. Entries are indexed by the benefits they produce. Actions are community-generated and expert-reviewed, and impacts are assessed through RestoreSix, which lets a group in one town trust a solution posted by a group in another.
+
+
+7.6 YES Movement Building Toolkit
+
+
+[DESIGN NOTE: A searchable resource library of tools and tips, including video tutorials created by members of the community.]
+
+
+Knowing how to restore a watershed is not the same as knowing how to run the organization that does it. That knowledge gap is where most small organizations stall. The YES Activist Toolkit covers everything an organization needs to use the platform and run its own operation: explainers and onboarding guides for the platform itself, and tactical guidance on fundraising, audience building, and recruiting new members. Where the Field Guide documents how to do restoration work, the Toolkit documents how to do everything around it.
+________________
+8. Communications Strategy: Substack and YouTube Channels
+By design, the YES Movement meets people wherever they are. Online and in the real world. On the page. On the screen. On the street. The YES Online Platform is the movement’s core infrastructure, while Substack, YouTube, social media, changemakers, the book, and the Museum serve as acquisition and activation channels that bring people into it. Once on the platform, people can discover organizations, find opportunities to act, access tools and recipes, and see the impacts of their participation.
+
+
+8.1. YES Content Strategy
+
+
+The Lexicon is fluent across multiple storytelling platforms. It produces award-winning television shows (PBS, BBC, HBO), books (Random House, HarperCollins), and has hosted over 2,000 exhibits across the US. The YES content strategy is not aspirational. It is simply the work we already do, on subjects this team knows deeply and has produced on for years. It draws on The Lexicon's global community of freelance writers, art directors, videographers, and UX designers, already well-versed in the material, which reduces ramp-up time and staffing costs. Additional storytelling formats will include:
+
+
+* Impact Certificates and Online Courses
+* Podcasts
+* Articles and Interviews
+* Social Media Ephemera
+
+
+8.2 Substack as a Livestreaming Platform
+
+
+As a live-streaming venue, it hosts the weekly YES Field Guide show. Guests are drawn from the YES community. We meet the people behind the work, learn about the challenges they’ve overcome, and find inspiration to either join their work or launch actions of our own. The live recording is later transformed into clips, articles, and case studies that are cross-published on everything from YouTube to LinkedIn, and even on the Yes Platform itself. Josh Koppel and Zeldavision will manage this content network as an external contractor. 
+
+
+________________
+
+
+The YES Field Guide Show
+Sample Editorial Calendar
+
+
+Every successful organization moves people through a fundamental pathway: encountering the work, seeing its relevance, connecting with others doing it, taking action, assessing the impacts, then scaling what worked.
+
+
+ENCOUNTER  →  LOCALIZE  →  CONNECT  →  ACT  →  ASSESS  →  SCALE   [REPEAT]
+
+
+To help organizations build their movements, the YES Field Guide Show turns this pathway into a livestream/podcast series organized around six seasonal themes. Each two-month season features two episodes a week, on Tuesdays and Fridays. Every episode showcases one organization working primarily in a RestoreSix domain, rotating through air, water, soil, biodiversity, equity, and climate so each domain receives sixteen episodes over the year.
+
+
+Each season is built around a single question. The RestoreSix rotation gives organizations and sponsors a predictable editorial calendar months in advance. Episodes share lessons from successful organizations, and the final season generates the stories that begin the cycle again. 
+
+
+ [Sample organizations shown below.]
+
+
+
+
+Season 1 (Months 1 & 2)
+Encounter. Why does this matter?
+Nothing happens until someone encounters the organization, its story, or the problem it exists to solve. The encounter creates awareness and gives a person a reason to pay attention.
+
+
+	
+
+M1 Tu
+	
+
+Season Opener
+	
+
+RestoreSix
+	M1 Fr
+	Moms Clean Air Force
+	Air
+	M1 Tu
+	Waterkeeper Alliance
+	Water
+	M1 Fr
+	Kiss the Ground
+	Soil
+	M1 Tu
+	The Xerces Society
+	Biodiversity
+	M1 Fr
+	WE ACT for Env. Justice
+	Equity
+	M1 Tu
+	Carbon180
+	Climate
+	M1 Fr
+	Mid-Season Two Parter
+Physicians for Social Resp.
+Farmworker Assn. of Florida
+	
+
+Air
+Equity
+	M2 Tu
+	Clean Air Task Force
+	Air
+	M2 Fr
+	Riverkeeper
+	Water
+	M2 Tu
+	Rodale Institute
+	Soil
+	M2 Fr
+	Center for Bio. Diversity
+	Biodiversity
+	M2 Tu
+	Deep South Center for EJ
+	Equity
+	M2 Fr
+	Project Drawdown
+	Climate
+	M2 Tu
+	Community Episode
+	RestoreSix
+	M2 Fr
+	Season Close
+	RestoreSix
+	
+
+	
+
+	
+
+Season 2 (Months 3 & 4)
+
+
+Localize. Can I apply this where I live?
+Awareness becomes meaningful when people can connect the organization's mission to their own lives, communities, interests, or responsibilities. 
+
+
+	
+
+M3 Tu
+	
+
+Season Opener
+	
+
+RestoreSix
+	M3 Fr
+	Clean Air Council
+	Air
+	M3 Tu
+	American Rivers
+	Water
+	M3 Fr
+	Soil Health Institute
+	Soil
+	M3 Tu
+	National Audubon Society
+	Biodiversity
+	M3 Fr
+	GreenLatinos
+	Equity
+	M3 Tu
+	RMI
+	Climate
+	M3 Fr
+	Mid-Season Two Parter
+Alliance for the Great Lakes
+Holistic Management Intl.
+	
+
+Water
+Soil
+	M4 Tu
+	Coalition for Clean Air
+	Air
+	M4 Fr
+	Chesapeake Bay Foundation
+	Water
+	M4 Tu
+	Savory Institute
+	Soil
+	M4 Fr
+	Defenders of Wildlife
+	Biodiversity
+	M4 Tu
+	Soul Fire Farm
+	Equity
+	M4 Fr
+	Climate Central
+	Climate
+	M4 Tu
+	Community Episode
+	RestoreSix
+	M4 Fr
+	Season Close
+	RestoreSix
+	
+
+	
+
+	
+
+Season 3 (Months 5 & 6)
+Connect. Who is already doing the work?
+Relevance must lead to a relationship. People connect with an organization, a community, a leader, or others who share the same concern, transforming abstract interest into belonging and trust.
+
+
+	
+
+M5 Tu
+	
+
+Season Opener
+	
+
+RestoreSix
+	M5 Fr
+	Group Against Smog (GASP)
+	Air
+	M5 Tu
+	Save the Sound
+	Water
+	M5 Fr
+	Practical Farmers of Iowa
+	Soil
+	M5 Tu
+	Pollinator Partnership
+	Biodiversity
+	M5 Fr
+	Urban Tilth
+	Equity
+	M5 Tu
+	The Climate Reality Project
+	Climate
+	M5 Fr
+	Mid-Season Two Parter
+Native Plant Trust
+Michael Fields Ag. Institute
+	
+
+Biodiversity
+Soil
+	M6 Tu
+	Air Alliance Houston
+	Air
+	M6 Fr
+	Charles River Watershed
+	Water
+	M6 Tu
+	Pasa Sustainable Agriculture
+	Soil
+	M6 Fr
+	Monarch Joint Venture
+	Biodiversity
+	M6 Tu
+	Groundwork USA
+	Equity
+	M6 Fr
+	American Forests
+	Climate
+	M6 Tu
+	Community Episode
+	RestoreSix
+	M6 Fr
+	Season Close
+	RestoreSix
+	
+
+	
+
+Season 4 (Months 7 & 8)
+Act. What role can I play?
+A relationship becomes consequential when it produces action. What role can you play? How you join, volunteer, donate, purchase, organize, advocate, or otherwise contribute to the organization's mission.
+
+
+	
+
+M7 Tu
+	
+
+Season Opener
+	
+
+RestoreSix
+	M7 Fr
+	Env. Health Coalition
+	Air
+	M7 Tu
+	Friends of the LA River
+	Water
+	M7 Fr
+	Land Stewardship Project
+	Soil
+	M7 Tu
+	CA Native Plant Society
+	Biodiversity
+	M7 Fr
+	Little Village EJO
+	Equity
+	M7 Tu
+	Trees for the Future
+	Climate
+	M7 Fr
+	Mid-Season Two Parter
+Black Food & Justice Alliance
+Soil & Water Cons. Society
+	
+
+Equity
+Soil
+	M8 Tu
+	Utah Physicians (UPHE)
+	Air
+	M8 Fr
+	Trout Unlimited
+	Water
+	M8 Tu
+	Carbon Cycle Institute
+	Soil
+	M8 Fr
+	Point Blue Conservation
+	Biodiversity
+	M8 Tu
+	Alternatives for Community
+	Equity
+	M8 Fr
+	Citizens' Climate Lobby
+	Climate
+	M8 Tu
+	Community Episode
+	RestoreSix
+	M8 Fr
+	Season Close
+	RestoreSix
+	
+
+	
+
+	
+
+Season 5 (Months 9 & 10)
+Assess. What did we impact?
+Successful organizations demonstrate that those actions produced something of value. Measurement creates evidence, accountability, learning, and the proof that a participant's contribution actually mattered.
+
+
+	
+
+M9 Tu
+	
+
+Season Opener
+	
+
+RestoreSix
+	M9 Fr
+	Respiratory Health Assn.
+	Air
+	M9 Tu
+	Surfrider Foundation
+	Water
+	M9 Fr
+	Regeneration International
+	Soil
+	M9 Tu
+	Wild Farm Alliance
+	Biodiversity
+	M9 Fr
+	Ironbound Community Corp.
+	Equity
+	M9 Tu
+	350.org
+	Climate
+	M9 Fr
+	Mid-Season Two Parter
+The Solutions Project
+Central CA EJ Network
+	
+
+Climate
+Air
+	M10 Tu
+	Breathe California
+	Air
+	M10 Fr
+	AI2 & Skylight
+	Water
+	M10 Tu
+	American Farmland Trust
+	Soil
+	M10 Fr
+	Bat Conservation Intl.
+	Biodiversity
+	M10 Tu
+	UPROSE
+	Equity
+	M10 Fr
+	Rewiring America
+	Climate
+	M10 Tu
+	Community Episode
+	RestoreSix
+	M10 Fr
+	Season Close
+	RestoreSix
+	
+
+	
+
+	
+
+Season 6 (Months 11 & 12)
+Scale. How can I help good ideas travel?
+Evidence allows successful actions to be repeated, shared, funded, adapted, and expanded. Measured impact becomes a story that attracts new people, creating the next encounter and beginning the cycle again.
+
+
+	
+
+M11 Tu
+	
+
+Season Opener
+	
+
+RestoreSix
+	M11 Fr
+	CleanAIRE NC
+	Air
+	M11 Tu
+	The Freshwater Trust
+	Water
+	M11 Fr
+	No-Till on the Plains
+	Soil
+	M11 Tu
+	American Bird Conservancy
+	Biodiversity
+	M11 Fr
+	Asian Pacific Env. Network
+	Equity
+	M11 Tu
+	Evergreen Collaborative
+	Climate
+	M11 Fr
+	Mid-Season Two Parter
+Delaware Riverkeeper Network
+National Wildlife Federation
+	
+
+Water
+Biodiversity
+	M12 Tu
+	Neighbors for Clean Air
+	Air
+	M12 Fr
+	Ocean Conservancy
+	Water
+	M12 Tu
+	Quivira Coalition
+	Soil
+	M12 Fr
+	Wildlands Network
+	Biodiversity
+	M12 Tu
+	Communities for Better Env.
+	Equity
+	M12 Fr
+	Climate Justice Alliance
+	Climate
+	M12 Tu
+	Community Episode
+	RestoreSix
+	M12 Fr
+	Season Close
+	RestoreSix
+	
+
+	Inside a season
+
+
+Episode 1 opens the season by framing a question. Episode 8 is a mid-season cross-domain episode, pairing two organizations from different domains working on the same problem. Episode 15 is the community episode, drawn from Field Guide entries posted during the season. Episode 16 closes the season and hands off to the next. The remaining twelve slots rotate twice through the RestoreSix domains. Air, water, soil, biodiversity, equity, and climate each receive twelve episodes over the year.
+
+
+The episode format
+
+
+A.  The problem statement. How we got here. The specific local history, not the global one.
+B.  The solution. The recipe used to tackle it, and how it succeeded. Ingredients, steps, substitutions.
+C.  The impact. Which RestoreSix domain the initiative moved, and by how much.
+D.  From the fraction to the whole. The other RestoreSix domains touched by this intervention
+E.  Scaling success. An invitation to the YES community, pointed at the Field Guide entry and the map pin.
+
+
+________________
+
+
+8.3 Substack as Publishing Platform
+
+
+Substack works for YES in two distinct modes. As a publishing platform, it turns the online community into a contributor pool. Organizations and activists who have already documented a solution in the Field Guide can write it up as a story, which brings new audiences to their organization’s work and gives YES a steady supply of original content it does not have to commission. Articles also align with the show's six seasons, so written and streaming material surface answers to the same questions at the same time.
+
+
+8.4 Substack Partners and Audience Sharing 
+
+
+Substack's recommendation network lets publications recommend one another to their readers, making the audience a shared asset. YES will build reciprocal relationships with environmental, food-system, and place-based publications whose readers already care about the work but have no way to act on it locally. Every referred reader arrives one click from a map filtered to their own ZIP code.
+
+
+8.5 Cross-Publishing on Partner YouTube Channels
+
+
+Episodes and selected clips are offered to partner organizations for their own YouTube channels, with attribution back to YES. A partner gets professionally produced video about their own work at no cost, and YES reaches an audience that already trusts the partner. The RestoreSix tagging travels with each segment, so a clip published anywhere remains connected to the organization’s domains within the YES ecosystem.
+
+
+8.6 Social Distribution on LinkedIn and Instagram
+
+
+Posts on LinkedIn carry the institutional case to funders, agencies, and corporate partners. These posts include impact data, framework explainers, and short form video. Instagram carries the visual case to the general public. It may feature imagery from the book and the exhibition, before-and-after restoration work, and the people doing it. Both point to the same destination, and both draw from material already generated by the show and Substack rather than requiring separately commissioned content.
+________________
+
+
+The Museum of Extraction Experience
+
+
+Images from Molotov Alva and the Museum of Extraction.  
+
+
+
+
+________________
+
+
+9. Real World: The Museum of Extraction Experience
+
+
+The Museum of Extraction is the YES Movement’s flagship real-world activation experience. Like the book, Substack, YouTube, and the movement’s changemaker network, it creates encounters designed to lead people into the YES Online Platform, where those encounters become opportunities for local action. The experience is right-sized by scale and budget, and optimized in two formats.
+
+
+FORMAT A:  MOTHERSHIP INSTALLATION
+
+
+The flagship real world gravitational center of the YES Movement, designed to be experienced in person. It presents a compelling account of what 12,000 years of extraction has done to the planet, then concludes with an evocative call to action (say YES!) personalized to where you live (local) and what you care about most (RestoreSix). 
+
+
+9a.1 A Personalized Experience 
+
+
+Before entering, visitors are invited to personalize their experience through a mobile app. After providing their age, ZIP code, and the RestoreSix ecological benefits they care most about, geobeacons and QR codes deliver personalized text and audio as they move through the exhibition. Two people standing before the same interactive tableau can have entirely different experiences with the material.
+
+
+9a.2 Antecedents: How Did We Get Here? 
+
+
+The visitor enters a swirling tunnel of visuals and sound, a virtual time machine offering a compressed journey through 12,000 years of extraction. It reveals how humanity gradually transformed nature into a resource to be consumed. Drawing heavily from the book’s imagery, the tunnel moves from early agriculture and industrialization through fossil fuels, synthetic chemistry, the addictive nature of mass consumption, and the economic engine driving our culture of disposability. The message is clear: today’s crises did not appear suddenly. They are the accumulated consequences of choices made over thousands of years.
+
+
+9a.3 Reality Check: Where Are We Now? 
+
+
+The central body of the museum is a cavernous space filled with massive backlit images. These halls depict the consequences of the extractive system the visitor has just traveled through: climate disruption, biodiversity loss, degraded soils, polluted air, water scarcity, and social inequity. Rather than presenting these as separate crises, the experience reveals them as symptoms of breakdown within one interconnected natural system. The museum challenges fractional thinking, exposes the limits of doing less bad, and makes the case for restoration. Stops along this part of the visitor’s journey include:
+
+
+Nature Is Normal. A functioning natural world gradually gives way to degraded landscapes, polluted waters, and disappearing species, revealing humanity as the disruptive force.
+
+
+Weaving Spiders Come Not Here. An interactive gallery of illustrious robber barons and industrialists recounts their exploits, revealing how extractive capitalism transformed shared natural resources into private wealth.
+
+
+The Hall of Great Human Works. Monumental mines, dams, oil fields, clear-cuts, and machines inspire awe while exposing ecological destruction at industrial scale.
+
+
+Disposable. A celebration of convenience becomes a landscape of waste, showing that everything we throw away ultimately goes somewhere.
+
+
+Tales of Enlightened Extraction. The human cost of industrial progress comes into focus through families whose bodies bear the consequences of polluted air and unchecked development.
+
+
+The Awesome Power of Mother Earth. Wildfires, floods, rising seas, and other catastrophes become immersive entertainment, exposing our tendency to consume disaster while ignoring its causes.
+
+
+The Extinction Futures Market. A casino-like trading floor turns endangered species into financial assets, revealing the absurd endpoint of putting a price on nature.
+
+
+Last Migrations. Holographic animals return as ghosts of lost ecosystems, transforming spectacle into grief and opening the door to restoration.
+
+
+9a.4 Activation: What Happens Next? 
+
+
+The exit experience shifts abruptly from diagnosis to possibility. Most museums inform and energize their visitors, yet fail to offer the next step: how to turn passion into action. But not the Museum of Extraction.
+
+
+Leaving the central hall, visitors enter another tunnel. This one is filled with digital static and distorted, chaotic sounds, punctuated by computer beeps and bleats. Light abruptly gives way to darkness. From cacophony comes quiet, then a single voice speaks. Your operating system has malfunctioned, it intones quietly. The planet requests your immediate reboot. 
+
+
+Emerging from the tunnel, visitors discover a message waiting in their app. The YES online platform is a matchmaker. It has translated the visitor’s age and ZIP code and RestoreSix interests into opportunities to engage with local organizations doing work they care about, in the place where they live. The visitor leaves not only knowing more, but with a pathway to follow: encounter, localize, connect, act, assess, and help successful ideas travel.
+
+
+________________
+
+
+FORMAT B:  POP-UP EXHIBITS 
+
+
+In most cases, people working at ground level already know what needs to be done and the resources required to do it. What they lack are members, funding, and a way to tell their story. They want people to know they aren’t alone and that their actions matter. Most importantly, they need to believe that global challenges are best addressed by starting in their own communities.
+
+
+Douglas Gayeton’s last book, Local, grew out of his work with community farming groups from Walla Walla, Washington to Salina, Kansas. That work created an informal network that helped The Lexicon stage more than 2,000 pop-up exhibitions on sustainability across the United States, each organized with local curators. Collectively, those exhibitions reached an audience in the millions. The Museum of Extraction’s traveling pop-ups will use the same model. Locally curated. Place-based. Designed to turn a global story into local action.
+
+
+9b.1 Pop-Ups
+
+
+Traveling pop-ups are smaller, place-based versions of the Museum of Extraction designed to move easily from city to city. Lighter and less expensive than the mothership installation, each pop-up introduces the core concepts of RestoreSix while combining select exhibition elements with locally relevant stories from organizations working in the surrounding community. 
+
+
+Because the format is modular and portable, the exhibition can travel by flatbed truck, with components housed in modified shipping containers. The show can be presented as a complete experience or broken into components designed for rapid deployment at high-traffic locations. Wherever it goes, each stop generates local participation, allowing the Museum of Extraction to travel farther, activate more communities, and extend the YES Movement.
+
+
+9b.2 Locally Curated
+
+
+Two months before the exhibit appears, the YES Movement team begins mapping the region’s ecosystem of environmental organizations. This preliminary outreach identifies the groups already taking action and the RestoreSix ecological benefits created by their work. The most active organizations are then convened and introduced to the Museum of Extraction, the YES Movement online platform, and the RestoreSix framework. An Action Map is created to chart their work, and participating organizations are invited to join the online platform. Together, these organizations form a local curatorial committee that helps adapt the exhibit to the community: its places, its challenges, its organizations, and its opportunities for action.
+
+
+By the time the pop-up opens, it arrives as an immersive experience shaped and owned by the very people already doing the work.
+
+
+________________
+10. Target Audiences
+
+
+The YES Movement serves three audiences. Organizations provide opportunities to act. Changemakers bring passionate followers. The General Public brings participation. RestoreSix connects these contributions and their impacts through a common framework, and the YES online platform brings greater visibility to successful local actions, accelerating scale.
+
+
+10.1 Environmental Organizations
+
+
+Environmental organizations are the YES Movement’s delivery network. YES does not replace the organizations already doing restoration work. It gives them tools, visibility, members, knowledge, and a common framework for demonstrating their impacts. They provide the opportunities through which YES participants turn interest into action.
+
+
+Consider a group removing invasive species. Funders may classify that work as biodiversity enhancement, even though the same action can stabilize soil, improve water retention, reduce fire risk, and strengthen ecosystem resilience. When an action is defined by a quarter of what it delivers, its value is underestimated and the funding it deserves often fails to follow. RestoreSix makes those connections visible at scale.
+
+
+The YES Online Platform provides organizations with the movement’s core tools and infrastructure, while the Museum of Extraction, Field Guide Show, Substack, YouTube, and changemakers expand their reach and bring new participants to their work. The Action Map locates an organization’s work by geography, so people can find it. RestoreSix describes its ecological impacts across domains. The platform introduces them to prospective members, partners, funders, and peer organizations. The Field Guide then helps organizations recruit participants, launch actions, document results, and publish what worked. A successful local action becomes a recipe others can adapt, allowing solutions to travel horizontally from one community to the next.
+
+
+In return, organizations supply the movement's most important resource: real work happening in real places. They log actions, document impacts, share what works, and welcome the members routed to them. That exchange is the platform's central value. Nothing downstream happens without it.
+
+
+10.2 Changemakers
+
+
+Changemakers have attention and reach. The YES platform directs their followers toward tangible actions. RestoreSix gives them credibility they cannot manufacture: referencing a framework used by multilateral development banks and international agricultural research centers is a different kind of endorsement than a hashtag, and it answers the common charge that their advocacy is more passionate than well-informed. 
+
+
+The Field Guide Show gives them material to share, including interviews, actions, stories, and documented outcomes. It also gives changemakers opportunities to appear on the show themselves, expanding their own audience while introducing followers to the movement.
+
+
+The Action Map addresses their hardest problem: not simply what to tell people to do, but where to do it. Changemakers can direct followers to specific organizations near where they live, with real actions and dates already on the calendar. YES provides the local opportunity waiting at the end of the link.
+
+
+In return for these tools, changemakers deliver reach the YES Movement cannot buy, and ground-level legitimacy with people who will never read a business plan (like this one!).
+
+
+10.3 The General Public
+
+
+People have climate fatigue. They don’t want more explanations about why the planet is about to go up in flames. It's not that they don’t care. It’s that the problem is too massive. Too insurmountable. Too far away. They seek answers to a much simpler question: What can I do where I live? Instead of writing a monthly check to address abstract problems halfway across the globe, they want a Saturday where tons of plastic debris are removed to restore a local beach. Improving the place they call home.
+
+
+The Field Guide livestream/podcast show offers one starting point. In Year 1, it will feature nearly 100 organizations across the globe developing practical actions at the local level, not just addressing the climate crisis, but working across all RestoreSix domains. The show educates by example, offering recipes for solutions that can be adapted someplace else.
+
+
+The YES online platform turns that interest into an address. While the Field Guide provides ideas and insights, the Action Map asks for a ZIP code. The crisis goes from happening everywhere to happening at a place they can drive to on Saturday. The online platform also gives people a reason to stay after the first action, showing what their participation accomplished. Along the way, they learn what else is happening nearby and where they can contribute next.
+
+
+The public supplies the movement with participation. They show up and take part. When they document what happened and turn individual actions into visible collective impact, that story brings the next person in. This is how YES works. Movements begin when concern turns into action. 
+
+
+10.4 Audience Acquisition
+
+
+The Lexicon is highly skilled in mobilization and movement building. It created Reawakened, the first global collective action to safeguard agrobiodiversity, bringing together hundreds of organizations. The work crystallized at the 2nd International Congress on Agrobiodiversity in Kunming, China, where its Ten Principles for Agrobiodiversity were ratified by a delegation of international experts. 
+
+
+This work led to Can You Change the Future?, an initiative funded by Google. It brought together 1,000 companies, UN agencies, and NGOs under NDA to develop innovative solutions across fields ranging from Food is Medicine and regenerative agriculture to single-use plastics and dietary guidelines. That work resulted in new nonprofits, open-source tools for sustainable food sourcing, and the foundation that eventually became RestoreSix.
+
+
+The YES Movement builds on this expertise. The Lexicon already knows how to convene organizations around a shared framework, turn complex issues into consensus-led programs, and move large networks from conversation to collective action. YES applies that model at a far greater scale, connecting organizations, changemakers, and the public in a single system designed to convert attention into participation.
+
+
+________________
+
+
+11. Competitive Analysis
+
+
+
+
+The most perspective-shifting initiatives don't live in one dimension or one place. They meet people wherever they are. The five organizations below overlap with the YES Movement, and each addresses part of our Theory of Change. None connects an emotional encounter to a local organization to a measured outcome and back into content. That connective layer, not a better tool in any one category, is the YES Movement's claim.
+
+
+  
+
+
+
+              The YES 
+              Ecosystem
+	Mongabay
+Environmental news platform
+	Climate One
+Podcast + live media series
+	Heal the Bay
+Environmental NGO
+	Pattie X
+Social media influencer
+	Restor
+Impact mapping 
+	YES Movement
+Integrated action + storytelling
+	A Book
+Founding narrative and acquisition engine
+	–
+	–
+	–
+	–
+	–
+	●
+	YES Online Platform
+Core infrastructure connecting people, organizations, actions, tools, and impact
+	–
+	–
+	–
+	–
+	●
+	●
+	RestoreSix
+An impact visualization framework comparable across organizations
+	–
+	–
+	–
+	–
+	●
+	●
+	RestoreIcons
+A shared visual taxonomy, so different groups describe the same work the same way
+	–
+	–
+	–
+	–
+	–
+	●
+	The Action Map
+Connects an individual to specific work near where they live
+	–
+	–
+	●
+	–
+	●
+	●
+	The Field Guide
+Documented, transferable how-to, 
+including what failed
+	●
+	–
+	●
+	●
+	–
+	●
+	Field Guide Live
+Sustained episodic storytelling to a mass audience
+	●
+	●
+	●
+	●
+	–
+	●
+	YES on Substack
+Original published writing that carries the argument in depth
+	●
+	●
+	●
+	●
+	●
+	●
+	Museum of Extraction
+Flagship physical activation experience routing visitors to local action through the platform 
+	–
+	–
+	–
+	–
+	–
+	●
+	 ●  The organization:  ●  holds this asset     –  sits outside their model
+________________
+
+
+12. The YES Ecosystem: Roadmap
+
+
+The YES ecosystem develops in three phases. In Phase I, 100 founding organizations grow their memberships, design actions, and run successful operations. This teaches the platform and helps to define a common language. Phase II opens the system to broader participation. Phase III distributes production, programming, and governance across the network. 
+
+
+
+
+	Year 1
+	Year 2
+	Year 3
+	Year 4
+	FTE
+	
+
+Phase I: Building the Foundation
+	
+
+	Restoration Taxonomy
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	0.25
+	RestoreSix Impact Visualization Tools
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	0.25
+	Organization Profiles and Directory
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	0.67
+	The Action Map
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	0.83
+	The Field Guide
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	0.83
+	Action Recipe Maker
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	0.88
+	Practice Corpus
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	1.00
+	Partner Organization Onboarding
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	2.17
+	Field Guide Live
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	5.42
+	YES on Substack
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	1.08
+	Leadership
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	2.50
+	
+
+	
+
+	Phase II: Opening the Doors
+	
+
+	Open Enrollment
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	0.50
+	Museum of Extraction
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	3.75
+	Satellite Exhibits
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	2.17
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	RestoreSix Impact Dashboard
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	1.88
+	AI-Assisted Onboarding
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	1.12
+	Partner Growth
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	2.50
+	Field Guide Live
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	3.75
+	YES on Substack
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	1.25
+	Leadership
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	2.50
+	
+
+
+
+Phase III: Scaling Horizontally
+	
+
+	Satellite Exhibit Kit
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	0.75
+	Satellite Exhibits
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	4.50
+	AI Action Advisor
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	3.00
+	RestoreSix Impact Advisory
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	–
+	The Field Guide Book
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	1.50
+	Stewardship Council
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	–
+	Donation Function
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	–
+	Independent Incorporation
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	–
+	Field Guide Live
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	3.75
+	YES on Substack
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	1.50
+	Leadership
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	3.00
+	
+
+
+
+
+
+         
+________________
+  Phase I: Building the Foundation
+
+
+
+
+
+
+Community: YES Platform
+	Timing
+	Staffing
+	RestoreSix Impact Visualization Tools
+Design and Implementation of a universal visualization framework comparable across organizations and actions
+	Months 2–4
+	0.5 Data Lead
+0.5 Engineer
+Contracted Domain Advisors
+	Organization Profiles And Directory
+Design and Implementation
+	Months 2–5
+	1.5 Engineers
+0.5 Designer
+	The Action Map
+Design and Implementation of an interactive filterable map connecting individuals to organizations and actions 
+	Months 3–7
+	1.5 Engineers, One Geospatial
+0.5 Designer
+	The Field Guide
+Design and Implementation of a filterable real-time organization and action knowledge base
+	Months 4–8
+	1.0 Engineer
+0.5 Designer
+0.5 Content Architect
+	Action Recipe Maker (Activist Toolkit)
+Interactive tools that guide individual organizations in creating actions or achieving scale for their organization
+	Months 6–12
+	0.5 Engineer
+1.0 Content Producer
+	Practice Corpus
+Structured capture of how founding organizations grow membership, design actions, and measure results, tagged to the taxonomy for use as training data for Phase III
+
+
+	Months 4–15
+	0.5 Data Lead
+0.5 Content Architect
+	Partner Organization Onboarding
+Recruitment and support for bringing the first 100 organizations onto the platform
+	Months 3–15
+	1.0 Partnerships Lead
+1.0 Onboarding Coordinator
+	
+
+
+
+Communication: Substack, YouTube, Social
+	
+
+	
+
+	Field Guide Live
+100 episodes of sustained episodic storytelling to a mass audience twice weekly
+
+
+	Months 3–15
+	0.5 Showrunner
+1.0 Producer 
+1.0 Booker
+2.0 Editors
+0.5 Host
+	YES on Substack
+Original published writing that carries the argument in depth
+	Months 3–15
+	1.0 Editor
+Partner-Contributed Pieces
+	________________
+
+
+Phase II: Opening the Doors
+
+
+The platform releases tools that invite organizations and influencers to join the platform. The tentpole Museum opens, and the exhibition begins to travel. The Field Guide Live podcast series moves from twice weekly to weekly, and that reduction is what pays for the touring operation. Whereas Phase I focuses on assembling 100 partner organizations and recording 100 podcast episodes, Phase II deepens the community and builds a library of eco-actions. 
+
+
+Community: YES Platform
+	Timing
+	Staffing
+	Open Enrollment
+Any organization can join the platform. The approval queue shifts from curation to moderation at volume
+	Months 16–18
+	1.0 Engineer
+1.0 Community Manager
+	Museum of Extraction
+The flagship physical activation experience, converting visitors into YES participants and routing them through the online platform to local organizations and actions
+	Opens Month 16
+	1.0 Exhibition Director
+2.0 Operations
+	Satellite Exhibits
+Three locally curated pop-up shows, each preceded by two months of regional organization mapping
+	Months 18–30
+	1.0 Consulting Producer
+1.0 Local Curation Lead
+	RestoreSix Impact Dashboard
+Impact visualization for individuals and organizations, moving from expert validation to public release
+	Months 16–24
+	1.0 Data Lead
+1.5 Engineers
+	AI-Assisted Onboarding
+Patterns drawn from the founding hundred, packaged so a new organization arrives to a proven starting point rather than a blank profile
+	Months 18–26
+	1.0 Engineer
+0.5 Content Architect
+	Partner Growth
+From the 100 founding partners to an open cohort, recruited increasingly by partners rather than by staff
+	Months 16–30
+	1.0 Partnerships Lead
+1.0 Community Manager
+	
+
+
+
+Communication: Substack, YouTube
+	Timing
+	Staffing
+	Field Guide Live
+Weekly, roughly 52 episodes a year, drawn from the open cohort rather than a curated list
+	Months 16–30
+	0.5 Showrunner
+1.0 Producer and Booker
+1.0 Editor
+0.5 Host
+	YES on Substack
+Continues, with a rising share written by partner organizations
+	Months 16–30
+	1.0 Editor
+Partner-Contributed Pieces
+	________________
+Phase III: Scaling Horizontally
+
+
+YES scales horizontally, from one to many. The accumulated corpus of learning  from Phases I and II results in AI-powered tools that help users create customized, geographically-specific actions fit to the size and skills of an organization. The satellite exhibition becomes a kit partners deploy themselves, with roughly one opening a month, which is only achievable if the exhibition travels as a kit rather than as a tour. On the platform, action recipes authored by partners and scaled by other members. Governance is distributed.
+
+
+Community: YES Platform
+	Timing
+	Staffing
+	Satellite Exhibit Kit
+Modular containers, exhibit specification, and curatorial playbook, so partners deploy pop-ups themselves rather than YES touring them
+	Months 31–36
+	1.0 Exhibition Designer
+0.5 Engineer
+	Satellite Exhibits
+Twelve locally curated deployments, roughly one opening a month, three or four in preparation at any time
+	Months 31–48
+	1.0 Touring Producer
+2.0 Regional Coordinators
+	AI Action Advisor
+Trained on the practice corpus, it helps a person or organization build their own action. The payoff for everything captured in Phases I and II
+	Months 31–42
+	1.0 ML Lead
+1.5 Engineers
+0.5 Data Lead
+	RestoreSix Impact Advisory
+AI-driven impact visualization and action advisory tools for individuals and organizations, moving from expert validation to public release
+	
+
+	
+
+	The Field Guide Book
+Recipes written by partner organizations are collected, edited, and published.
+	Months 31–42
+	0.5 Content Architect
+1.0 Editor
+	Stewardship Council
+Distributed governance with partner authority over taxonomy and standards. The leaderless structure the movement claims
+	Months 31–36
+	Co-Directors
+Contracted Counsel
+	Donation Function
+Ability for users to provide financial support for organizations, actions, and environmental litigation 
+	Months 31–42
+	1.0 Engineer
+0.5 Data Lead
+	Independent Incorporation
+Review and transition from fiscal sponsorship to an independent entity
+	Months 42–48
+	Co-Directors
+Contracted Counsel
+	
+
+
+
+Communication: Substack, YouTube
+	Timing
+	Staffing
+	Field Guide Live
+Weekly, increasingly partner-hosted and regionally produced. Additional shows for new audiences.
+	Months 31–48
+	0.5 Showrunner
+1.0 Producer and Booker
+1.0 Editor
+	YES on Substack
+Majority partner-contributed, edited rather than commissioned
+	Months 31–48
+	1.0 Editor
+Partner-Contributed Pieces
+	________________
+
+
+13. Adoption and Scale
+
+
+In Phase III, the accumulated corpus of learning results in AI-powered tools that help users create customized, geographically-specific actions fit to the size and skills of an organization. The platform launches by hand-selecting 100 founding partner organizations across months 3 to 15, after which enrollment opens to any organization. That first hundred does not happen through inbound interest. This section describes how they are reached, by whom, and how the movement measures whether any of it worked.
+
+
+13.1  Audience Acquisition Channels
+
+
+
+
+Channel
+	Mechanism
+	Expected contribution
+	RestoreSix Community
+	Direct outreach to organizations already engaged with The Lexicon's framework
+	The founding cohort. Warm, fast, and pre-aligned on taxonomy.
+	Field Guide Podcast
+	Audience building through content distributed across Substack and YouTube
+	The awareness channel. Organizations approach YES having already seen peers featured.
+	Influencer Podcast Aggregation
+	Selected Eco-Influencers host a series of podcasts designed to create ongoing dialogs with activist organizations working across RestoreSix domains
+	The borrowed-audience channel. Reach YES cannot buy, pointed at named organizations.
+	Substack Articles
+	Domain experts from the Yes Community write articles about their work across all RestoreSix domains
+	The peer channel. Partners recruit partners by publishing their own work.
+	National Intermediaries
+	Partnerships with regional organizations and associations, funder collaboratives, and issue-oriented networks that already convene many small organizations
+	The scaling channel. One relationship yields many organizations.
+	Satellite Exhibit
+Preproduction
+	Every pop-up exhibit identifies key organizations in the region across the six domains
+	Geographically concentrated recruitment tied to a concrete local event.
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13.2  Partner Network
+
+
+Partner organizations join at one of the three tiers set out in Section 13.2. The tiers carry different commitments, so they are reported separately. Only Active and Anchor partners commit to logging actions, and it is that group, rather than the total, that produces the volume in Section 13.3.
+Partner tier
+	Year 1
+	Year 2
+	Year 3
+	Listed, verified profile only
+	125
+	5005
+	1,625
+	Active, logs actions quarterly
+	80
+	300
+	750
+	Anchor, logs actions and co-produces content
+	20
+	75
+	125
+	Total onboarded
+	100
+	500
+	2,500
+	Logging partners, Active and Anchor
+	100
+	375
+	875
+	
+
+The plan includes a Partnerships Lead and an Onboarding Coordinator in months 3 to 15. Until those roles are filled, recruitment falls to the two co-directors, who are simultaneously fundraising and producing content. That is the single most optimistic assumption in the operating plan.
+
+
+13.3 Audience and Impact Metrics
+
+
+The YES Movement asks organizations to measure their impact. It must hold itself to the same standard. Its Theory of Change provides the measurement pathway: encounter, localize, connect, act, assess, and scale. The central question is whether YES converts attention into local action, visible ecological impact, and replication.
+Impact Pathway
+	
+
+	Metric
+	Year 1
+	Year 2
+	Year 3
+	Encounter
+	
+
+	People who encounter YES
+	250,000
+	900,000
+	2,000,000
+	Localize
+	
+
+	People who identify their location and RestoreSix priorities
+	20,000
+	250,000
+	500,000
+	Connect
+	
+
+	People routed to a local organization or action
+	12,000
+	150,000
+	300,000
+	Act
+	
+
+	People who participate in a local action
+	5,000
+	76,000
+	150,000
+	Assess
+	
+
+	Completed actions with documented RestoreSix impacts
+	500
+	2,000
+	7,500
+	Scale
+	
+
+	Successful actions replicated in another community
+	25
+	240
+	1000
+	
+
+These are targets, not forecasts. Each impact pathway stage follows from the one above it. Roughly four percent of those who encounter YES localize; a little over half of those are routed to an organization; about a third of those take part in an action. Replication rises from five percent of documented actions in Year 1 to sixteen percent in Year 3, which is the plan working as intended.
+
+
+________________
+13.4 Platform and Ecosystem Health
+
+
+Metrics tracking the size and operating capacity of the ecosystem supporting each impact pathway. NB: The Museum opens in month 16, which is why Year 2 carries the largest single jump in encounter volume. Activation is the share of visitors who leave with a local organization matched to them, and it is the figure that determines whether the exhibition earns its capital cost.
+
+
+Metric
+	Year 1
+	Year 2
+	Year 3
+	Partner organizations onboarded
+	100
+	500
+	2500
+	Organizations engaging with content monthly
+	250
+	700
+	1,500
+	Action Map entries
+	500
+	2,000
+	5,500
+	Field Guide episodes published
+	100
+	150
+	200
+	Articles published
+	100
+	400
+	1,000
+	Museum visitors, tentpole and satellites
+	–
+	300,000
+	1,000,000
+	Museum visitor-to-activation rate
+	–
+	4%
+	5%
+	
+
+
+
+
+
+________________
+14. Risk Analysis
+
+
+Ordered by impact rather than by sequence. Each mitigation names an action with an owner or a deadline elsewhere in this plan. NB: Adoption is the only entry rated Critical. If organizations do not adopt the tools, then the map, the Field Guide, and the restoration practice corpus that the advisory system depends on will never collect actionable data. This is a Phase I obstacle and will therefore be the primary challenge overcome.
+
+
+Risk
+	        Rating
+	Mitigation
+	Organizations do not adopt the RestoreSix Impact Tools
+	Critical
+	Reduce Onboarding to under 15 minutes. Provide concierge service for important organizations. Add dedicated partnerships staff from year one
+	AI Action Advisory tool  proves unreliable
+	High
+	Create expert validation gates and approval queues before public release. Be willing to amend scope and predictive abilities of advisory system
+	Museum capital costs 
+exceed projections
+	High
+	Prototype the satellite format first. Secure sites and on-the-ground organizational partnerships before committing to design. Phase tentpole construction
+	Litigation donation function creates legal exposure
+	High
+	Counsel review before year two. Separate vehicle if required
+	Allen AI partnership lapses
+	High
+	Document scope, term, and data ownership. Maintain a documented fallback architecture
+	Book is framed as an AI book
+	Medium
+	Limited release. Controlled first audience. Positioning discipline in all press
+	Funding arrives for only some components
+	Medium
+	Component independence by design. The platform framed as the base ask
+	Restrictive gift policy limits the fundable pool
+	Medium
+	Bright-line definition adopted early, so the constraint is known rather than discovered mid-negotiation
+	Content cadence proves unsustainable
+	Medium
+	Fund a dedicated editorial contractor or reduce cadence to a rate that holds
+	
+
+
+
+________________
+15. Staffing Plan
+
+
+The YES Movement doesn’t start from zero. Its founding team brings its expertise and professional networks to bear on the two capabilities the plan depends on most: a proven ecological framework and demonstrated experience mobilizing at national scale.
+
+
+
+
+Principal
+	Role and scope
+	Related work
+	Douglas Gayeton
+The Lexicon
+	Head of Editorial
+Editorial content; strategic editorial partnerships; original content production
+	Co-founder of The Lexicon, a US-based nonprofit focused on food, agriculture, and the environment. It creates award-winning shows for HBO, PBS, and BBC, publishes books, and has mounted 2,500 exhibits of its work across the United States. Over its fifteen-year relationship with Google, The Lexicon has aligned more than 1,000 organizations around a common framework for ecological impacts and restoration, now used by multilateral banks, biodiversity markets, international organizations, and across CGIAR's twelve global research centers with support from the Gates Foundation.
+	Reuben Steiger
+Entrepreneur and strategist
+	Head of Product
+Online platforms; technology partnerships; YES Field Guide; taxonomy; AI integration
+	A writer and entrepreneur who has spent twenty-five years using interactive technology to build communities. He helped start Second Life, bringing the first wave of companies onto the platform, and was Chief Development Officer at OVEN Digital, which he helped build into the world's largest privately owned internet consultancy. He has led global innovation for Interpublic and Omnicom. At the YES Movement he is the architect of the platform, the Field Guide, and the Formula taxonomy.
+	Josh Koppel
+Interactive producer
+	Head of Streaming
+Substack, YouTube, and social media content
+	A digital pioneer at the forefront of innovations ranging from e-books to interactive games, Josh has designed and produced the livestreaming infrastructure for major national mobilizations that have reached millions of participants across thousands of simultaneous local events., including No Kings, The Contrarian, and The Lincoln Project.  
+	
+
+15.1  Notes on Staffing, By Phase
+
+
+Phase I, Months 1 to 3 open with the Taxonomy Lead, Icon Designer, the first engineers, and the Data Lead, because the taxonomy must exist before any organization logs an action. Phase I, Month 3 adds the Partnerships Lead, Onboarding Coordinator, Showrunner, Producer, and Booker, since recruitment and booking run a month ahead of the first episode. Phase I, Month 4 adds the editing bench, the host, the Substack editor, and the Content Architect. Phase II hires against the Museum opening and open enrollment: Exhibition Director and operations at month 16, Touring Producer and Local Curation Lead at month 18. Phase III hires against the advisory system and the exhibit kit: ML Lead, Exhibition Designer, Deployment Lead, and Regional Coordinators, all at month 31.
+
+
+15.2 Technology Partnership
+
+
+Allen AI serves as a backend technology partner for the platform. The partnership will include commitments on scope and support.
+15.3  Organization Chart
+
+
+Every role below is drawn from the Roadmap PhaseTables in Section 12. Staffing is deliberately thin and contractor-heavy, leveraging The Lexicon's existing freelance community. Phase I runs months 1 to 15, Phase II months 16 to 30, Phase III months 31 to 48.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+________________
+
+
+15.4 Team by Function
+
+
+Function
+	Role
+	Phase I
+	Phase II
+	Phase III
+	YES Platform
+	Engineers
+	5.0
+	3.5
+	2.0
+	
+
+	Data Lead
+	1.0
+	1.0
+	0.5
+	
+
+	ML Lead
+	–
+	–
+	1.0
+	
+
+	Product Designer
+	1.5
+	–
+	–
+	
+
+	Taxonomy Lead
+	0.5
+	–
+	–
+	
+
+	
+
+	
+
+	
+
+	
+
+	Content + Comms
+	Showrunner
+	0.5
+	0.5
+	0.5
+	
+
+	Producer
+	1.0
+	1.0
+	1.0
+	
+
+	Booker
+	1.0
+	–
+	–
+	
+
+	Video Editors
+	2.0
+	1.0
+	1.0
+	
+
+	Host
+	0.5
+	0.5
+	–
+	
+
+	Substack Editor
+	1.0
+	1.0
+	1.0
+	
+
+	Book Editor
+	–
+	–
+	1.0
+	
+
+	Content Architect
+	1.0
+	0.5
+	0.5
+	
+
+	Content Producer
+	1.0
+	–
+	–
+	
+
+	
+
+	
+
+	
+
+	
+
+	Community
+	Partnerships Lead
+	1.0
+	1.0
+	–
+	
+
+	Onboarding Lead
+	1.0
+	–
+	–
+	
+
+	Community Manager
+	–
+	2.0
+	–
+	
+
+	
+
+	
+
+	
+
+	
+
+	Exhibition
+	Exhibition Director
+	–
+	1.0
+	–
+	
+
+	Exhibition Operations
+	–
+	2.0
+	–
+	
+
+	Touring Producer
+	–
+	1.0
+	1.0
+	
+
+	Local Curation Lead
+	–
+	1.0
+	–
+	
+
+	Exhibition Designer
+	–
+	–
+	1.0
+	
+
+	Regional Coordinators
+	–
+	–
+	2.0
+	
+
+	
+
+	
+
+	
+
+	
+
+	Additional
+	Co-Directors
+	2.0
+	2.0
+	2.0
+	
+
+	Expert Review Panel
+	Contracted
+	–
+	–
+	
+
+	Domain Advisors
+	Contracted
+	–
+	–
+	
+
+	Legal Counsel
+	–
+	–
+	Contracted
+	Total
+	Listed FTE
+	20.5
+	19.0
+	14.5
+	
+
+A dash means the role is not staffed in that phase. Contracted roles are costed as engagements in Section 16 rather than carried as FTE.
+________________
+16. Budget and Financial Model
+
+
+This financial model extends through Month 48, with Year 4 representing a scale phase rather than part of the initial funding request. Year 4 costs, including satellite exhibit deployments and continued development of the advisory system, will be financed separately through follow-on philanthropy, earned revenue, licensing, and other sources developed during Years 1 through 3. NB: The dollar amounts are placeholders to be costed before this plan goes to funders. 
+
+
+16.1  Staffing by Year
+
+
+Derived from the Roadmap Phase Tables in Section 12 and the roles in Section 15. Figures are FTE-years, not headcount, and include both inhouse and contracted work. The roadmap runs four years and so does this table. NB: Peak FTE is the largest number of people working in any single month of the year. It governs onboarding and management load, which an annual average conceals.
+Year
+	Months
+	Coverage
+	FTE-years
+	Peak FTE
+	Year 1
+	1–12
+	Phase I build and the first editorial block
+	13.1
+	18.0
+	Year 2
+	13–24
+	Phase I closes; Phase II opens with the Museum
+	15.4
+	19.0
+	Year 3
+	25–36
+	Phase II closes; Phase III opens
+	14.0
+	14.5
+	Year 4
+	37–48
+	Phase III: twelve satellites and the advisory system
+	10.8
+	13.0
+	Total
+	
+
+	
+
+	53.3
+	19.0
+	
+
+16.2 Staffing Cost Basis by Function
+
+
+A loaded rate applied to each function below produces the staff and contractor line in the expense summary that follows. All four years of the roadmap are costed here, including Year 4.
+
+
+Function
+	Year 1
+	Year 2
+	Year 3
+	Year 4
+	Total
+	YES Platform
+	3.29
+	2.83
+	1.92
+	1.50
+	9.54
+	Content + Comms
+	6.17
+	4.92
+	4.58
+	4.25
+	19.92
+	Community
+	1.67
+	2.25
+	1.00
+	–
+	4.92
+	Exhibition
+	–
+	3.42
+	4.50
+	3.00
+	10.92
+	Leadership
+	2.00
+	2.00
+	2.00
+	2.00
+	8.00
+	Additional
+	–
+	–
+	–
+	–
+	–
+	Total
+	13.12
+	15.42
+	14.00
+	10.75
+	53.29
+	
+
+[Additional covers the contracted expert review panel, domain advisors, and legal counsel, to be costed as engagements rather than as FTE]
+
+
+________________
+
+
+16.3  Expense Summary
+
+
+Category
+	Year 1
+	Year 2
+	Year 3
+	Total
+	Platform Development
+	$XXX,XXX
+	$XXX,XXX
+	$XXX,XXX
+	$X,XXX,XXX
+	Editorial And Content Production
+	$XXX,XXX
+	$XXX,XXX
+	$XXX,XXX
+	$X,XXX,XXX
+	Substack And Broadcast (Zeldavision)
+	$XXX,XXX
+	$XXX,XXX
+	$XXX,XXX
+	$XXX,XXX
+	Book Production And Fulfillment
+	$XX,XXX
+	$XX,XXX
+	$XX,XXX
+	$XXX,XXX
+	Museum: Tentpole
+	—
+	$X,XXX,XXX
+	$XXX,XXX
+	$X,XXX,XXX
+	Museum: Satellites
+	—
+	$XXX,XXX
+	$XXX,XXX
+	$XXX,XXX
+	Staff And Contractors
+	$XXX,XXX
+	$XXX,XXX
+	$XXX,XXX
+	$X,XXX,XXX
+	Fiscal Sponsorship Fee
+	$XX,XXX
+	$XX,XXX
+	$XX,XXX
+	$XXX,XXX
+	Evaluation And Expert Validation
+	$XX,XXX
+	$XX,XXX
+	$XX,XXX
+	$XXX,XXX
+	Contingency (10 Percent)
+	$XX,XXX
+	$XXX,XXX
+	$XXX,XXX
+	$XXX,XXX
+	TOTAL
+	$X,XXX,XXX
+	$X,XXX,XXX
+	$X,XXX,XXX
+	$X,XXX,XXX
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16.4  Revenue Model
+
+
+Source
+	Description
+	Reliability
+	Foundation Grants
+	Program and general operating support
+	Primary. Highest priority
+	Family Offices
+	Aligned high-net-worth donors via the Lexicon network
+	Primary
+	Major Individual Gifts
+	Cultivated through the book and the Museum experience
+	Growing over term
+	Government Grants
+	Environmental education and restoration programs
+	Variable by administration
+	Corporate Sponsorship
+	Non-extractive companies only, per the gift acceptance policy
+	Constrained by policy
+	Earned: Book Sales
+	350 to 400 copies at direct sale
+	Small, one-time
+	Earned: Museum Admission
+	Format-dependent
+	Undetermined
+	Earned: Certificate Courses
+	Fee-based professional education
+	Year 3 and beyond
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NB: Grant funding alone will not sustain a four-component ecosystem past year three. The two most plausible durable revenue lines are certificate courses and Museum admission or licensing. Both will be prototyped in year two.
+
+
+________________
+
+
+16.5 Funding Scenarios
+
+
+Because funders may support different elements of the ecosystem, individual components are designed to be modularly fundable. They are not independent: each component depends on the YES Online Platform to convert attention into participation and local action. 
+
+
+Scenario
+	Funded
+	Consequence
+	Full Ecosystem
+	All four components
+	Designed case. Each component reinforces the others
+	Platform And Broadcast
+	Platform, Field Guide Live, Substack
+	Viable. Retains the core infrastructure and media acquisition channels but loses the flagship physical activation experience
+	Museum And Book
+	Museum, Molotov Alva
+	Produces attention with nowhere to route it. Weakest scenario. Requires a minimum platform
+	Platform Only
+	Platform
+	Survivable floor. Build the measurement layer, defer activation
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NB: The platform is non-optional. Every other component ultimately routes people somewhere, and the platform is that somewhere. 
+________________
+
+
+17. Organization and Governance
+
+
+17.1  Legal and Fiscal Structure
+
+
+The YES Movement is a not-for-profit program fiscally sponsored by The Lexicon, a twenty-year-old 501(c)(3) organization funded through private donations with support from family offices, foundations, government grants, and select corporate sponsors. The Lexicon fundraises on behalf of the program, administers funds, and manages all financial logistics.
+
+
+Practical implication. Donations are tax-deductible from day one and the program carries no separate incorporation, audit, or 990 burden during its startup phase. The plan assumes fiscal sponsorship for years one through three, with a formal review at the end of year three to determine whether independent 501(c)(3) incorporation is warranted.
+
+
+The Lexicon's prior work produced RestoreSix, an ecological benefits framework for planetary restoration covering air, water, soil, biodiversity, equity, and climate. RestoreSix is the guiding intellectual framework of the YES Movement and the taxonomy underlying all measurement.
+
+
+17.2  Leadership
+
+
+Founding co-directors Douglas Gayeton and Reuben Steiger share decision-making authority across fundraising, staffing, budget, scheduling, and external messaging.
+
+
+Deadlock provision. Co-directorships require an explicit tiebreaker. Where the co-directors cannot reach agreement, the matter escalates to The Lexicon's executive director.
+
+
+17.3  Advisory Board and Governance Pathway
+
+
+An advisory board of twelve members will be seated in year one. It meets quarterly, holds no fiduciary authority, which rests with The Lexicon and is appropriate under fiscal sponsorship, and serves to pressure-test strategy and open funding and partnership doors. Two seats each go to environmental organization leaders representing the primary user base, environmental litigators, technologists with AI and measurement expertise, museum or immersive experience practitioners, philanthropic sector representatives, and movement-building practitioners from outside the environmental sector.
+
+
+If the year-three review recommends independent incorporation, a governing board must exist before the transition rather than after it.
+
+
+
+
+
+
+
+
+
+
+Stage
+	Timing
+	Action
+	Advisory Only
+	Year 1 to 2
+	Twelve-member advisory board seated per Section 17.3. No fiduciary duty. Quarterly meetings
+	Identification
+	Year 2
+	Identify three to five advisory members with the appetite and capacity for fiduciary service. Assess governance experience, giving capacity, and time
+	Formation Readiness
+	Year 3
+	If incorporation is recommended, recruit a founding governing board of seven to nine, including at least three from the advisory board for continuity
+	Transition
+	Year 3 to 4
+	Adopt bylaws, conflict-of-interest policy, and gift acceptance policy. Transfer assets and licenses from the fiscal sponsor per a written agreement
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Founder transition. A governing board that cannot remove the executive is not a governing board. If the co-directors intend to continue in operating roles after incorporation, the founding board must include a majority of independent members with no employment or contractual relationship to the program.
+
+
+17.4  Funding Restrictions
+
+
+Because this is a project about extraction, the YES Movement will not accept funds from extractive industries or from companies that derive material income from extractive activities.
+
+
+The organization will adopt a written gift acceptance policy in year one that defines extractive with a specific revenue threshold. For example, any entity deriving more than five percent of revenue from fossil fuel extraction, mining, or industrial forestry can neither donate to the YES Movement nor be a recipient of work products it creates. Without this bright-line test, commitments will be litigated case by case at the worst possible moments. The policy should also address diversified holding companies, donor-advised funds that obscure origin, and foundations with endowments invested in extractive industries.
+
+
+17.5  Data Governance and Privacy
+
+
+The YES Movement collects personal information from museum visitors, platform users, and partner organizations. Because the project is a critique of extraction, extracting value from user data without reciprocity would be a self-inflicted wound. The governing principle is that the organization collects the minimum required to route a person to local action, and that partner organizations own the data they contribute.
+
+
+* Data is never sold, rented, or licensed to third parties for any purpose
+* Collection is minimized by design: age band rather than date of birth, ZIP code rather than street address, no persistent device identifiers in the museum app
+* Partner organizations own the data they contribute, may export it in full at any time, and may delete it on request
+*  No user or organization content is used to train third-party AI models without separate, specific, opt-in consent
+* Visitor session data from the museum is aggregated or deleted within 90 days unless the visitor creates an account
+
+
+
+
+Source
+	Data collected
+	Purpose
+	Museum visitor app
+	Age band, ZIP code, selected RestoreSix priorities, path through the experience
+	Personalize the narrative and route the visitor to local organizations
+	Platform user
+	Email, display name, ZIP or region, stated priorities, actions logged
+	Match to organizations; show local activity; confirm participation
+	Partner organization
+	Organization profile, actions logged, impact data, member counts
+	Populate the Action Map; compute RestoreSix impact; report to funders
+	Minors. The Museum experience is designed to work for all ages, which means minors will move through it. No account is created for anyone under 13; under-13 visitors use a non-registered mode that personalizes in-session and retains nothing afterward. That is a COPPA requirement, not a design preference, and the experience cannot function without it. Visitors aged 13 to 16 require a verifiable parental consent step before an account is created.
+
+
+Vendor agreements. Every vendor that touches personal data, including Allen AI, hosting, authentication, mapping, and analytics providers, requires a written data processing agreement specifying permitted use, retention, subprocessors, breach notification timelines, and deletion on termination. The Allen AI agreement in particular must state that user and organization content is not used to train models outside the YES Movement's own systems without separate opt-in consent.
+Regulatory scope:
+
+
+* CCPA and CPRA apply given expected California user volume: honor access, correction, and deletion requests within statutory windows
+* COPPA applies to any user under 13
+* GDPR applies if the platform is accessible to EU residents, which it will be; a lawful basis and a data processing record are required
+* State biometric statutes are not triggered so long as the museum app avoids facial recognition and voice identification, which it should
+
+
+17.6  Equity, Justice, and Community Accountability
+
+
+A project documenting 12,000 years of extraction must be held to a higher standard than most. Equity is one of the six RestoreSix domains, and an organization that measures equity in others must be able to describe how it practices equity itself.
+
+
+Reciprocity by default. Any community that hosts a satellite deployment receives, at minimum, free access for local residents, a full export of the local data generated, co-credit on any content produced, and a named local partner organization with approval rights over how its story is told.
+
+
+Paid participation. Community advisors, local subject-matter contributors, and frontline storytellers are compensated at professional rates. Unpaid advisory participation is not requested from people whose expertise comes from lived experience.
+
+
+Site selection is not purely fundraising-led. Satellite locations are chosen against published criteria that include cumulative pollution burden and organizational capacity, not only the availability of a local funder. At least half of satellite deployments in any two-year period are in communities meeting a defined environmental justice screening threshold.
+
+
+Governance representation. A minimum of three of the twelve advisory board seats are held by people from frontline or environmental justice communities, drawn from the categories in Section 17.3 rather than added as a separate token category.
+
+
+Language access. The platform and museum app support English and Spanish at launch. Additional languages   delivered by AI tools will be  added according to the demographics of satellite regions.
+
+
+17.7  Intellectual Property and Licensing
+
+
+RestoreSix offers a shared standard. A framework that organizations cannot use freely will not serve as the basis for a common language.
+
+
+Asset
+	Owner
+	Recommended license
+	RestoreSix framework and taxonomy
+	The Lexicon
+	Open license permitting free use and adaptation with attribution, to encourage adoption as a standard
+	Organization-contributed content and impact data
+	The contributing organization
+	Non-exclusive license to display and aggregate; revocable; full export at any time
+	Editorial content
+	The YES Movement
+	Permissive non-commercial license to maximize distribution by partners
+	Molotov Alva and the Museum of Extraction
+	Author-held, separately negotiated
+	Program licenses images for Museum and platform use under a written agreement
+	Museum experience design and fabrication
+	The program, via work-for-hire
+	All contractor agreements assign IP to the program
+	Platform source code
+	The program
+	Contractors sign IP assignment; the program holds the repository
+	
+
+Four instruments must be in place before public launch:
+
+
+*  Registered trademarks for THE YES MOVEMENT and MUSEUM OF EXTRACTION
+* A written license from The Lexicon to the program covering RestoreSix
+* A written license from the rights holder of Molotov Alva and the Museum of Extraction covering image use
+* An IP assignment clause in every contractor agreement, including the freelance editorial pool
+
+
+17.8  Content Moderation and Community Standards
+
+
+Partner organizations post publicly to the Action Map, the resource library, and the Field Guide. A platform that hosts advocacy content near active litigation and local political fights needs published standards and a process, established before the first dispute rather than during it.
+
+
+* No unsubstantiated factual claims about named individuals or companies. Claims about an identified party require a citable source
+*  No content advocating unlawful action, property destruction, or trespass, regardless of the cause
+*  No harassment, targeting of individuals, or publication of private information
+*  No commercial promotion unrelated to a logged action
+* Content concerning pending litigation carries a standard disclaimer and avoids assertions of fact about matters before a court
+
+
+17.9  Political Activity
+
+
+As a fiscally sponsored 501(c)(3) program, the platform cannot support or oppose candidates for office. Issue advocacy and non-partisan policy work are permitted within lobbying limits. The platform will not host candidate endorsements, and organization profiles that engage in electoral work must keep that activity off the platform. This constraint belongs in the partner agreement rather than being discovered by a partner mid-cycle.

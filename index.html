@@ -1,0 +1,845 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>This Is Molotov</title>
+<meta name="description" content="Molotov Alva, the Museum of Extraction, and the record of a seven-month collaboration.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
+<style>
+:root{
+  --paper:#e9e3d6;
+  --paper-2:#f2ede2;
+  --ink:#16130f;
+  --ink-2:#4a423a;
+  --ink-3:#7d7365;
+  --rule:#c4b8a3;
+  --stamp:#8f1d14;
+  --serif:"EB Garamond",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --maxw:1360px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--serif);font-size:19px;line-height:1.55;
+  background-image:
+    radial-gradient(ellipse at 12% 8%, rgba(255,255,255,.55), transparent 55%),
+    radial-gradient(ellipse at 88% 92%, rgba(120,100,70,.10), transparent 60%);
+  background-attachment:fixed;
+}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+
+/* ---------- masthead ---------- */
+.masthead{
+  border-bottom:1px solid var(--rule);
+  position:sticky;top:0;z-index:40;
+  background:rgba(233,227,214,.94);
+  backdrop-filter:saturate(140%) blur(8px);
+}
+.masthead .wrap{
+  display:flex;align-items:center;gap:28px;
+  padding-top:14px;padding-bottom:14px;
+}
+.brand{display:flex;flex-direction:column;gap:2px;flex:0 0 auto;text-decoration:none;color:inherit}
+.brand b{
+  font-family:var(--mono);font-weight:600;font-size:14px;
+  letter-spacing:.22em;text-transform:uppercase;
+}
+.brand span{
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--ink-3);
+}
+.masthead-nav{
+  margin-left:auto;display:flex;gap:18px;align-items:center;flex:0 0 auto;
+}
+.masthead-nav a{
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px;
+}
+.masthead-nav a:hover{border-bottom-color:var(--stamp);color:var(--stamp)}
+
+/* ---------- search ---------- */
+.expert{
+  flex:0 1 420px;min-width:0;
+  border:1px solid var(--ink);background:var(--paper-2);
+  padding:10px 12px;
+}
+.expert-label{
+  display:block;font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-2);margin-bottom:7px;line-height:1.3;
+}
+.expert-row{display:flex;gap:0;border:1px solid var(--rule);background:#fff}
+.expert-row input{
+  flex:1 1 auto;min-width:0;border:0;background:transparent;
+  font-family:var(--serif);font-size:15px;color:var(--ink);
+  padding:7px 9px;outline:none;
+}
+.expert-row input::placeholder{color:#a89c88;font-style:italic}
+.expert-row button{
+  flex:0 0 auto;border:0;border-left:1px solid var(--rule);
+  background:var(--ink);color:var(--paper-2);cursor:pointer;
+  font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  padding:0 14px;
+}
+.expert-row button:hover{background:var(--stamp)}
+.expert-out{
+  margin-top:9px;font-size:15.5px;line-height:1.45;color:var(--ink);
+  max-height:190px;overflow-y:auto;
+}
+.expert-out em{font-style:italic}
+.expert-src{
+  display:block;margin-top:6px;font-family:var(--mono);font-size:9.5px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);
+}
+.expert-src a{color:var(--ink-3)}
+
+/* ---------- hero grid ---------- */
+.hero{padding:36px 0 8px}
+.hero-grid{
+  display:grid;
+  grid-template-columns:minmax(0,300px) minmax(0,1fr) minmax(0,320px);
+  gap:34px;align-items:start;
+}
+
+/* object cards */
+.plate{display:block;text-decoration:none;color:inherit}
+.plate-frame{
+  border:1px solid var(--rule);background:var(--paper-2);
+  padding:10px;position:relative;
+}
+.plate-frame img{display:block;width:100%;height:auto;filter:saturate(.82) contrast(1.03)}
+.plate-empty{
+  aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;
+  text-align:center;padding:18px;
+  background:
+    repeating-linear-gradient(45deg,rgba(150,135,105,.10) 0 8px,transparent 8px 16px);
+  border:1px dashed var(--rule);
+}
+.plate-empty span{
+  font-family:var(--mono);font-size:10px;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--ink-3);line-height:1.7;
+}
+.tag{
+  position:absolute;top:-1px;right:-1px;
+  background:var(--stamp);color:#f4efe4;
+  font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;
+  text-transform:uppercase;padding:4px 8px;
+}
+.label{margin-top:12px;border-top:1px solid var(--ink);padding-top:9px}
+.label .acc{
+  font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--ink-3);display:block;margin-bottom:5px;
+}
+.label h3{
+  margin:0 0 5px;font-size:22px;font-weight:600;line-height:1.2;letter-spacing:.005em;
+}
+.label p{margin:0;font-size:15px;color:var(--ink-2);line-height:1.42}
+.label .go{
+  display:inline-block;margin-top:9px;font-family:var(--mono);font-size:9.5px;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--stamp);
+  border-bottom:1px solid var(--stamp);padding-bottom:1px;
+}
+.plate:hover .plate-frame{border-color:var(--ink)}
+.plate:hover h3{color:var(--stamp)}
+
+/* center column */
+.center-col{display:flex;flex-direction:column;gap:26px}
+.hero-text{border-top:1px solid var(--ink);padding-top:18px}
+.hero-text .acc{
+  font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--ink-3);display:block;margin-bottom:14px;
+}
+.hero-text blockquote{
+  margin:0;font-size:clamp(23px,2.5vw,34px);line-height:1.28;font-weight:500;
+  letter-spacing:-.005em;
+}
+.hero-text cite{
+  display:block;margin-top:14px;font-style:normal;
+  font-family:var(--mono);font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-3);
+}
+
+/* ---------- pull quote band ---------- */
+.band{
+  margin:56px 0 0;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);
+  padding:44px 0;
+}
+.band blockquote{
+  margin:0;max-width:1000px;
+  font-size:clamp(24px,3vw,40px);line-height:1.24;font-style:italic;font-weight:400;
+  letter-spacing:-.01em;
+}
+.band cite{
+  display:block;margin-top:20px;font-style:normal;
+  font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-3);
+}
+
+/* ---------- exhibits ---------- */
+.section-head{
+  margin:60px 0 26px;display:flex;align-items:baseline;gap:16px;
+  border-bottom:1px solid var(--rule);padding-bottom:10px;
+}
+.section-head h2{
+  margin:0;font-family:var(--mono);font-size:11px;font-weight:600;
+  letter-spacing:.22em;text-transform:uppercase;
+}
+.section-head span{
+  font-family:var(--mono);font-size:10px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--ink-3);margin-left:auto;
+}
+.exhibits{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:34px;
+  padding-bottom:20px;
+}
+.exhibit{
+  border:1px solid var(--rule);background:var(--paper-2);
+  padding:22px;display:flex;flex-direction:column;gap:12px;
+  text-decoration:none;color:inherit;
+}
+.exhibit:hover{border-color:var(--ink)}
+.exhibit .acc{
+  font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--ink-3);
+}
+.exhibit h3{margin:0;font-size:27px;font-weight:600;line-height:1.15}
+.exhibit .meta{
+  font-family:var(--mono);font-size:10px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-3);
+}
+.exhibit p{margin:0;font-size:16.5px;color:var(--ink-2);line-height:1.45}
+.exhibit .go{
+  margin-top:auto;padding-top:12px;font-family:var(--mono);font-size:9.5px;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--stamp);
+}
+.exhibit:hover h3{color:var(--stamp)}
+.exhibit-thumb{
+  border:1px solid var(--rule);background:var(--paper);
+  aspect-ratio:16/9;overflow:hidden;display:flex;align-items:center;justify-content:center;
+}
+.exhibit-thumb img{width:100%;height:100%;object-fit:cover;filter:saturate(.8) contrast(1.04)}
+.exhibit-thumb .ph{
+  font-family:var(--mono);font-size:9.5px;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--ink-3);text-align:center;padding:14px;line-height:1.7;
+}
+
+/* ---------- footer ---------- */
+footer{
+  margin-top:64px;border-top:1px solid var(--ink);padding:26px 0 70px;
+  font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);display:flex;flex-wrap:wrap;gap:18px;
+}
+footer a{color:var(--ink-3)}
+
+/* ---------- reader ---------- */
+.reader{
+  position:fixed;inset:0;z-index:100;background:var(--paper);
+  overflow-y:auto;display:none;
+}
+.reader.open{display:block}
+.reader-bar{
+  position:sticky;top:0;background:rgba(233,227,214,.95);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--rule);z-index:2;
+}
+.reader-bar .wrap{
+  display:flex;align-items:center;gap:20px;padding-top:14px;padding-bottom:14px;
+}
+.reader-bar .acc{
+  font-family:var(--mono);font-size:10px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink-3);
+}
+.reader-bar button{
+  margin-left:auto;border:1px solid var(--ink);background:transparent;cursor:pointer;
+  font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  padding:7px 14px;color:var(--ink);
+}
+.reader-bar button:hover{background:var(--ink);color:var(--paper)}
+.doc{max-width:720px;margin:0 auto;padding:56px 28px 120px}
+.doc .kicker{
+  font-family:var(--mono);font-size:10px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink-3);margin-bottom:16px;
+}
+.doc h1{
+  font-size:clamp(34px,5vw,52px);line-height:1.08;margin:0 0 10px;font-weight:600;
+  letter-spacing:-.015em;
+}
+.doc .byline{
+  font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-3);border-bottom:1px solid var(--rule);padding-bottom:22px;margin-bottom:34px;
+}
+.doc p{margin:0 0 20px;font-size:20px;line-height:1.62}
+.doc p.sig{margin-top:34px}
+.doc a{color:var(--stamp);text-underline-offset:3px}
+.doc figure{margin:0 0 34px}
+.doc figure img{width:100%;height:auto;border:1px solid var(--rule);padding:8px;background:var(--paper-2)}
+.doc figcaption{
+  font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);margin-top:8px;
+}
+.doc hr{border:0;border-top:1px solid var(--rule);margin:38px 0}
+.doc h2{
+  font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.2em;
+  text-transform:uppercase;margin:44px 0 16px;color:var(--ink-2);
+}
+.doc blockquote{
+  margin:0 0 24px;padding-left:20px;border-left:2px solid var(--stamp);
+  font-size:21px;line-height:1.5;font-style:italic;
+}
+.doc .src{
+  font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);margin:-14px 0 26px;padding-left:22px;
+}
+
+@media (max-width:1080px){
+  .hero-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .center-col{grid-column:1/-1;order:-1}
+  .exhibits{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:760px){
+  body{font-size:18px}
+  .masthead .wrap{flex-wrap:wrap;gap:14px}
+  .expert{flex:1 1 100%;order:3}
+  .masthead-nav{order:2}
+  .hero-grid{grid-template-columns:minmax(0,1fr)}
+  .center-col{order:0}
+  .exhibits{grid-template-columns:minmax(0,1fr)}
+  .doc p{font-size:18.5px}
+}
+</style>
+</head>
+<body>
+
+<!-- ============ MASTHEAD ============ -->
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="#top">
+      <b>This Is Molotov</b>
+      <span>thisismolotov.com</span>
+    </a>
+
+    <nav class="masthead-nav">
+      <a href="#exhibits">Exhibits</a>
+      <a href="#" data-open="creator">The Letter</a>
+      <a href="#" data-open="giftshop">The Goodbye</a>
+    </nav>
+
+    <!-- search: upper right -->
+    <form class="expert" id="expertForm" autocomplete="off">
+      <label class="expert-label" for="expertInput">Learn about Extraction from the World Expert</label>
+      <div class="expert-row">
+        <input id="expertInput" type="search" placeholder="extraction, museum, gifts, groups…" aria-label="Search Extraction">
+        <button type="submit">Ask</button>
+      </div>
+      <div class="expert-out" id="expertOut" aria-live="polite"></div>
+    </form>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+
+      <!-- UPPER LEFT: 2007 tuxedo photo -> Creator letter, 2026 -->
+      <a class="plate" href="#" data-open="creator">
+        <div class="plate-frame">
+          <span class="tag">Creator letter · 2026</span>
+          <img id="tuxPhoto" src="images/tuxedos-2007.jpg" alt="Reuben Steiger and Douglas Gayeton in tuxedos, 2007" data-vacant="Plate 01 — vacant|drop images/tuxedos-2007.jpg">
+        </div>
+        <div class="label">
+          <span class="acc">Plate 01 · Photograph, 2007</span>
+          <h3>Searching for the Creator</h3>
+          <p>Two men in tuxedos, nineteen years before the letter that answers the film.</p>
+          <span class="go">Read the letter →</span>
+        </div>
+      </a>
+
+      <!-- CENTER: Molotov Alva & Orhalla Zander + hero text -->
+      <div class="center-col">
+        <a class="plate" href="#" data-open="film">
+          <div class="plate-frame">
+            <span class="tag">Second Life · 2007</span>
+            <img id="alvaPhoto" src="images/molotov-and-orhalla.jpg" alt="Molotov Alva and Orhalla Zander"
+                 onerror="this.onerror=null;this.src='images/molotov-alva.jpg';this.alt='Molotov Alva'">
+          </div>
+          <div class="label">
+            <span class="acc">Plate 02 · Molotov Alva &amp; Orhalla Zander</span>
+            <h3>The avatar and the hobo</h3>
+            <p>The pilgrim with the camera, and the one-eyed sidekick nobody wrote the reviews about.</p>
+            <span class="go">The original Molotov Alva →</span>
+          </div>
+        </a>
+
+        <div class="hero-text">
+          <span class="acc">Hero text · Molotov Alva and the Museum of Extraction</span>
+          <blockquote>“machines seized not only your means of production, but also the story itself. And how, in the end, you didn’t just lose your job. You lost the plot, becoming a peasant once more, scythe in hand, harvesting information for the Wheat King.”</blockquote>
+          <cite>Museum of Extraction</cite>
+        </div>
+      </div>
+
+      <!-- RIGHT: Exit through the Gift Shop -->
+      <a class="plate" href="#" data-open="giftshop">
+        <div class="plate-frame">
+          <span class="tag">Exit</span>
+          <div class="plate-empty" id="giftPlate">
+            <span>Plate 03 — vacant<br>drop images/gift-shop.jpg</span>
+          </div>
+        </div>
+        <div class="label">
+          <span class="acc">Plate 03 · Letter, 2026</span>
+          <h3>Exit through the Gift Shop</h3>
+          <p>Seven months. Thirty calls. Fifty documents. One word, hanging over the whole thing the entire time.</p>
+          <span class="go">Read the goodbye →</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ PULL QUOTE ============ -->
+<section class="band">
+  <div class="wrap">
+    <blockquote>“You don’t reboot your operating system with your zip-code and an iPhone, somewhere in the birth canal of a museum a thousand miles from where you live.”</blockquote>
+    <cite>Exit through the Gift Shop · 2026</cite>
+  </div>
+</section>
+
+<!-- ============ EXHIBITS ============ -->
+<section class="wrap" id="exhibits">
+  <div class="section-head">
+    <h2>The Collection</h2>
+    <span>Three objects</span>
+  </div>
+
+  <div class="exhibits">
+
+    <a class="exhibit" href="#" data-open="book">
+      <span class="acc">Object I</span>
+      <div class="exhibit-thumb"><div class="ph">Molotov Alva<br>and the Museum<br>of Extraction</div></div>
+      <h3>The Book</h3>
+      <div class="meta">Master Plan · 12 Aug 2026</div>
+      <p>The foundational text, the museum it builds, and the passages where extraction defines itself.</p>
+      <span class="go">Read the passages →</span>
+    </a>
+
+    <a class="exhibit" href="#" data-open="creator">
+      <span class="acc">Object II</span>
+      <div class="exhibit-thumb"><img src="images/molotov-alva.jpg" alt="Molotov Alva"></div>
+      <h3>The Letter</h3>
+      <div class="meta">Searching for the Creator · 2026</div>
+      <p>On the film, the play, Vivian Kendall, and the one precious thing made not of gold.</p>
+      <span class="go">Read in full →</span>
+    </a>
+
+    <a class="exhibit" href="#" data-open="giftshop">
+      <span class="acc">Object III</span>
+      <div class="exhibit-thumb"><div class="ph">Exit through<br>the Gift Shop</div></div>
+      <h3>The Goodbye</h3>
+      <div class="meta">Letter of resignation · 2026</div>
+      <p>Why the co-director left, what replaced the groups, and the word above a museum that doesn’t exist.</p>
+      <span class="go">Read in full →</span>
+    </a>
+
+  </div>
+
+  <footer>
+    <span>This Is Molotov</span>
+    <span>Reuben Steiger</span>
+    <span>Founding Co-Director, The YES Movement · Jan–Aug 2026</span>
+    <a href="https://www.youtube.com/watch?v=q76pwG4V-Ao&t=86s" target="_blank" rel="noopener">The 2007 film ↗</a>
+  </footer>
+</section>
+
+</main>
+
+<!-- ============ READER ============ -->
+<div class="reader" id="reader">
+  <div class="reader-bar">
+    <div class="wrap">
+      <span class="acc" id="readerAcc"></span>
+      <button type="button" id="readerClose">Close ✕</button>
+    </div>
+  </div>
+  <div id="readerBody"></div>
+</div>
+
+<script>
+/* =========================================================
+   1. THE WORLD EXPERT — Extraction search
+   Corpus: verbatim passages from the Master Plan and the two
+   letters. Falls through to Wikipedia for anything else.
+   ========================================================= */
+
+const SEED = {
+  text: "Extraction is the result of always taking more than you leave behind.",
+  src: "The World Expert",
+  keys: ["extraction","extract","definition","define","what is extraction"]
+};
+
+const CORPUS = [
+  { text:"Extraction is an addiction, and the YES Movement offers a prescription for the cure.",
+    src:"Master Plan · Theory of Change", keys:["addiction","cure","prescription","extraction"] },
+
+  { text:"For 12,000 years, we have perfected extraction, charging the cost of human progress to an unseen credit card. The first bills have come due.",
+    src:"Master Plan · Theory of Change", keys:["12000","12,000","years","credit card","bills","history","progress"] },
+
+  { text:"It’s both setting and metaphor: a collection of the ideas, inventions, and choices that transformed nature into a resource to be consumed.",
+    src:"Master Plan · The Museum of Extraction", keys:["museum","metaphor","nature","resource","setting","consumed"] },
+
+  { text:"An interactive gallery of illustrious robber barons and industrialists recounts their exploits, revealing how extractive capitalism transformed shared natural resources into private wealth.",
+    src:"Master Plan · “Weaving Spiders Come Not Here”", keys:["robber barons","capitalism","wealth","private","spiders","gallery","industrialists"] },
+
+  { text:"Tales of Enlightened Extraction. The human cost of industrial progress comes into focus through families whose bodies bear the consequences of polluted air and unchecked development.",
+    src:"Master Plan · Museum exhibit list", keys:["enlightened","human cost","families","air","development","tales"] },
+
+  { text:"Because this is a project about extraction, the YES Movement will not accept funds from extractive industries or from companies that derive material income from extractive activities.",
+    src:"Master Plan · Gift acceptance policy", keys:["funds","money","donors","policy","gift acceptance","industries"] },
+
+  { text:"Because the project is a critique of extraction, extracting value from user data without reciprocity would be a self-inflicted wound.",
+    src:"Master Plan · Data governance", keys:["data","users","reciprocity","privacy","critique","wound"] },
+
+  { text:"A project documenting 12,000 years of extraction must be held to a higher standard than most.",
+    src:"Master Plan · Equity", keys:["standard","equity","higher standard","documenting"] },
+
+  { text:"Can humanity stop being a force of extraction and become an agent of restoration?",
+    src:"Master Plan · Foundational Text", keys:["restoration","humanity","agent","force","question"] },
+
+  { text:"The ultimate change is cultural as well as ecological. The Movement seeks to replace helplessness with agency, isolation with community, fragmented environmental action with shared purpose, and the logic of extraction with a commitment to restoration.",
+    src:"Master Plan · Theory of Change", keys:["culture","cultural","agency","community","logic","commitment"] },
+
+  { text:"I looked for a long time for the word for what you did to me over 7 months, 30 calls, 50 documents. Not disassembly — I think you’re sincere. Not using a collaborator. Maybe it was a mistake. Then I realized it had been hanging over the whole thing the entire time, the sign above a museum that still doesn’t exist. Extraction.",
+    src:"Exit through the Gift Shop · 2026", keys:["word","seven months","7 months","sign","museum","calls","documents","mistake","collaborator"] },
+
+  { text:"When two people work together without a contract, on one person’s IP, the other’s contributions have a name. Gifts.",
+    src:"Exit through the Gift Shop · 2026", keys:["gifts","gift","contract","ip","contributions","unpaid","equity","pay"] },
+
+  { text:"The more natural framing isn’t YES, it’s against Extraction, taught alongside Restoration, two sides of one coin. Until people understand the cause, they’re powerless on the cure.",
+    src:"Exit through the Gift Shop · 2026", keys:["yes","framing","restoration","coin","cause","cure","against"] },
+
+  { text:"Movements live on sustained involvement, social inspiration, and accountability for what people contribute. The biggest ingredient I know of is a format for people to share how extraction has harmed them and how they’ll enact restoration.",
+    src:"Exit through the Gift Shop · 2026", keys:["movement","movements","groups","accountability","involvement","format","harm"] },
+
+  { text:"That’s stagecraft — the Holocaust Museum’s elevator, beautifully done. Stagecraft isn’t what keeps a movement alive.",
+    src:"Exit through the Gift Shop · 2026", keys:["stagecraft","elevator","alive","holocaust"] },
+
+  { text:"You cut 58% of the plan, made me read it and then asked “Who, me?”. I read your 43 pages line by line and asked “what replaced groups?”. Your museum did, 1:1.",
+    src:"Exit through the Gift Shop · 2026", keys:["58","43","pages","cut","replaced","groups","plan","museum"] },
+
+  { text:"For me, Second Life was about friendship, the other side of the fraction that makes us whole. This truth transcends atoms and digits, artificial and physical and all the tensions you’ve played with for the past 20 years.",
+    src:"Searching for the Creator · 2026", keys:["friendship","second life","whole","fraction","atoms","digits","truth"] },
+
+  { text:"I fell for his humble one-eyed sidekick, Orhalla Zander, and felt something. I imagine he’s drunk somewhere right now and alone, hopefully with someone left to call for hope.",
+    src:"Searching for the Creator · 2026", keys:["orhalla","zander","sidekick","hobo","friend","one-eyed","alone"] },
+
+  { text:"In first life or second, what matters above all is one precious thing, made not of gold but affection and loyalty.",
+    src:"Searching for the Creator · 2026", keys:["precious","gold","affection","loyalty","first life","matters"] },
+
+  { text:"After all that, you never met Philip Rosedale, the Second Life Creator.",
+    src:"Searching for the Creator · 2026", keys:["philip","rosedale","creator","met","never"] }
+];
+
+const ALL = [SEED].concat(CORPUS);
+let cursor = -1;
+
+const out   = document.getElementById('expertOut');
+const input = document.getElementById('expertInput');
+
+function render(text, src, link){
+  const cite = link
+    ? '<a href="'+link+'" target="_blank" rel="noopener">'+src+' ↗</a>'
+    : src;
+  out.innerHTML = '<em>“'+text+'”</em><span class="expert-src">— '+cite+'</span>';
+}
+
+function score(entry, q){
+  let s = 0;
+  const hay = (entry.text + ' ' + entry.src).toLowerCase();
+  for (const k of entry.keys) if (q.includes(k)) s += 4;
+  for (const w of q.split(/\s+/)) if (w.length > 3 && hay.includes(w)) s += 1;
+  return s;
+}
+
+async function wikipedia(term){
+  const url = 'https://en.wikipedia.org/api/rest_v1/page/summary/' + encodeURIComponent(term);
+  const r = await fetch(url);
+  if (!r.ok) throw new Error('no entry');
+  const d = await r.json();
+  if (!d.extract) throw new Error('no extract');
+  return { text: d.extract, src: 'Wikipedia · ' + d.title, link: d.content_urls?.desktop?.page };
+}
+
+document.getElementById('expertForm').addEventListener('submit', async function(e){
+  e.preventDefault();
+  const q = input.value.trim().toLowerCase();
+
+  // empty box: walk the collection, seed phrase first
+  if (!q){
+    cursor = (cursor + 1) % ALL.length;
+    const it = ALL[cursor];
+    render(it.text, it.src, it.link);
+    return;
+  }
+
+  // rank the corpus
+  const ranked = ALL.map(it => ({ it, s: score(it, q) }))
+                    .filter(x => x.s > 0)
+                    .sort((a,b) => b.s - a.s);
+
+  if (ranked.length){
+    const it = ranked[0].it;
+    render(it.text, it.src, it.link);
+    return;
+  }
+
+  // nothing in the book: go ask the web
+  out.innerHTML = '<span class="expert-src">Consulting the web…</span>';
+  try {
+    const w = await wikipedia(q);
+    render(w.text, w.src, w.link);
+  } catch (err) {
+    out.innerHTML = '<span class="expert-src">The World Expert has nothing on “'
+      + q.replace(/[<>&]/g,'') + '”. Ask about extraction, gifts, groups, museums, movements, friendship.</span>';
+  }
+});
+
+// open with the seed phrase already in the case
+render(SEED.text, SEED.src);
+
+
+/* =========================================================
+   2. READER
+   ========================================================= */
+
+const DOCS = {
+
+creator: {
+  acc: 'Object II · Letter, 2026',
+  html: `
+<div class="doc">
+  <div class="kicker">A letter about our friendship · 2026</div>
+  <h1>Searching for the Creator</h1>
+  <div class="byline">Reuben Steiger to Douglas Gayeton</div>
+
+  <figure>
+    <img src="images/molotov-alva.jpg" alt="Molotov Alva">
+    <figcaption>Molotov Alva, Second Life, 2007</figcaption>
+  </figure>
+
+  <p>Douglas,</p>
+  <p>19 years ago you made <a href="https://www.youtube.com/watch?v=q76pwG4V-Ao&t=86s" target="_blank" rel="noopener">a movie</a> called <em>My Second Life: Molotov Alva and his Search for the Creator.</em> I think I was the first person you showed it to when you showed up at my office in Sausalito. <a href="https://boingboing.net/2007/03/05/second-life-mysteryd.html" target="_blank" rel="noopener">Boing Boing</a> ran the story the next day.</p>
+  <p>I understood it at a depth I’m guessing you never imagined. You once told me that your film would be the only thing remembered from that era. You said it with conviction so I believed you.</p>
+  <p>I don’t anymore — in fact, I think Molotov was a film that, like most pieces of art, even their creator doesn’t really understand. After all that, you never met Philip Rosedale, the Second Life Creator.</p>
+  <p>When I connected you two this year, precisely nothing happened. You mocked him afterwards for saying “I like talking to people” and then belittled his side project as “gatherings for rich people”.</p>
+  <p>He didn’t give me feedback on you at all.</p>
+  <p>As the matchmaker and friend in common, I was let down but unsurprised. Like most people, the two of you think mainly about your own projects and don’t care about others.</p>
+  <p>You wouldn’t know this, but 19 years ago, before we met, I produced the <a href="https://www.youtube.com/watch?v=6cWF438HgJA" target="_blank" rel="noopener">first play in a virtual world</a>. It was written by an avatar named Osprey Thereian and lasted about a minute.</p>
+  <p>To call it good or bad would miss the point. It was scripted, live and played to an audience of avatars who clapped.</p>
+  <p>On the internet there remains a record of the person who wrote it. Her real name was Vivian Kendall. She was a gentle, shy woman in her fifties, a bit of a misfit, clever and funny. Five years later she was diagnosed with a fatal cancer and died, live, as the <a href="https://www.instagram.com/p/hZKZumPi0H/" target="_blank" rel="noopener">internet watched</a>.</p>
+  <p>At the time I thought to myself, “Now that’s drama”.</p>
+  <p>Her wish was to live on as a <a href="https://upstage.org.nz/?p=6065" target="_blank" rel="noopener">fictional character</a>, operated by her friends in a virtual world.</p>
+  <p>She is still alive, in a sense.</p>
+  <p>That story says more about second lives than the TV show you made and I’ll remember it longer than a machinima with recycled Greek philosophy and judgy rebukes of big business.</p>
+  <p>Second Life was about, wait for it, second lives, literal and figurative.</p>
+  <p>I’ve often admired your style and bravery after cancer. I loved the reinvention with Laura and Tuleries, a farm in Petaluma and goats. As your friend, I imagined it grew out of a darker time where you asked how you’d live if you could start again, with a second chance and fresh eyes.</p>
+  <p>I guess I saw your film differently than you did, with the high-minded reviews as the “Don Quixote of Cyberspace”.</p>
+  <p>I never saw all the clever things you pointed out in Molotov.</p>
+  <p>For me, Second Life was about friendship, the other side of the fraction that makes us whole. This truth transcends atoms and digits, artificial and physical and all the tensions you’ve played with for the past 20 years.</p>
+  <p>It’s not your Restore6 Framework or The One from the Matrix. It’s humble and true just the way the Lord of the Rings is not about “lords” or “rings”.</p>
+  <p>Of course you know this Douglas, but in first life or second, what matters above all is one precious thing, made not of gold but affection and loyalty.</p>
+  <p>I loved Molotov not because of the narrator, the creator, Goreans, griefers, love interest or Molotov himself.</p>
+  <p>I fell for his humble one-eyed sidekick, Orhalla Zander, and felt something. I imagine he’s drunk somewhere right now and alone, hopefully with someone left to call for hope.</p>
+  <p>It was about the hobo.</p>
+  <p>The friend.</p>
+  <p>But of course you know that.</p>
+  <p>You made it.</p>
+  <p>Good luck on your next adventure.</p>
+  <p>I hope you find what you’re looking for.</p>
+  <p class="sig">Your friend,<br>Reuben</p>
+</div>`
+},
+
+giftshop: {
+  acc: 'Object III · Letter, 2026',
+  html: `
+<div class="doc">
+  <div class="kicker">Letter of resignation · 2026</div>
+  <h1>Exit through the Gift Shop</h1>
+  <div class="byline">Reuben Steiger to Douglas Gayeton</div>
+
+  <p>Douglas,</p>
+  <p>I’m not impressed by six hexagons, an AI book, or a Master Plan.</p>
+  <p>A co-founder’s job is to build a team and move it toward a goal. In seven months I heard too few “Yes”s and saw too little movement.</p>
+  <p>Then you unveiled the Master Plan.</p>
+  <p>Months earlier, I remember your face lighting up after I learned Claude to build the prototype of what we’d been discussing. Every time I made something new, you latched on and gave it a new Hollywood name — “GoFundMe for the Planet”, the “Peace Corps for the Planet” and “No Kings for the Environment”.</p>
+  <p>YES isn’t an entity yet. It’s a subset of the Lexicon with no equity. I was not paid. When two people work together without a contract, on one person’s IP, the other’s contributions have a name. Gifts.</p>
+  <p>You pressed me to choose a title inside a shifting, unfunded scope, and in the six weeks since you started calling the Lexicon our “financial sponsor” you’ve avoided compensation and every other term. You never described the board that could fire me. Who’s on it besides you and your wife?</p>
+  <p>So I asked myself: how could I have seen this coming?</p>
+  <p>From the start I’ve navigated a minefield of your false dualities — “fix the world or fix yourself,” “nouns or verbs.” That thinking may make you feel effective, but I find it exclusionary and, by definition, fractional. It hides what is usually the only true answer. Both.</p>
+  <p>Your Theory of Change describes a locally rooted movement. I’ve studied these. You don’t reboot your operating system with your zipcode and an iPhone, somewhere in the birth canal of a museum a thousand miles from where you live.</p>
+  <p>That’s stagecraft — the Holocaust Museum’s elevator, beautifully done. Stagecraft isn’t what keeps a movement alive. Movements live on sustained involvement, social inspiration, and accountability for what people contribute. The biggest ingredient I know of is a format for people to share how extraction has harmed them and how they’ll enact restoration.</p>
+  <p>You’ve scorned groups since the start, sneering at Philip’s “club for rich guys with meaningless lives” and the Petaluma philosophers. I never told you this but ten weeks into their meetings, one of Philip’s members had a near-fatal accident. The group shared a photo of themselves, previously strangers, crowded into his hospital room. That has nothing to do with self versus whole, or rich versus poor.</p>
+  <p>Those people built something worth showing up for, and if that’s in your architecture, you can do anything.</p>
+  <p>It’s fine that you’re a solo hero surrounded by good people of action. But you keep using my word, for a reason. Movement.</p>
+  <p>You, Greta, and all the Gateses have come up short, and the answer is the very thing you disdain. It isn’t about saying YES. You’re looking, quite literally, through the wrong end of the telescope. That’s not a taunt or a critique of where your plan stands. It’s a fact, and I so badly wanted to design it with you. As always, it’s a two-man job.</p>
+  <p>Most movements are against something — racism, ruin, addiction. The more natural framing isn’t YES, it’s against Extraction, taught alongside Restoration, two sides of one coin. Until people understand the cause, they’re powerless on the cure.</p>
+  <p>In your world, movements are rare. To me they’re rare because the field decided letters, lawsuits, grants and donations have the better ROI, and because movements are messy in a way no Allen AI dataset ever is. They’re messy because they’re people, teaching people, doing meaningful things where they live and sharing stories larger than their own.</p>
+  <p>They may be sparked by a video or a tool, but they’re about people, and they can’t be built by someone who thinks he’s above them or derides “reading from a text.”</p>
+  <p>You’ve lectured me on Rachel Carson for weeks, so you must know why Silent Spring worked. The title, the rigor, the readers who felt betrayed and invaded by an invisible force. What those readers did next was the movement. Silent Spring was only its text.</p>
+  <p>Here’s what I need you to hear. In seven months I wrangled you and Josh into a sellable idea. I read your book, sat through the African mangoes and the Peruvian potatoes, and drafted, shaped and delivered the thing. I don’t take credit for much, but I showed up — not as a “groups guy,” but as your co-founder, your architect, and your friend.</p>
+  <p>Open the group documents. You’ll find draft after draft asking you the same question: how do the groups relate to the programming, the schedules, Restore6, the actions? You never answered, and I understand why.</p>
+  <p>We hadn’t figured it out. That’s fine. I’d no more ask you to flesh out the season schedule than expect you to call me on the carpet for groups. They’re intertwined and unfinished. Making things has never cost me much time. Unresolved dependencies do.</p>
+  <p>Which is why your evasion felt like sabotage. Don’t want me as a co-founder? Fine. Blame it on me? Not fine.</p>
+  <p>Groups are hard because they have to be original and right. It takes an environmental expert and a movement expert talking to each other with respect.</p>
+  <p>You said the book would take years. The AA Big Book (37M copies) is 164 pages plus recovery stories, written by one person, shared chapter by chapter with the early groups, announced in the Saturday Evening Post in 1939, and credited to a hundred authors by the time it was printed. Written by many, changing the wheels on a moving bus. That’s the spec.</p>
+  <p>The fact is you cut me out, and when I asked why, you wouldn’t even admit you’d done it. You told me to tattoo on my arm that groups were in. Your plan uses the word four times, never about building a movement. In their place, you put a museum.</p>
+  <p>For a while I thought it was a misunderstanding. I now know you did it on purpose, and that if it happened once it would happen again. It was a way to push me out and instead of one “mea culpa,” you gave me wordplay.</p>
+  <p>Tuesday was the clue. You said you’d price groups to a funder at $20K. If that’s real, you’d sat on it for seven months. If it isn’t, you said it to force my hand. Both are worse than the truth. If distribution is the problem, you’re long on hexagons and short on the only thing that distributes: people, organized locally. I wonder what $20K buys you. Not the answer to your own question.</p>
+  <p>You’ll raise money anyway. Even as a website, the idea’s OK. You know useful people, you’re good in a room. What I can’t get past is that you ridicule groups, the one thing every movement is built from. Deferring to other organizations is a clever stutter step — a hundred short videos and actions in a year — but it isn’t the movement I’ve heard about for seven months.</p>
+  <p>You cut 58% of the plan, made me read it and then asked “Who, me?”. I read your 43 pages line by line and asked “what replaced groups?”. Your museum did, 1:1 — something neither Josh nor I signed on for and that wasn’t in any of the 20 decks we built.</p>
+  <p>I looked for a long time for the word for what you did to me over 7 months, 30 calls, 50 documents. Not disassembly — I think you’re sincere. Not using a collaborator. Maybe it was a mistake. Then I realized it had been hanging over the whole thing the entire time, the sign above a museum that still doesn’t exist.</p>
+  <p>Extraction.</p>
+  <p>Maybe it’s time to pause your judgement of the talkers and noun-people and sit quiet with the irony in your unchangeable creation myth.</p>
+  <p class="sig">Restoratively yours,<br>Reuben</p>
+</div>`
+},
+
+book: {
+  acc: 'Object I · Master Plan, 12 August 2026',
+  html: `
+<div class="doc">
+  <div class="kicker">Foundational text · The YES Movement</div>
+  <h1>Molotov Alva and the Museum of Extraction</h1>
+  <div class="byline">Master Business Plan · Douglas Gayeton &amp; Reuben Steiger, Founding Co-Directors · 12 August 2026</div>
+
+  <h2>What the book is</h2>
+  <blockquote>Molotov Alva and the Museum of Extraction is the foundational text of the YES Movement. The book is narrated by Molotov Alva, an avatar created by Douglas Gayeton for his 2007 HBO documentary. Nearly twenty years later, Alva returns to trace a path through 12,000 years of human extraction and the decisions and inventions that have produced today’s environmental chaos.</blockquote>
+  <div class="src">Master Plan · §6 Foundational Text</div>
+
+  <h2>The museum</h2>
+  <blockquote>That journey leads to the Museum of Extraction. It’s both setting and metaphor: a collection of the ideas, inventions, and choices that transformed nature into a resource to be consumed.</blockquote>
+  <div class="src">Master Plan · §6 Foundational Text</div>
+
+  <blockquote>Weaving Spiders Come Not Here. An interactive gallery of illustrious robber barons and industrialists recounts their exploits, revealing how extractive capitalism transformed shared natural resources into private wealth.</blockquote>
+  <div class="src">Master Plan · §9 The Museum of Extraction Experience</div>
+
+  <blockquote>Tales of Enlightened Extraction. The human cost of industrial progress comes into focus through families whose bodies bear the consequences of polluted air and unchecked development.</blockquote>
+  <div class="src">Master Plan · §9 The Museum of Extraction Experience</div>
+
+  <blockquote>The exit experience shifts abruptly from diagnosis to possibility. Most museums inform and energize their visitors, yet fail to offer the next step: how to turn passion into action. But not the Museum of Extraction.</blockquote>
+  <div class="src">Master Plan · §9 The Museum of Extraction Experience</div>
+
+  <h2>The diagnosis</h2>
+  <blockquote>Extraction is an addiction, and the YES Movement offers a prescription for the cure.</blockquote>
+  <div class="src">Master Plan · §2 Theory of Change</div>
+
+  <blockquote>For 12,000 years, we have perfected extraction, charging the cost of human progress to an unseen credit card. The first bills have come due.</blockquote>
+  <div class="src">Master Plan · §2 Theory of Change</div>
+
+  <blockquote>Can humanity stop being a force of extraction and become an agent of restoration?</blockquote>
+  <div class="src">Master Plan · §6 Foundational Text</div>
+
+  <h2>The standard it sets for itself</h2>
+  <blockquote>Because this is a project about extraction, the YES Movement will not accept funds from extractive industries or from companies that derive material income from extractive activities.</blockquote>
+  <div class="src">Master Plan · Gift acceptance policy</div>
+
+  <blockquote>Because the project is a critique of extraction, extracting value from user data without reciprocity would be a self-inflicted wound.</blockquote>
+  <div class="src">Master Plan · Data governance</div>
+
+  <blockquote>A project documenting 12,000 years of extraction must be held to a higher standard than most. Equity is one of the six RestoreSix domains, and an organization that measures equity in others must be able to describe how it practices equity itself.</blockquote>
+  <div class="src">Master Plan · Equity</div>
+
+  <hr>
+
+  <h2>Hero text</h2>
+  <blockquote>machines seized not only your means of production, but also the story itself. And how, in the end, you didn’t just lose your job. You lost the plot, becoming a peasant once more, scythe in hand, harvesting information for the Wheat King.</blockquote>
+  <div class="src">Museum of Extraction</div>
+</div>`
+},
+
+film: {
+  acc: 'Plate 02 · Second Life, 2007',
+  html: `
+<div class="doc">
+  <div class="kicker">The original · 2007</div>
+  <h1>Molotov Alva and Orhalla Zander</h1>
+  <div class="byline">My Second Life: Molotov Alva and his Search for the Creator · Douglas Gayeton · HBO, 2007</div>
+
+  <figure>
+    <img id="filmImg" src="images/molotov-and-orhalla.jpg" alt="Molotov Alva and Orhalla Zander"
+         onerror="this.onerror=null;this.src='images/molotov-alva.jpg';this.alt='Molotov Alva'">
+    <figcaption>Molotov Alva &amp; Orhalla Zander</figcaption>
+  </figure>
+
+  <p><a href="https://www.youtube.com/watch?v=q76pwG4V-Ao&t=86s" target="_blank" rel="noopener">Watch the film ↗</a> &nbsp;·&nbsp; <a href="https://boingboing.net/2007/03/05/second-life-mysteryd.html" target="_blank" rel="noopener">Boing Boing, 5 March 2007 ↗</a></p>
+
+  <hr>
+
+  <h2>From the letter</h2>
+  <blockquote>I loved Molotov not because of the narrator, the creator, Goreans, griefers, love interest or Molotov himself. I fell for his humble one-eyed sidekick, Orhalla Zander, and felt something. I imagine he’s drunk somewhere right now and alone, hopefully with someone left to call for hope.</blockquote>
+  <div class="src">Searching for the Creator · 2026</div>
+
+  <blockquote>It was about the hobo. The friend. But of course you know that. You made it.</blockquote>
+  <div class="src">Searching for the Creator · 2026</div>
+
+  <p><a href="#" data-open="creator">Read the letter in full →</a></p>
+</div>`
+}
+
+};
+
+const reader     = document.getElementById('reader');
+const readerBody = document.getElementById('readerBody');
+const readerAcc  = document.getElementById('readerAcc');
+
+function openDoc(key){
+  const d = DOCS[key];
+  if (!d) return;
+  readerAcc.textContent = d.acc;
+  readerBody.innerHTML  = d.html;
+  reader.classList.add('open');
+  reader.scrollTop = 0;
+  document.body.style.overflow = 'hidden';
+  history.replaceState(null, '', '#' + key);
+}
+
+function closeDoc(){
+  reader.classList.remove('open');
+  document.body.style.overflow = '';
+  history.replaceState(null, '', location.pathname);
+}
+
+document.addEventListener('click', function(e){
+  const t = e.target.closest('[data-open]');
+  if (t){ e.preventDefault(); openDoc(t.getAttribute('data-open')); }
+});
+document.getElementById('readerClose').addEventListener('click', closeDoc);
+document.addEventListener('keydown', function(e){
+  if (e.key === 'Escape' && reader.classList.contains('open')) closeDoc();
+});
+
+// vacant plate fallback
+document.querySelectorAll('img[data-vacant]').forEach(function(img){
+  img.addEventListener('error', function(){
+    const parts = img.getAttribute('data-vacant').split('|');
+    const div = document.createElement('div');
+    div.className = 'plate-empty';
+    div.innerHTML = '<span>' + parts[0] + '<br>' + (parts[1] || '') + '</span>';
+    img.replaceWith(div);
+  });
+  if (img.complete && img.naturalWidth === 0) img.dispatchEvent(new Event('error'));
+});
+
+// deep link
+const h = location.hash.replace('#','');
+if (DOCS[h]) openDoc(h);
+</script>
+</body>
+</html>
