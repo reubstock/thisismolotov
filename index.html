@@ -66,9 +66,15 @@ body{
 /* ---------- socrates strip (top) ---------- */
 .socrates{border-bottom:1px solid var(--rule);padding:24px 0 26px}
 .socrates .wrap{display:flex;align-items:center;gap:30px}
+.socrates .s-fig{flex:0 0 auto;margin:0}
 .socrates .s-pic{
-  flex:0 0 auto;width:clamp(118px,13.5vw,215px);height:auto;display:block;
+  width:clamp(150px,19vw,300px);height:auto;display:block;
   border:1px solid var(--rule);padding:6px;background:var(--paper-2);
+}
+.socrates .s-fig figcaption{
+  margin-top:9px;text-align:center;
+  font-family:var(--mono);font-size:10px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink-3);
 }
 .terminal{
   flex:1 1 auto;min-width:0;
@@ -76,13 +82,13 @@ body{
   box-shadow:inset 0 0 60px rgba(0,255,110,.07);
 }
 .terminal-bar{
-  border-bottom:1px solid #1d3a28;padding:8px 14px;
-  font-family:var(--mono);font-size:10px;letter-spacing:.22em;
+  border-bottom:1px solid #1d3a28;padding:9px 15px 10px;
+  font-family:var(--mono);font-size:14px;font-weight:600;letter-spacing:.2em;
   text-transform:uppercase;color:#4bd67f;
 }
 .terminal-screen{
-  padding:18px 16px 20px;min-height:7.2em;
-  font-family:var(--mono);font-size:clamp(13px,1.35vw,17px);line-height:1.62;
+  padding:13px 16px 14px;min-height:3.7em;
+  font-family:var(--mono);font-size:clamp(13px,1.35vw,17px);line-height:1.55;
   color:#3dfb7a;text-shadow:0 0 7px rgba(61,251,122,.45);
   word-break:break-word;
 }
@@ -98,10 +104,12 @@ body{
 }
 @media (prefers-reduced-motion:reduce){ .cursor{animation:none} }
 @media (max-width:700px){
-  .socrates .wrap{flex-direction:column;align-items:flex-start;gap:18px}
-  .socrates .s-pic{width:min(240px,62vw)}
+  .socrates .wrap{flex-wrap:wrap;gap:16px}
+  .terminal{order:3;width:100%;flex:1 1 100%}
+  .socrates .s-fig{width:calc(50% - 8px)}
+  .socrates .s-pic{width:100%}
   .terminal{width:100%}
-  .terminal-screen{min-height:10.5em}
+  .terminal-screen{min-height:5.6em}
 }
 
 /* ---------- facade band (top) ---------- */
@@ -353,7 +361,13 @@ footer a{color:var(--ink-3)}
 <!-- ============ SOCRATES ============ -->
 <section class="socrates">
   <div class="wrap">
-    <img class="s-pic" src="images/molotov-and-orhalla.jpg" alt="Molotov Alva and Orhalla Zander on the road">
+    <figure class="s-fig">
+      <figure class="s-fig">
+      <img class="s-pic" src="images/molotov-and-orhalla.jpg" alt="Molotov Alva and Orhalla Zander on the road">
+      <figcaption>2007 - Virtual</figcaption>
+    </figure>
+      <figcaption>2007 - Real</figcaption>
+    </figure>
 
     <div class="terminal">
       <div class="terminal-bar">Molotov says</div>
@@ -368,7 +382,10 @@ footer a{color:var(--ink-3)}
       </ul>
     </div>
 
-    <img class="s-pic" src="images/beach.jpg" alt="Douglas Gayeton and Reuben Steiger on the waterfront">
+    <figure class="s-fig">
+      <img class="s-pic" src="images/molotov-and-orhalla.jpg" alt="Molotov Alva and Orhalla Zander on the road">
+      <figcaption>2007 - Virtual</figcaption>
+    </figure>
   </div>
 </section>
 
