@@ -190,124 +190,6 @@ body{
   color:var(--ink-3);
 }
 
-/* ---------- exhibits ---------- */
-.section-head{
-  margin:60px 0 26px;display:flex;align-items:baseline;gap:16px;
-  border-bottom:1px solid var(--rule);padding-bottom:10px;
-}
-.section-head h2{
-  margin:0;font-family:var(--mono);font-size:11px;font-weight:600;
-  letter-spacing:.22em;text-transform:uppercase;
-}
-.section-head span{
-  font-family:var(--mono);font-size:10px;letter-spacing:.12em;
-  text-transform:uppercase;color:var(--ink-3);margin-left:auto;
-}
-.exhibits{
-  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:34px;
-  padding-bottom:20px;
-}
-.exhibit{
-  border:1px solid var(--rule);background:var(--paper-2);
-  padding:22px;display:flex;flex-direction:column;gap:12px;
-  text-decoration:none;color:inherit;
-}
-.exhibit:hover{border-color:var(--ink)}
-.exhibit .acc{
-  font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;
-  text-transform:uppercase;color:var(--ink-3);
-}
-.exhibit h3{margin:0;font-size:27px;font-weight:600;line-height:1.15}
-.exhibit .meta{
-  font-family:var(--mono);font-size:10px;letter-spacing:.1em;
-  text-transform:uppercase;color:var(--ink-3);
-}
-.exhibit p{margin:0;font-size:16.5px;color:var(--ink-2);line-height:1.45}
-.exhibit .go{
-  margin-top:auto;padding-top:12px;font-family:var(--mono);font-size:9.5px;
-  letter-spacing:.16em;text-transform:uppercase;color:var(--stamp);
-}
-.exhibit:hover h3{color:var(--stamp)}
-.exhibit-thumb{
-  border:1px solid var(--rule);background:var(--paper);
-  aspect-ratio:16/9;overflow:hidden;display:flex;align-items:center;justify-content:center;
-}
-.exhibit-thumb img{width:100%;height:100%;object-fit:cover;filter:saturate(.8) contrast(1.04)}
-.exhibit-thumb .ph{
-  font-family:var(--mono);font-size:9.5px;letter-spacing:.13em;
-  text-transform:uppercase;color:var(--ink-3);text-align:center;padding:14px;line-height:1.7;
-}
-
-/* ---------- footer ---------- */
-footer{
-  margin-top:64px;border-top:1px solid var(--ink);padding:26px 0 70px;
-  font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;
-  color:var(--ink-3);display:flex;flex-wrap:wrap;gap:18px;
-}
-footer a{color:var(--ink-3)}
-
-/* ---------- reader ---------- */
-.reader{
-  position:fixed;inset:0;z-index:100;background:var(--paper);
-  overflow-y:auto;display:none;
-}
-.reader.open{display:block}
-.reader-bar{
-  position:sticky;top:0;background:rgba(233,227,214,.95);
-  backdrop-filter:blur(8px);border-bottom:1px solid var(--rule);z-index:2;
-}
-.reader-bar .wrap{
-  display:flex;align-items:center;gap:20px;padding-top:14px;padding-bottom:14px;
-}
-.reader-bar .acc{
-  font-family:var(--mono);font-size:10px;letter-spacing:.18em;
-  text-transform:uppercase;color:var(--ink-3);
-}
-.reader-bar button{
-  margin-left:auto;border:1px solid var(--ink);background:transparent;cursor:pointer;
-  font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
-  padding:7px 14px;color:var(--ink);
-}
-.reader-bar button:hover{background:var(--ink);color:var(--paper)}
-.doc{max-width:720px;margin:0 auto;padding:56px 28px 120px}
-.doc .kicker{
-  font-family:var(--mono);font-size:10px;letter-spacing:.18em;
-  text-transform:uppercase;color:var(--ink-3);margin-bottom:16px;
-}
-.doc h1{
-  font-size:clamp(34px,5vw,52px);line-height:1.08;margin:0 0 10px;font-weight:600;
-  letter-spacing:-.015em;
-}
-.doc .byline{
-  font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
-  color:var(--ink-3);border-bottom:1px solid var(--rule);padding-bottom:22px;margin-bottom:34px;
-}
-.doc p{margin:0 0 20px;font-size:20px;line-height:1.62}
-.doc p.sig{margin-top:34px}
-.doc a{color:var(--stamp);text-underline-offset:3px}
-.doc figure{margin:0 0 34px}
-.doc figure img{width:100%;height:auto;border:1px solid var(--rule);padding:8px;background:var(--paper-2)}
-.doc figcaption{
-  font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;
-  color:var(--ink-3);margin-top:8px;
-}
-.doc hr{border:0;border-top:1px solid var(--rule);margin:38px 0}
-.doc h2{
-  font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.2em;
-  text-transform:uppercase;margin:44px 0 16px;color:var(--ink-2);
-}
-.doc blockquote{
-  margin:0 0 24px;padding-left:20px;border-left:2px solid var(--stamp);
-  font-size:21px;line-height:1.5;font-style:italic;
-}
-.doc .src{
-  font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;
-  color:var(--ink-3);margin:-14px 0 26px;padding-left:22px;
-}
-
-@media (max-width:1080px){
-  .exhibits{grid-template-columns:repeat(2,minmax(0,1fr))}
-}
 @media (max-width:900px){
   .exit{grid-template-columns:minmax(0,1fr)}
   .exit-txt{padding:30px 28px}
@@ -316,7 +198,6 @@ footer a{color:var(--ink-3)}
   body{font-size:18px}
   .masthead .wrap{flex-wrap:wrap;gap:14px}
   .hero-grid{grid-template-columns:minmax(0,1fr)}
-  .exhibits{grid-template-columns:minmax(0,1fr)}
   .doc p{font-size:18.5px}
 }
 </style>
@@ -331,7 +212,6 @@ footer a{color:var(--ink-3)}
     </a>
 
     <nav class="masthead-nav">
-      <a href="#exhibits">Exhibits</a>
       <a href="#" data-open="creator">The Letter</a>
       <a href="#" data-open="giftshop">The Goodbye</a>
     </nav>
@@ -404,27 +284,6 @@ footer a{color:var(--ink-3)}
 </section>
 
 <!-- ============ EXHIBITS ============ -->
-<section class="wrap" id="exhibits">
-  <div class="section-head">
-    <h2>The Collection</h2>
-    <span>One object</span>
-  </div>
-
-  <div class="exhibits">
-
-    <a class="exhibit" href="#" data-open="book">
-      <span class="acc">Object I</span>
-      <div class="exhibit-thumb"><img src="images/book-turf.jpg" alt="Book artwork: a hand peeling back the turf"></div>
-      <h3>The Book</h3>
-      <div class="meta">Master Plan · 12 Aug 2026</div>
-      <p>The foundational text, the museum it builds, and the passages where extraction defines itself.</p>
-      <span class="go">Read the passages →</span>
-    </a>
-
-  </div>
-
-</section>
-
 <a class="exit" href="#" data-open="giftshop">
   <div class="exit-img">
     <img src="images/museum-gift-shop.jpg" alt="The Museum of Extraction gift shop window">
@@ -554,66 +413,6 @@ giftshop: {
   <p>Extraction.</p>
   <p>Maybe it’s time to pause your judgement of the talkers and noun-people and sit quiet with the irony in your unchangeable creation myth.</p>
   <p class="sig">Restoratively yours,<br>Reuben</p>
-</div>`
-},
-
-book: {
-  acc: 'Object I · Master Plan, 12 August 2026',
-  html: `
-<div class="doc">
-  <div class="kicker">Foundational text · The YES Movement</div>
-  <h1>Molotov Alva and the Museum of Extraction</h1>
-  <div class="byline">Master Business Plan · Douglas Gayeton &amp; Reuben Steiger, Founding Co-Directors · 12 August 2026</div>
-
-  <div class="plates">
-    <figure><img src="images/book-turf.jpg" alt="A hand peeling back the turf"><figcaption>Plate — what is under the field</figcaption></figure>
-    <figure><img src="images/book-genesis.jpg" alt="Volcanic and cosmic artwork"><figcaption>Plate — before the first bill</figcaption></figure>
-    <figure><img src="images/book-cameras.jpg" alt="Artwork of camera operators"><figcaption>Plate — Mem-More-EE</figcaption></figure>
-    <figure><img src="images/book-mushrooms.jpg" alt="Two hands holding mushrooms"><figcaption>Plate — nature thinks in wholes</figcaption></figure>
-  </div>
-
-  <h2>What the book is</h2>
-  <blockquote>Molotov Alva and the Museum of Extraction is the foundational text of the YES Movement. The book is narrated by Molotov Alva, an avatar created by Douglas Gayeton for his 2007 HBO documentary. Nearly twenty years later, Alva returns to trace a path through 12,000 years of human extraction and the decisions and inventions that have produced today’s environmental chaos.</blockquote>
-  <div class="src">Master Plan · §6 Foundational Text</div>
-
-  <h2>The museum</h2>
-  <blockquote>That journey leads to the Museum of Extraction. It’s both setting and metaphor: a collection of the ideas, inventions, and choices that transformed nature into a resource to be consumed.</blockquote>
-  <div class="src">Master Plan · §6 Foundational Text</div>
-
-  <blockquote>Weaving Spiders Come Not Here. An interactive gallery of illustrious robber barons and industrialists recounts their exploits, revealing how extractive capitalism transformed shared natural resources into private wealth.</blockquote>
-  <div class="src">Master Plan · §9 The Museum of Extraction Experience</div>
-
-  <blockquote>Tales of Enlightened Extraction. The human cost of industrial progress comes into focus through families whose bodies bear the consequences of polluted air and unchecked development.</blockquote>
-  <div class="src">Master Plan · §9 The Museum of Extraction Experience</div>
-
-  <blockquote>The exit experience shifts abruptly from diagnosis to possibility. Most museums inform and energize their visitors, yet fail to offer the next step: how to turn passion into action. But not the Museum of Extraction.</blockquote>
-  <div class="src">Master Plan · §9 The Museum of Extraction Experience</div>
-
-  <h2>The diagnosis</h2>
-  <blockquote>Extraction is an addiction, and the YES Movement offers a prescription for the cure.</blockquote>
-  <div class="src">Master Plan · §2 Theory of Change</div>
-
-  <blockquote>For 12,000 years, we have perfected extraction, charging the cost of human progress to an unseen credit card. The first bills have come due.</blockquote>
-  <div class="src">Master Plan · §2 Theory of Change</div>
-
-  <blockquote>Can humanity stop being a force of extraction and become an agent of restoration?</blockquote>
-  <div class="src">Master Plan · §6 Foundational Text</div>
-
-  <h2>The standard it sets for itself</h2>
-  <blockquote>Because this is a project about extraction, the YES Movement will not accept funds from extractive industries or from companies that derive material income from extractive activities.</blockquote>
-  <div class="src">Master Plan · Gift acceptance policy</div>
-
-  <blockquote>Because the project is a critique of extraction, extracting value from user data without reciprocity would be a self-inflicted wound.</blockquote>
-  <div class="src">Master Plan · Data governance</div>
-
-  <blockquote>A project documenting 12,000 years of extraction must be held to a higher standard than most. Equity is one of the six RestoreSix domains, and an organization that measures equity in others must be able to describe how it practices equity itself.</blockquote>
-  <div class="src">Master Plan · Equity</div>
-
-  <hr>
-
-  <h2>Hero text</h2>
-  <blockquote>machines seized not only your means of production, but also the story itself. And how, in the end, you didn’t just lose your job. You lost the plot, becoming a peasant once more, scythe in hand, harvesting information for the Wheat King.</blockquote>
-  <div class="src">Museum of Extraction</div>
 </div>`
 }
 
