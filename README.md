@@ -1,6 +1,7 @@
 # This Is Molotov
 
-thisismolotov.com — single-page static site.
+hellothisismolotov.com — single-page static site.
+Also live at thisismolotov.vercel.app. The domain thisismolotov.com is registered but still parked.
 
 ## Structure
 - `index.html` — the whole site (masthead + Extraction search, hero grid, pull-quote band, three exhibits, full-text reader overlay)
