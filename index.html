@@ -67,23 +67,19 @@ body{
 .thesis{border-bottom:1px solid var(--rule);padding:46px 0 44px}
 .thesis p{
   margin:0;white-space:nowrap;
-  font-size:min(49px,3.55vw);line-height:1.15;
+  font-size:min(39px,2.78vw);line-height:1.16;
   font-style:italic;font-weight:400;letter-spacing:-.015em;
 }
-.thesis .second{
-  margin:26px 0 0;white-space:nowrap;
-  font-size:min(30px,2.15vw);line-height:1.28;
-  font-style:normal;font-weight:400;letter-spacing:-.005em;color:var(--ink-2);
-}
+.thesis .second{margin:16px 0 0}
 .thesis cite{
-  display:block;margin-top:9px;font-style:normal;
-  font-family:var(--mono);font-size:10px;letter-spacing:.18em;
-  text-transform:uppercase;color:var(--ink-3);
+  font-style:normal;font-family:var(--mono);
+  font-size:.30em;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--ink-3);margin-left:.75em;vertical-align:.34em;
 }
-@media (max-width:900px){
+@media (max-width:640px){
   .thesis{padding:32px 0 30px}
-  .thesis p{white-space:normal;font-size:clamp(23px,5.4vw,34px);line-height:1.16}
-  .thesis .second{white-space:normal;margin-top:20px;font-size:clamp(18px,3.9vw,24px);line-height:1.3}
+  .thesis p{white-space:normal;font-size:clamp(20px,5vw,26px);line-height:1.2}
+  .thesis cite{display:block;margin:8px 0 0;font-size:10px;vertical-align:baseline}
 }
 
 /* ---------- facade band (top) ---------- */
@@ -365,17 +361,16 @@ footer a{color:var(--ink-3)}
 <section class="thesis">
   <div class="wrap">
     <p>“Extraction is the result of always taking more than you leave behind.”</p>
-    <p class="second">“Walking with a friend in the dark is better than walking alone in the light.”</p>
-    <cite>Helen Keller</cite>
+    <p class="second">“Walking with a friend in the dark is better than walking alone in the light.”<cite>Helen Keller</cite></p>
   </div>
 </section>
 
 <!-- ============ FACADE ============ -->
 <section class="facade">
-  <img src="images/museum-sign.jpg" alt="The Museum of Extraction sign, lit, at night in the rain">
+  <img src="images/mushrooms-banner.jpg" alt="Two hands holding up two mushrooms beneath a bare branch">
   <div class="cap">
-    <b>Douglas’ earnest palace of judgement</b>
-    <span>Est. —— · Location ——</span>
+    <b>“Mushrooms despise extraction but are delicious”</b>
+    <span>Douglas Gayeton</span>
   </div>
 </section>
 
