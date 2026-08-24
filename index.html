@@ -66,8 +66,9 @@ body{
 /* ---------- socrates strip (top) ---------- */
 .socrates{border-bottom:1px solid var(--rule);padding:24px 0 26px}
 .socrates .wrap{display:flex;align-items:center;gap:30px}
-.socrates img{
-  flex:0 0 auto;width:clamp(130px,17vw,250px);height:auto;display:block;
+.socrates-pics{display:flex;gap:14px;flex:0 0 auto}
+.socrates-pics img{
+  width:clamp(118px,13.5vw,215px);height:auto;display:block;
   border:1px solid var(--rule);padding:6px;background:var(--paper-2);
 }
 .socrates p{
@@ -76,7 +77,8 @@ body{
 }
 @media (max-width:700px){
   .socrates .wrap{flex-direction:column;align-items:flex-start;gap:18px}
-  .socrates img{width:min(230px,60vw)}
+  .socrates-pics{width:100%;gap:12px}
+  .socrates-pics img{width:calc(50% - 6px)}
 }
 
 /* ---------- column quotes ---------- */
@@ -191,6 +193,18 @@ body{
 .plate:hover h3{color:var(--stamp)}
 
 /* center column */
+/* ---------- footnote ---------- */
+.footnote{margin:78px auto 0;max-width:660px;padding:0}
+.footnote img{
+  display:block;width:100%;height:auto;
+  border:1px solid var(--rule);padding:8px;background:var(--paper-2);
+}
+.footnote figcaption{
+  margin-top:10px;text-align:center;
+  font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink-3);
+}
+
 /* ---------- footer ---------- */
 footer{
   margin-top:64px;border-top:1px solid var(--ink);padding:26px 0 70px;
@@ -222,7 +236,7 @@ footer a{color:var(--ink-3)}
   padding:7px 14px;color:var(--ink);
 }
 .reader-bar button:hover{background:var(--ink);color:var(--paper)}
-.doc{max-width:720px;margin:0 auto;padding:56px 28px 120px}
+.doc{max-width:720px;margin:0 auto;padding:56px 28px 120px;overflow-wrap:break-word}
 .doc .kicker{
   font-family:var(--mono);font-size:10px;letter-spacing:.18em;
   text-transform:uppercase;color:var(--ink-3);margin-bottom:16px;
@@ -264,6 +278,21 @@ footer a{color:var(--ink-3)}
 }
 @media (max-width:760px){
   body{font-size:18px}
+  .wrap{padding:0 20px}
+  .masthead .wrap{padding-top:12px;padding-bottom:12px}
+  .masthead-nav{margin-left:0;width:100%;gap:22px}
+  .masthead-nav a{padding:8px 0;font-size:11px}
+  .hero{padding:22px 0 8px}
+  .facade .cap{padding:12px 20px 13px}
+  .footnote{margin-top:52px}
+  footer{padding:22px 0 56px;gap:12px}
+  .doc{padding:40px 20px 96px}
+  .doc h1{font-size:clamp(28px,8vw,40px)}
+  .doc blockquote{font-size:18.5px;padding-left:16px}
+  .doc .src{padding-left:18px}
+  .plates{grid-template-columns:minmax(0,1fr)}
+  .reader-bar .wrap{padding-top:10px;padding-bottom:10px}
+  .reader-bar button{padding:11px 16px}
   .masthead .wrap{flex-wrap:wrap;gap:14px}
   .hero-grid{grid-template-columns:minmax(0,1fr);gap:0}
   .hero-grid > *{grid-column:1 !important;grid-row:auto !important}
@@ -294,7 +323,10 @@ footer a{color:var(--ink-3)}
 <!-- ============ SOCRATES ============ -->
 <section class="socrates">
   <div class="wrap">
-    <img src="images/beach.jpg" alt="Douglas Gayeton and Reuben Steiger on the waterfront">
+    <div class="socrates-pics">
+      <img src="images/beach.jpg" alt="Douglas Gayeton and Reuben Steiger on the waterfront">
+      <img src="images/molotov-and-orhalla.jpg" alt="Molotov Alva and Orhalla Zander on the road">
+    </div>
     <p>“The unexamined life is not worth living.”<span class="q-cite">Socrates</span></p>
   </div>
 </section>
@@ -349,8 +381,14 @@ footer a{color:var(--ink-3)}
   </div>
 </section>
 
-<!-- ============ EXHIBITS ============ -->
+<!-- ============ FOOTNOTE ============ -->
 <section class="wrap">
+  <figure class="footnote">
+    <img src="images/missing-billboard.jpg" data-optional
+         alt="A MISSING billboard: Reuben Steiger, last seen in Princeton, New Jersey, August 17 2026">
+    <figcaption>Have you seen this man?</figcaption>
+  </figure>
+
   <footer>
     <span>This Is Molotov</span>
     <span>Reuben Steiger</span>
@@ -500,6 +538,13 @@ document.addEventListener('click', function(e){
 document.getElementById('readerClose').addEventListener('click', closeDoc);
 document.addEventListener('keydown', function(e){
   if (e.key === 'Escape' && reader.classList.contains('open')) closeDoc();
+});
+
+// optional images: hide the block until the file is added
+document.querySelectorAll('img[data-optional]').forEach(function(img){
+  const kill = function(){ const f = img.closest('figure') || img; f.remove(); };
+  img.addEventListener('error', kill);
+  if (img.complete && img.naturalWidth === 0) kill();
 });
 
 // vacant plate fallback
