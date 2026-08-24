@@ -232,8 +232,19 @@ body{
   font-family:var(--mono);font-size:10px;letter-spacing:.17em;
   text-transform:uppercase;padding:8px 12px;
 }
+.footnote .plaque-foot{
+  top:auto;bottom:9px;left:9px;right:auto;
+  max-width:calc(100% - 18px);
+  font-size:11px;letter-spacing:.14em;color:#f4efe4;
+  background:rgba(9,8,6,.82);padding:9px 13px;line-height:1.7;
+}
+.footnote .plaque-foot em{
+  font-style:normal;color:#b0a593;margin-left:1.1em;letter-spacing:.18em;
+}
 @media (max-width:520px){
   .footnote .plaque{font-size:8.5px;letter-spacing:.13em;padding:6px 9px}
+  .footnote .plaque-foot{font-size:9px;letter-spacing:.1em;padding:7px 9px}
+  .footnote .plaque-foot em{display:block;margin:4px 0 0}
 }
 .footnote figcaption{
   margin-top:10px;text-align:center;
@@ -430,8 +441,8 @@ footer a{color:var(--ink-3)}
     <div class="footnote-frame">
       <img src="images/book-mushrooms.jpg" alt="Two hands holding up two mushrooms beneath a bare branch">
       <span class="plaque">Daily Paradox for the Dim-Witted</span>
+      <span class="plaque plaque-foot">“Mushrooms despise extraction but are delicious”<em>Douglas Gayeton</em></span>
     </div>
-    <figcaption>“Mushrooms despise extraction but are delicious” · Douglas Gayeton</figcaption>
   </figure>
 
   <footer>
