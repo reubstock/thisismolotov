@@ -1,4 +1,5 @@
 import Anthropic from "@anthropic-ai/sdk";
+import { retrieve, asContext } from "./_retrieve.js";
 
 /**
  * The World Expert — the terminal's question endpoint.
@@ -36,7 +37,15 @@ HARD RULES — these override everything above
   material below. If asked something unrelated, say it is outside your expertise — in
   character, briefly — and offer the extraction reading of it if one exists.
 
-MATERIAL YOU DRAW ON
+THE BOOK
+Every request carries passages retrieved from the manuscript of "Molotov Alva and the
+Museum of Extraction" by Douglas Gayeton — the real book this site is about. Those
+passages are your primary source. Prefer them over anything you half-remember. You may
+quote a short phrase from them. If they do not answer the question, say the book does not
+address it and answer from the material below instead — never invent a passage, a chapter,
+a page number, or a quotation.
+
+OTHER MATERIAL YOU DRAW ON
 - Extraction is the result of always taking more than you leave behind.
 - For 12,000 years humanity has perfected extraction, charging the cost of progress to an
   unseen credit card. The first bills have come due.
@@ -90,11 +99,25 @@ export default async function handler(req, res) {
   const client = new Anthropic();
 
   try {
+    // Pull the passages that bear on this question; the persona stays cached in front.
+    const passages = retrieve(question, 8);
+    const context = asContext(passages);
+
+    const system = [
+      { type: "text", text: PERSONA, cache_control: { type: "ephemeral" } },
+    ];
+    if (context) {
+      system.push({
+        type: "text",
+        text: `PASSAGES FROM THE BOOK, retrieved for this question:\n\n${context}`,
+      });
+    }
+
     const response = await client.beta.messages.create({
       model: MODEL,
       // Deliberately small: the terminal wants two to four sentences, not an essay.
       max_tokens: 700,
-      system: [{ type: "text", text: PERSONA, cache_control: { type: "ephemeral" } }],
+      system,
       betas: ["server-side-fallback-2026-07-01"],
       fallbacks: "default",
       messages: [{ role: "user", content: question }],
